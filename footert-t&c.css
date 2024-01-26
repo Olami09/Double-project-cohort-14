@@ -1,0 +1,227 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik:wght@300&display=swap');
+
+
+*{
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* FOOTER HEADER STARTS HERE */
+
+.newslet{
+    display: flex;
+}
+
+.newslet, .newslet h5{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FFD200;
+    color: #001F5F;
+    font-size: 15px;
+    font-weight: 600;
+ 
+}
+
+.Subscribe{
+    display: flex;
+    gap: 8em;
+}
+
+.Subscribe .btn:hover{
+    background-color: #010e29;
+}
+
+.newslet .btn{
+    background-color: #001F5F;
+    font-size: 14px;
+}
+
+.icons i{
+    color: #001F5F;
+
+}
+
+
+/* FOOTER BODY STARTS HERE */
+
+.footer-flex{
+    display: flex;
+}
+
+.footr{
+    background-color: #EAEAEA;
+    
+}
+
+.help h6{
+    font-size: 14px;
+}
+
+.help{
+    width: 21%;
+    
+}
+
+.help ul li a, .help p{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.help ul li a:hover{
+    background-color: lightgray;
+    
+}
+
+.help ul li{
+    padding: 8px 0px;
+}
+
+.help .btn{
+    background-color: #001F5F;
+    color: white;
+    font-size: 14px;
+    padding: 10px 25px;
+}
+
+.help .btn:hover{
+    background-color: #FFD200;
+}
+
+.end i{
+    color: #001F5F;
+    
+}
+.end{
+    display: flex;
+    justify-content: end;
+}
+
+
+
+/* COPYRIGHT DESIGN STARTS HERE */
+
+.copy-flex p{
+    font-size: 13px;
+
+}
+
+.firstdiv p{
+    position: relative;
+    top: 10px;
+}
+
+.copy-flex{
+    padding-top: 2em;
+    padding-bottom: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.second-div img{
+    font-size: px;
+}
+
+
+
+
+
+/* MOBILE RESPONSIVENESS */
+
+@media screen and (max-width: 785px) {
+
+    /* FOOTER HEADER STARTS HERE */
+
+    .newslet{
+        display: block;
+        text-align: center;       
+    
+    }
+
+    .Subscribe{
+        display: block;
+        
+        
+    }
+
+    .icons{
+        padding-top: 10px;
+    }    
+
+
+
+        /* FOOTER BODY STARTS HERE */
+
+
+    .footer-flex{
+        display: block;
+        text-align: center;
+    }
+   
+    .help h6{
+        font-weight: bold;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .help{
+        width: 90%;
+        
+    }
+
+    .help h6 p{
+        text-align: center;
+        
+    }
+    .help button{
+        text-align: center;
+    }
+
+    .end{
+        display: block;
+        text-align: center;
+        padding-top: 2em;
+    }
+
+
+    /* COPYRIGHT DESIGN STARTS HERE */
+
+
+    .copy-flex{
+        
+        display: block;
+        text-align: center;
+        
+    }
+
+   .copy-flex .firstdiv{
+   
+    margin: auto;
+    width: 60%;
+   }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

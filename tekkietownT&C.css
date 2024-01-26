@@ -1,0 +1,173 @@
+/* Navigation Styling  Start*/
+
+
+.nav {
+    background-color: #00205b;
+}
+  
+.small-nav-text {
+    font-size: 12px !important;
+    letter-spacing: 1px !important;
+}
+  
+.icons a {
+    cursor: pointer;
+}
+  
+.icons a svg:hover {
+    stroke: #ffc107 !important;
+}
+  
+.icons a svg {
+    stroke: #fff;
+}
+  
+.icons a:nth-child(3) svg {
+    fill: #fff !important;
+}
+  
+ul li {
+    list-style-type: none;
+    cursor: pointer;
+}
+  
+nav ul li a:hover {
+    color: #ffc107 !important;
+}
+  
+.navbar-toggler{
+  
+    background-color: #ffc107;
+}
+
+
+/* terms and conditions styling starts here */
+
+.TCcontainer{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.heads{
+    display: flex;
+    margin-top: 20px;
+}
+
+.links a{
+
+    text-decoration: none;
+    color: rgb(63, 62, 62);
+    font-size: 13px;
+}
+
+.h0{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin: 25px 0;
+}
+
+.terms-h2, .mt-5{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.olnumbered{
+    margin-left: 30px;
+}
+
+.returns-link{
+    background-color: rgb(4, 4, 95);
+    color: gold;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.note-head{
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: normal;
+    margin: 0 auto;
+
+}
+
+ul{
+  
+    list-style-type: square;
+}
+
+.info-link{
+    background-color: rgb(4, 4, 95);
+    color: gold;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.mt-5{
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.note-head2 {
+
+    font-size: 14px;
+    line-height: normal;
+    margin: 0 auto;
+    font-family: sans-serif; 
+    
+}
+
+
+.olnumbered {
+    counter-reset: item
+  }
+
+.linumbered {
+    display: block
+}
+
+.linumbered:before {
+    content: counters(item, ".") ".";
+    counter-increment: item
+}
+
+.pepkor{
+    text-decoration: none;
+    color: #191919 ;
+
+}
+
+.note-head3{
+    font-size: 14px ;
+    line-height: normal;
+    margin: 10px auto;
+    text-transform: uppercase;
+    font-weight: bolder;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

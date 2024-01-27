@@ -1,0 +1,430 @@
+* {
+  padding: 0 !important;
+}
+
+h4 a {
+  text-decoration: none;
+  color: #00205b;
+}
+
+/* Navigation Styling  Start*/
+.nav {
+  background-color: #00205b;
+  height: 90px;
+}
+
+.small-nav-text {
+  font-size: 15px !important;
+  letter-spacing: 1px !important;
+}
+
+.navbar-toggler span {
+  color: #fff !important;
+}
+
+.icons a {
+  cursor: pointer;
+}
+
+.icons a svg:hover {
+  stroke: #ffc107 !important;
+}
+
+.icons a svg {
+  stroke: #fff;
+}
+
+.icons a:nth-child(3) svg {
+  fill: #fff !important;
+}
+
+ul li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+ul li:first-child a {
+  color: #ffc107 !important;
+}
+
+nav ul li a:hover {
+  color: #ffc107 !important;
+}
+/* Navigation Styling End  */
+
+/* First Shop Now Button Styling Start */
+.btn-1 {
+  z-index: 1 !important;
+  bottom: 8%;
+  right: 10%;
+}
+/* First Shop Now Button Styling End  */
+
+/* Sneakers and Different Sports Styling Start  */
+
+.men-sneakers img,
+.women-sneakers img {
+  width: 96%;
+}
+
+.adidas img,
+.kids img {
+  width: 93%;
+}
+
+.sneakers-txt {
+  z-index: 1 !important;
+  bottom: 43%;
+  right: 40%;
+  font-weight: bold;
+}
+
+.sneakers-txt a {
+  text-decoration: none;
+  color: white;
+}
+
+.h2-4 {
+  left: 35%;
+}
+
+.h2-5 {
+  left: 30% !important;
+}
+
+.h2-6 {
+  left: 25% !important;
+}
+
+.adidas {
+  margin-right: -10px !important;
+}
+
+.football-txt {
+  left: 18% !important;
+}
+
+.outdoor-txt {
+  left: 15% !important;
+}
+/* Sneakers and Different Sports Styling End  */
+
+/* New Drops Trainers Styling Start  */
+.active a {
+  text-decoration: none;
+  color: #00205b;
+}
+
+.card {
+  width: 320px !important;
+  border: none !important;
+}
+
+.card img:hover {
+  transform: scale(1.05);
+}
+
+.trainers img {
+  width: 350px !important;
+  height: 320px !important;
+}
+
+.trainers-container {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 5vw 90vw 5vw;
+}
+/* New Drops Trainers Styling End  */
+
+/* Logos Styling Start */
+.logos-container {
+  margin: 50px 0px;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 5vw 90vw 5vw;
+}
+
+.logos .carousel-item a {
+  padding-right: 30px !important;
+}
+
+.btn-3,
+.btn-4 {
+  border: none;
+  background-color: white !important;
+  z-index: 1;
+}
+
+.btn-3 > svg,
+.btn-4 > svg {
+  width: 50px;
+  height: 50px;
+}
+
+.logos img {
+  height: 200px;
+  width: 200px;
+}
+
+.img-1 {
+  z-index: -1;
+}
+
+.btn-2,
+.btn-5 {
+  z-index: 1 !important;
+  bottom: 8%;
+  left: 10%;
+}
+/* Logos Styling End */
+
+/* All Buttons Hover Effect Styling  */
+.btn-1:hover,
+.btn-3:hover,
+.btn-4:hover,
+.btn-5:hover {
+  transform: scale(1.1) !important;
+  background-color: white !important;
+}
+
+/* Footer Styling Start  */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik:wght@300&display=swap");
+
+* {
+  text-decoration: none;
+  list-style-type: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* FOOTER HEADER STARTS HERE */
+
+.newslet {
+  display: flex;
+}
+
+.newslet,
+.newslet h5 {
+  font-family: "Open Sans", sans-serif;
+  background-color: #ffd200;
+  color: #001f5f;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.Subscribe {
+  display: flex;
+  gap: 8em;
+}
+
+.Subscribe .btn:hover {
+  background-color: #010e29;
+}
+
+.newslet .btn {
+  background-color: #001f5f;
+  font-size: 14px;
+}
+
+.icons i {
+  color: #001f5f;
+}
+
+/* FOOTER BODY STARTS HERE */
+
+.footer-flex {
+  display: flex;
+}
+
+.footr {
+  background-color: #eaeaea;
+}
+
+.help h6 {
+  font-size: 14px;
+}
+
+.help {
+  width: 21%;
+}
+
+.help ul li a,
+.help p {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.help ul li a:hover {
+  background-color: lightgray;
+}
+
+.help ul li {
+  padding: 8px 0px !important;
+}
+
+.help .btn {
+  background-color: #001f5f;
+  color: white;
+  font-size: 14px;
+  padding: 10px 25px;
+}
+
+.help .btn:hover {
+  background-color: #ffd200;
+}
+
+.end i {
+  color: #001f5f;
+}
+.end {
+  display: flex;
+  justify-content: end;
+}
+
+/* COPYRIGHT DESIGN STARTS HERE */
+
+.copy-flex p {
+  font-size: 13px;
+}
+
+.firstdiv p {
+  position: relative;
+  top: 10px;
+}
+
+.copy-flex {
+  padding-top: 2em;
+  padding-bottom: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.second-div img {
+  font-size: px;
+}
+
+/* MOBILE RESPONSIVENESS */
+
+@media screen and (max-width: 785px) {
+  /* NAVIGATION STYLING STARTS  */
+  nav {
+    height: auto !important;
+  }
+
+  .navbar-toggler-svg-icon {
+    color: #fff !important;
+  }
+
+  .navbar-toggler-svg-icon:hover {
+    color: #ffd200 !important;
+  }
+
+  .icons a:nth-child(3) {
+    display: none;
+  }
+
+  /* SNEAKERS AND DIFFERENT SPORT STYLING STARTS  */
+  .nav-item {
+    margin: 10px 0px !important;
+  }
+
+  .men-sneakers > img,
+  .women-sneakers > img {
+    width: 100vw !important;
+    object-fit: cover !important;
+  }
+  .sneakers-fst div > img {
+    width: 47vw !important;
+    object-fit: cover !important;
+    margin-right: 20px !important;
+  }
+
+  .pictures-row {
+    margin-right: 5vw !important;
+  }
+
+  .sneakers-fst {
+    display: flex !important;
+    width: 100vw;
+    margin-left: 0px !important;
+    margin-bottom: 10px;
+  }
+
+  .adidas {
+    margin-top: 8px !important;
+  }
+
+  /* LOGOS STYLING START  */
+  .logos img {
+    height: 120px;
+    width: 120px;
+  }
+
+  .logos .carousel-item a {
+    padding-left: 0px !important;
+  }
+
+  /* FOOTER HEADER STARTS HERE */
+
+  .newslet {
+    display: block;
+    text-align: center;
+  }
+
+  .Subscribe {
+    display: block;
+  }
+
+  .icons {
+    padding-top: 10px;
+  }
+
+  /* FOOTER BODY STARTS HERE */
+
+  .footer-flex {
+    display: block;
+    text-align: center;
+  }
+
+  .help h6 {
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .help {
+    width: 90%;
+  }
+
+  .help h6 p {
+    text-align: center;
+  }
+  .help button {
+    text-align: center;
+  }
+
+  .end {
+    display: block;
+    text-align: center;
+    padding-top: 2em;
+  }
+
+  /* COPYRIGHT DESIGN STARTS HERE */
+
+  .copy-flex {
+    display: block;
+    text-align: center;
+  }
+
+  .copy-flex .firstdiv {
+    margin: auto;
+    width: 60%;
+  }
+}

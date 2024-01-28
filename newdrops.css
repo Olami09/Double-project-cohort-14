@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.container{
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.New-Drops{
+
+    display: flex;
+}
+
+img{
+    width: 100%;
+}
+.sizes img{
+width: 70%;
+height: 60%;
+margin: 30px;
+padding-left: 25px;
+margin-bottom: 5px;
+cursor: pointer;
+flex-wrap: wrap;
+
+}
+
+.sizes p{
+    text-align: center;
+    margin: 10px;
+    padding-left: 20px;
+   
+}
+.btn-size{
+    width: 40%;
+margin: 15px;
+margin-bottom: 5px;
+float: right;
+cursor: pointer;
+}

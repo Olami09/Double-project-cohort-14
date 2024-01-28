@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.front-img{
+    width: 100%;
+}
+.container{
+   
+    display: flex;
+    width: 80%;
+    margin: 30px;
+    padding-left: 25px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    
+    
+}
+
+.cloths img{
+    width: 70%;
+margin: 30px;
+padding-left: 25px;
+margin-bottom: 5px;
+cursor: pointer;
+justify-content: center;
+}
+
+h3{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.cloths p{
+    text-align: center;
+}
+

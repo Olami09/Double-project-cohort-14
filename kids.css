@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik:wght@300&display=swap');
+
+
+* {
+    padding: 0 !important;
+  }
+  
+  h4 a {
+    text-decoration: none;
+    color: #00205b;
+  }
+/* Navigation Styling  Start*/
+.nav {
+    background-color: #00205b;
+    height: 75px;
+  }
+  
+  .small-nav-text {
+    font-size: 12px !important;
+    letter-spacing: 1px !important;
+  }
+  
+  .icons a {
+    cursor: pointer;
+  }
+  
+  .icons a svg:hover {
+    stroke: #ffc107 !important;
+  }
+  
+  .icons a svg {
+    stroke: #fff;
+  }
+  
+  .icons a:nth-child(3) svg {
+    fill: #fff !important;
+  }
+  
+  ul li {
+    list-style-type: none;
+    cursor: pointer;
+  }
+  
+  nav ul li a:hover {
+    color: #ffc107 !important;
+  }
+  /* Navigation Styling End  */
+
+ 
+
+  
+
+  /* view end */
+
+
+
+ul{
+    font-size: 15px;
+    list-style-type: none;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    margin-top: 70px;
+    
+}
+.Switch{
+    appearance: none;
+    width: 40px;
+    height: 20px;
+    background-color: #ccc;
+    outline: none;
+    border-radius: 10px;
+    position: absolute;
+    transition: 0,4s;
+    cursor: pointer;
+}
+
+.Switch:checked{
+    background-color: #2196F3;
+}
+
+.Switch:before{
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    top: 2px;
+    left: 2px;
+    transition: 0,4s;
+}
+
+
+.Switch:checked:before{
+    transform: translateX(20px);
+}
+
+
+.switch-container li{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    
+}
+/* .switch-container.slider-switch{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+} */
+.title{
+    
+    color: rgb(22, 7, 37);
+    margin: 2px;
+    padding: 20px;
+    margin-right: 25px;
+    margin-left: 35px;
+    /* margin-top: px; */
+}
+
+.title a{
+    text-decoration: none;
+    color: #000;
+}
+.tab-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+li{
+    
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li:hover{
+    text-decoration: underline;
+}
+.content a{
+    
+    text-decoration: none;
+    color: #000;
+    /* font-weight: bold; */
+    
+}
+.head{
+    font-weight: bold;
+    
+}
+.head:hover{
+text-decoration: underline;
+}
+
+
+.content {
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    margin-top: -5px;
+   
+   
+   
+}
+
+.data-content{
+    margin: 30px;
+    margin-top: 10px;
+
+}
+
+.number{
+    width: 20%;
+   
+    
+}
+
+.data-content a{
+    color: black;
+    font-size: 15px;
+    margin-bottom: 5px;
+    display: flex;
+    text-align: center;
+
+    
+}
+
+.squares{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+   
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    border: 1px solid #000;
+    margin: 10px;
+    padding: 3px;
+    
+    
+
+}
+
+.square a:hover{
+    text-decoration: underline;
+}
+
+/* Footer style start here */
+
+
+*{
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* FOOTER HEADER STARTS HERE */
+
+.newslet{
+    display: flex;
+}
+
+.newslet, .newslet h5{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FFD200;
+    color: #001F5F;
+    font-size: 15px;
+    font-weight: 600;
+ 
+}
+
+.Subscribe{
+    display: flex;
+    gap: 8em;
+}
+
+.Subscribe .btn:hover{
+    background-color: #010e29;
+}
+
+.newslet .btn{
+    background-color: #001F5F;
+    font-size: 14px;
+}
+
+.icons i{
+    color: #f6f60d;
+
+}
+
+
+/* FOOTER BODY STARTS HERE */
+
+.footer-flex{
+    display: flex;
+}
+
+.footr{
+    background-color: #EAEAEA;
+    
+}
+
+.help h6{
+    font-size: 14px;
+}
+
+.help{
+    width: 21%;
+    
+}
+
+.help ul li a, .help p{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.help ul li a:hover{
+    background-color: lightgray;
+    
+}
+
+.help ul li{
+    padding: 8px 0px;
+}
+
+.help .btn{
+    background-color: #001F5F;
+    color: white;
+    font-size: 14px;
+    padding: 10px 25px;
+}
+
+.help .btn:hover{
+    background-color: #FFD200;
+}
+
+.end i{
+    color: #001F5F;
+    
+}
+.end{
+    display: flex;
+    justify-content: end;
+}
+
+
+
+/* COPYRIGHT DESIGN STARTS HERE */
+
+.copy-flex p{
+    font-size: 13px;
+
+}
+
+.firstdiv p{
+    position: relative;
+    top: 10px;
+}
+
+.copy-flex{
+    padding-top: 2em;
+    padding-bottom: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.second-div img{
+    font-size: px;
+}
+
+
+
+
+
+/* MOBILE RESPONSIVENESS */
+
+@media screen and (max-width: 785px) {
+
+    /* FOOTER HEADER STARTS HERE */
+
+    .newslet{
+        display: block;
+        text-align: center;       
+    
+    }
+
+    .Subscribe{
+        display: block;
+        
+        
+    }
+
+    .icons{
+        padding-top: 10px;
+    }    
+
+
+
+        /* FOOTER BODY STARTS HERE */
+
+
+    .footer-flex{
+        display: block;
+        text-align: center;
+    }
+   
+    .help h6{
+        font-weight: bold;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .help{
+        width: 90%;
+        
+    }
+
+    .help h6 p{
+        text-align: center;
+        
+    }
+    .help button{
+        text-align: center;
+    }
+
+    .end{
+        display: block;
+        text-align: center;
+        padding-top: 2em;
+    }
+
+
+    /* COPYRIGHT DESIGN STARTS HERE */
+
+
+    .copy-flex{
+        
+        display: block;
+        text-align: center;
+        
+    }
+
+   .copy-flex .firstdiv{
+   
+    margin: auto;
+    width: 60%;
+   }
+
+
+
+
+}
+
+@media (min-width:600px) and (max-width:995px) {
+    .content
+    
+}

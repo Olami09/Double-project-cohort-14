@@ -1,0 +1,126 @@
+ul{
+    font-size: 15px;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+.Switch{
+    appearance: none;
+    width: 40px;
+    height: 20px;
+    background-color: #ccc;
+    outline: none;
+    border-radius: 10px;
+    position: absolute;
+    /* top: 10px; */
+    transition: 0,4s;
+    cursor: pointer;
+}
+
+.Switch:checked{
+    background-color: #2196F3;
+}
+
+.Switch:before{
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    top: 2px;
+    left: 2px;
+    transition: 0,4s;
+}
+
+
+.Switch:checked:before{
+    transform: translateX(20px);
+}
+/* .switch-container{
+    background-color: bisque;
+    
+} */
+
+.switch-container li{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+    
+    
+}
+.title{
+    color: rgb(7, 2, 12);
+    margin: 30px;
+}
+
+.title a{
+    text-decoration: none;
+    color: #000;
+}
+.tab-container{
+    justify-content: center;
+}
+
+li{
+    
+    text-decoration: none;
+}
+
+li:hover{
+    text-decoration: underline;
+}
+.content a{
+    
+    text-decoration: none;
+    color: #000;
+}
+
+.content{
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+   
+}
+
+.data-content{
+    margin: 35px;
+
+}
+.number{
+    width: 20%;
+}
+
+.data-content a{
+    color: black;
+    font-size: 15px;
+    margin-bottom: 5px;
+    display: flex;
+    
+}
+
+.squares{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+   
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    border: 1px solid #000;
+    margin: 5px;
+    padding: 3px;
+    
+    
+
+}
+
+.square a:hover{
+    text-decoration: underline;
+}

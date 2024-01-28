@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+
+.Hi-top{
+
+    display: flex;
+}
+
+.Footwaer img{
+
+    width: 60%;
+    height: 50%;
+    margin: 5px;
+    justify-content: center;
+    margin-left: 45px;
+    margin-right: 40px;
+    padding: 10px;
+
+}
+
+.Footwaer p{
+    
+    text-align: center;
+}
+
+.btn-size{
+  margin: 5px;
+}
+
+.btn-size button{
+float: right;
+}

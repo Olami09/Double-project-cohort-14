@@ -1,0 +1,1778 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart-Tekkie</title>
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+ 
+  <link rel="stylesheet" href="/cart.css">
+ 
+  
+</head>
+<body>
+
+  <!-- Navigation Bar Starts -->
+  <nav class="navbar navbar-expand-md nav">
+    <div class="container-fluid nav-container">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <img
+          src="./images/Site-logo.svg"
+          alt="Tekkie Town"
+          width="170"
+          height="170"
+        />
+      </a>
+
+      <div class="collapse navbar-collapse ms-2" id="navbarTogglerDemo03">
+        <ul class="navbar-nav">
+          <li class="nav-item mx-2">
+            <a href="#" class="nav-link active text-white small-nav-text"
+              >HOME</a
+            >
+          </li>
+          <li class="nav-item dropdown mx-2">
+            <a
+              class="nav-link dropdown-toggle text-white small-nav-text"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              >MEN</a
+            >
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown mx-2">
+            <a
+              class="nav-link dropdown-toggle text-white small-nav-text"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              >WOMEN</a
+            >
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown mx-2">
+            <a
+              class="nav-link dropdown-toggle text-white small-nav-text"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              >YOUTH</a
+            >
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown mx-2">
+            <a
+              class="nav-link dropdown-toggle text-white small-nav-text"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              >JUNIORS</a
+            >
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown mx-2">
+            <a
+              class="nav-link dropdown-toggle text-white small-nav-text"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              >SPORT</a
+            >
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item mx-2">
+            <a href="#" class="nav-link disabled text-white small-nav-text"
+              >OFFERS</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="#"
+              class="nav-link disabled text-white small-nav-text mx-2"
+              >STORE CREDIT</a
+            >
+          </li>
+          <li class="nav-item dropdown mx-2">
+            <a
+              class="nav-link dropdown-toggle text-white small-nav-text"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              >WE ARE YOU</a
+            >
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="d-flex justify-content-center gap-4 icons me-4">
+        <a
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-search"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="#ffffff"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+            <path d="M21 21l-6 -6" /></svg
+        ></a>
+        <a
+          ><svg
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <path
+                d="M15 7C15 8.65685 13.6569 10 12 10C10.3431 10 9 8.65685 9 7C9 5.34315 10.3431 4 12 4C13.6569 4 15 5.34315 15 7Z"
+                stroke=""
+                stroke-width="2"
+              ></path>
+              <path
+                d="M5 19.5C5 15.9101 7.91015 13 11.5 13H12.5C16.0899 13 19 15.9101 19 19.5V20C19 20.5523 18.5523 21 18 21H6C5.44772 21 5 20.5523 5 20V19.5Z"
+                stroke=""
+                stroke-width="2"
+              ></path>
+            </g></svg
+        ></a>
+        <a
+          ><svg
+            viewBox="0 -1 32 32"
+            version="1.1"
+            width="24"
+            height="24"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+            fill="#ffffff"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <title>cart</title>
+              <desc>Created with Sketch Beta.</desc>
+              <defs></defs>
+              <g
+                id="Page-1"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+                sketch:type="MSPage"
+              >
+                <g
+                  id="Icon-Set"
+                  sketch:type="MSLayerGroup"
+                  transform="translate(-464.000000, -724.000000)"
+                  fill="#ffffff"
+                >
+                  <path
+                    d="M488,750 C486.896,750 486,750.896 486,752 C486,753.104 486.896,754 488,754 C489.104,754 490,753.104 490,752 C490,750.896 489.104,750 488,750 L488,750 Z M478,750 C476.896,750 476,750.896 476,752 C476,753.104 476.896,754 478,754 C479.104,754 480,753.104 480,752 C480,750.896 479.104,750 478,750 L478,750 Z M491,744 C491,745.104 490.104,746 489,746 L478,746 C476.896,746 476,745.104 476,744 L474.333,734 L493.5,734 L491,744 L491,744 Z M473.97,732 L471.475,724 L465,724 C464.447,724 464,724.448 464,725 C464,725.553 464.447,726 465,726 L470,726 L472.011,732 L472,732 L474,744 C474,746.209 475.791,748 478,748 L489,748 C491.209,748 493,746.209 493,744 L496,732 L473.97,732 L473.97,732 Z"
+                    id="cart"
+                    sketch:type="MSShapeGroup"
+                  ></path>
+                </g>
+              </g>
+            </g></svg
+        ></a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Navigation Bar Ends -->
+
+
+ 
+  <div class="container-fluid">
+    
+    <div class="top-icons">
+      <p class="view-as">View as <span><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-grid-3x3-gap-fill" viewBox="0 0 16 16">
+        <path d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1z"/>
+      </svg></a></span>
+      <span><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list-ul" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2m0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2m0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+      </svg></a></span></p>
+  
+      <span class="prod-count">100 Products</span>
+
+      <a class="dropdown-toggle sort-asc" href="#" role="button" data-bs-toggle="dropdown"><span >SORT BY: Title Ascending</a></span>
+      <ul class="dropdown-menu">
+        <li class="dropdown-item"><a href="#">Best selling</a></li>
+        <li class="dropdown-item"><a href="#">Manual</a></li>
+        <li class="dropdown-item"><a href="#">Title ascending</a></li>
+        <li class="dropdown-item"><a href="#">Title descending</a></li>
+        <li class="dropdown-item"><a href="#">Price ascending</a></li>
+        <li class="dropdown-item"><a href="#">Price descending</a></li>
+        <li class="dropdown-item"><a href="#">Created ascending</a></li>
+        <li class="dropdown-item"><a href="#">Created descending</a></li>
+      </ul>
+
+    
+    </div>
+    
+
+    <div class="row">
+      <div class="col-3">
+        <div class="alert alert-dismissible fade show mt-5" role="alert">REFINE BY
+          <button type="button" class="btn-close" data-bs-dismissible="alert" aria aria-label="Close"></button>
+        </div>
+        <p class=" alert alert-dismissible ">Price: <b>R 10 - R 2979</b>
+        <button class="btn-close" data-bs-dismissible="alert"></button></p>
+      
+      
+      <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">PRICE</a>
+      <ul class="dropdown-menu price_roll">
+        <li class="dropdown-item"><a href="#"><input type="search" name="" id="price_set" placeholder="R      10"> - <input type="search" name="" id="price_set" placeholder="R   3100"></a></li>
+
+        <div class="btn_price">
+          <button class="btn bg-light rounded-circle border-secondary text-light left">.</button> <hr> <pre class="pris">   10  782   1555    2327   3100</pre> 
+          <button class="btn bg-light rounded-circle border-secondary text-light right">.</button>
+          
+        </div>
+      </ul>
+
+
+      
+      <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">FOOTWEAR</a>
+      <ul class="dropdown-menu">
+        <li class="dropdown-item"><a href="#">Sneakers</a></li>
+        <li class="dropdown-item"><a href="#">Running</a></li>
+        <li class="dropdown-item"><a href="#">Outdoor</a></li>
+        <li class="dropdown-item"><a href="#">Football</a></li>
+        <li class="dropdown-item"><a href="#">Active</a></li>
+        <li class="dropdown-item"><a href="#">Hi Tops</a></li>
+        <li class="dropdown-item"><a href="#">Lo Tops</a></li>
+        <li class="dropdown-item"><a href="#">Boots</a></li>
+        <li class="dropdown-item"><a href="#">Sandals</a></li>
+        <li class="dropdown-item"><a href="#">Sports</a></li>
+      </ul>
+
+
+      
+      <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">SIZE</a>
+      <ul class="dropdown-menu">
+        
+      <div class="div">
+        <div class="div1">
+        <button><a href="#">1</a></button>
+        <button><a href="#">1.5</a></button>
+        <button><a href="#">2</a></button>
+      
+      </div>
+
+      <div class="div2">
+        <button><a href="#">2.5</a></button>
+        <button><a href="#">3</a></button>
+        <button><a href="#">3.5</a></button>
+        
+      </div>
+
+      <div class="div2">
+        <button><a href="#">4</a></button>
+        <button><a href="#">4.5</a></button>
+        <button><a href="#">5</a></button>
+        
+      </div>
+
+      <div class="div2">
+        <button><a href="#">5.5</a></button>
+        <button><a href="#">6</a></button>
+        <button><a href="#">6.5</a></button>
+        
+      </div>
+
+      <div class="div2">
+        <button><a href="#">7</a></button>
+        <button><a href="#">7.5</a></button>
+        <button><a href="#">8</a></button>
+        
+      </div>
+
+      <div class="div2">
+        <button><a href="#">8.5</a></button>
+        <button><a href="#">9</a></button>
+        <button><a href="#">9.5</a></button>
+        
+      </div>
+
+      <div class="div2">
+        <button><a href="#">10</a></button>
+        <button><a href="#">10.5</a></button>
+        <button><a href="#">11</a></button>
+        
+      </div>
+
+      <div class="div2">
+        <button><a href="#">11.5</a></button>
+        <button><a href="#">12</a></button>
+        <button><a href="#">12.5</a></button>
+        
+      </div>
+
+      <div class="div2">
+        <button><a href="#">13</a></button>
+        <button><a href="#">13.5</a></button>
+        <button><a href="#">14</a></button>
+        
+      </div>
+
+      <div class="div2">
+        <button><a href="#">ALL</a></button>
+        <button><a href="#">L</a></button>
+        <button><a href="#">M</a></button>
+        
+      </div>
+
+      <div class="div2">
+        <button><a href="#">OSFA</a></button>
+        <button><a href="#">S</a></button>
+        <button><a href="#">XL</a></button>
+        
+      </div>
+
+      <div class="div2">
+        <button><a href="#">XS</a></button>
+        <button><a href="#">XXL</a></button> 
+      </div>
+    </div>
+    </ul>
+        
+
+
+      
+      <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">GENDER</a>
+      <ul class="dropdown-menu">
+        <div class="gender-drop">
+          <div class="div1">
+          <a href="#">Men</a>
+          <a href="#">Women</a>
+        </div>
+
+        <div class="div1">
+          <a href="#">Boys</a>
+          <a href="#">Girls</a>
+        </div>
+
+        <div class="div1">
+          <a href="#">Kids</a>
+          <a href="#">Infants</a>
+        </div>
+      </ul>
+       
+        
+
+
+        <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">BRANDS</a>
+        <ul class="dropdown-menu brands">
+
+        <li class="dropdown-item"><a href="#"><pre><input type="checkbox" name="" id="check-box">Addidas             (119)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre><input type="checkbox" name="" id="check-box">Airwalk             (67)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre><input type="checkbox" name="" id="check-box">Asics               (35)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre><input type="checkbox" name="" id="check-box">Balega              (12)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre><input type="checkbox" name="" id="check-box">Barrier Buff        (2)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre><input type="checkbox" name="" id="check-box">Brooks              (11)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre><input type="checkbox" name="" id="check-box">CAT                 (19)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre><input type="checkbox" name="" id="check-box">Code                (37)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre><input type="checkbox" name="" id="check-box">Converse            (50)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre><input type="checkbox" name="" id="check-box">Crocs               (26)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre><input type="checkbox" name="" id="check-box">Falke               (8)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre><input type="checkbox" name="" id="check-box">Fila                (14)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre><input type="checkbox" name="" id="check-box">Grasshopper         (6)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre><input type="checkbox" name="" id="check-box">Havaianas           (24)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre><input type="checkbox" name="" id="check-box">Hi-Tec              (45)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre><input type="checkbox" name="" id="check-box">Klevas              (9)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre><input type="checkbox" name="" id="check-box">Le Coq              (25)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre><input type="checkbox" name="" id="check-box">Merrell             (32)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre><input type="checkbox" name="" id="check-box">New Balance         (31)</pre></a></li>
+        </ul>
+    
+
+
+      
+        <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" >COLOUR</a>
+        <ul class="dropdown-menu col_grad">
+        
+        <li class="dropdown-item blk"><a href="#">b</a></li>
+        <li class="dropdown-item blu"><a href="#">b</a></li>
+        <li class="dropdown-item wht"><a href="#">b</a></li>
+        <li class="dropdown-item org"><a href="#">b</a></li>
+        <li class="dropdown-item yel"><a href="#">b</a></li>
+        <li class="dropdown-item grn"><a href="#">b</a></li>
+        <li class="dropdown-item gry"><a href="#">b</a></li>
+        <br>
+        <br>
+        <div class="sec_line">
+        <li class="dropdown-item blk"><a href="#">b</a></li>
+        <li class="dropdown-item blu"><a href="#">b</a></li>
+        <li class="dropdown-item wht"><a href="#">b</a></li>
+        <li class="dropdown-item org"><a href="#">b</a></li>
+        <li class="dropdown-item yel"><a href="#">b</a></li>
+        <li class="dropdown-item grn"><a href="#">b</a></li>
+        <li class="dropdown-item gry"><a href="#">b</a></li>
+        </div>
+        <br> <br>
+        <li class="dropdown-item blk"><a href="#">b</a></li>
+        </ul>
+
+      
+        <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">CLOTHING</a>
+        <ul class="dropdown-menu cloth_drop">
+        <li class="dropdown-item"><a href="#"><pre><input type="checkbox" name="" id="check-box">Tees                (123)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre><input type="checkbox" name="" id="check-box">Sweat Tops          (1)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre><input type="checkbox" name="" id="check-box">Hoodies             (3)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre><input type="checkbox" name="" id="check-box">Jackets             (2)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre><input type="checkbox" name="" id="check-box">Bottoms             (48)</pre></a></li>
+        </ul>
+
+
+      
+        <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">PRODUCT TYPE</a>
+        <ul class="dropdown-menu prod-type">
+
+        <li class="dropdown-item"><a href="#"><pre>Skate                    (13)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre>Motorsport               (1)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre>Short Run                (15)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre>Long Run                 (2)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre>Hiking                   (24)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre>Performance              (64)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre>Gym                      (41)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre>Canvas                   (100)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre>Urban                    (24)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre>Outdoor                  (110)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre>Walking                  (9)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre>Ankle                    (12)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre>School Trainers          (4)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre>Back Packs               (7)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre>Golfers                  (1)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre>Hoodies                  (3)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre>Track Pants              (5)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre>Shorts                   (40)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre>Duffel Bag               (17)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre>Gym Bag                  (4)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre>Bucket Hat               (21)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre>Sneaker Care             (1)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre>Leather Care             (10)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre>Accesories               (208)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre>Leggings                 (3)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre>Crew Socks               (4)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre>Hidden Socks             (21)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre>Anklet                   (4)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre>Bucket Hat Caps          (20)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre>Crew Neck Tees           (3)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre>Slip On Lo Tops          (2)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre>Lace Ups Lo Tops         (6)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre>Basketball Sneakers      (1)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre>Lifestyle Sneakers       (231)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre> < 21 Km Running         (1)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre>Trail Outdoor            (10)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre>Trail Running            (31)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre>Slide Sandals            (2)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre>Thong Sandals            (49)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre>Outdoor Sandals          (11)</pre></a></li>
+        
+        </ul>
+
+
+        <a class="dropdown-toggle" href="#"     role="button" 
+        data-bs-toggle="dropdown">ACCESSORIES</a>
+      
+        <ul class="dropdown-menu access_ries">
+        <li class="dropdown-item"><a href="#"><pre>Bags                       (24)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre>Caps                       (60)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre>Socks                      (91)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre>Shoe Care                  (20)</pre></a></li>
+        <li class="dropdown-item"><a href="#"><pre>Laces                      (2)</pre></a></li>
+        </ul>
+
+
+      </div>
+      
+    </div>
+ 
+     
+     
+  
+
+
+   
+      <div class="col-9 col-sm-3 col-md-9      col-lg-9 mt-5">
+        <div class="card-group gap-3" style="width: 60rem;">
+        <div class="card">
+          <img class="card-img-top" src="/images/snk 1.png" alt="snk 1">
+          <div class="card-title">
+              <button type="button" class="btn btn-block p-4"></button>
+            </div>
+          <div class="card-footer px-5 "><span><b>2750 Grey Fossil</b> <br>
+            SUPERGA <br>
+            
+            R 899.95</span>
+          </div>
+        </div>
+
+        <div class="card ">
+          <img class="card-img-top" src="/images/snk 2.png" alt="snk 1">
+          <div class="card-title">
+            <button type="button" class="btn btn-block p-4"></button>
+          </div>
+          <div class="card-footer px-5 "><span><b>2750 Lettering</b> <br>
+            SUPERGA <br>
+            
+            R 1,399.95</span>
+          </div>
+        </div>
+
+        <div class="card ">
+          <img class="card-img-top" src="/images/snk 3.png" alt="snk 1">
+          <div class="card-title">
+            <button type="button" class="btn btn-block p-4"></button>
+          </div>
+          <div class="card-footer px-5 "><span><b>2790 Platform 3d Lettering</b> <br>
+            SUPERGA <br>
+            
+            R 1,499.95</span>
+          </div>
+
+        </div>
+
+        <div class="card ">
+          <img class="card-img-top" src="/images/snk 4.png" alt="snk 1">
+          <div class="card-title">
+            <button type="button" class="btn btn-block p-4"></button>
+          </div>
+          <div class="card-footer px-5 "><span><b>279 Platform 3d Lettering</b> <br>
+            SUPERGA <br>
+            
+            R 1,499.95</span>
+          </div>
+        </div>
+        </div>
+
+        <div class="card-group gap-3" style="width: 60rem;">
+          <div class="card">
+            <img class="card-img-top" src="/images/snk 5.jpg" alt="snk 1">
+            <div class="card-title">
+                <button type="button" class="btn btn-block p-4"></button>
+              </div>
+            <div class="card-footer px-5 "><span><b>2750 Grey Fossil</b> <br>
+              SUPERGA <br>
+              
+              R 899.95</span>
+            </div>
+          </div>
+  
+          <div class="card ">
+            <img class="card-img-top" src="/images/snk 6.jpg" alt="snk 1">
+            <div class="card-title">
+              <button type="button" class="btn btn-block p-4"></button>
+            </div>
+            <div class="card-footer px-5 "><span><b>2750 Lettering</b> <br>
+              SUPERGA <br>
+              
+              R 1,399.95</span>
+            </div>
+          </div>
+  
+          <div class="card ">
+            <img class="card-img-top" src="/images/snk 7.jpg" alt="snk 1">
+            <div class="card-title">
+              <button type="button" class="btn btn-block p-4"></button>
+            </div>
+            <div class="card-footer px-5 "><span><b>2790 Platform 3d Lettering</b> <br>
+              SUPERGA <br>
+              
+              R 1,499.95</span>
+            </div>
+  
+          </div>
+  
+          <div class="card ">
+            <img class="card-img-top" src="/images/snk 8.jpg" alt="snk 1">
+            <div class="card-title">
+              <button type="button" class="btn btn-block p-4"></button>
+            </div>
+            <div class="card-footer px-5 "><span><b>279 Platform 3d Lettering</b> <br>
+              SUPERGA <br>
+              
+              R 1,499.95</span>
+            </div>
+          </div>
+          </div>
+
+
+          <div class="card-group gap-3" style="width: 60rem;">
+            <div class="card">
+              <img class="card-img-top" src="/images/snk 9.jpg" alt="snk 1">
+              <div class="card-title">
+                  <button type="button" class="btn btn-block p-4"></button>
+                </div>
+              <div class="card-footer px-5 "><span><b>2750 Grey Fossil</b> <br>
+                SUPERGA <br>
+                
+                R 899.95</span>
+              </div>
+            </div>
+    
+            <div class="card ">
+              <img class="card-img-top" src="/images/snk 10.jpg" alt="snk 1">
+              <div class="card-title">
+                <button type="button" class="btn btn-block p-4"></button>
+              </div>
+              <div class="card-footer px-5 "><span><b>2750 Lettering</b> <br>
+                SUPERGA <br>
+                
+                R 1,399.95</span>
+              </div>
+            </div>
+    
+            <div class="card ">
+              <img class="card-img-top" src="/images/socks 1.jpg" alt="snk 1">
+              <div class="card-title">
+                <button type="button" class="btn btn-block p-4"></button>
+              </div>
+              <div class="card-footer px-5 "><span><b>2790 Platform 3d Lettering</b> <br>
+                SUPERGA <br>
+                
+                R 1,499.95</span>
+              </div>
+    
+            </div>
+    
+            <div class="card ">
+              <img class="card-img-top" src="/images/socks 2.jpg " alt="snk 1">
+              <div class="card-title">
+                <button type="button" class="btn btn-block p-4"></button>
+              </div>
+              <div class="card-footer px-5 "><span><b>279 Platform 3d Lettering</b> <br>
+                SUPERGA <br>
+                
+                R 1,499.95</span>
+              </div>
+            </div>
+            </div>
+
+
+            <div class="card-group gap-3" style="width: 60rem;">
+              <div class="card">
+                <img class="card-img-top" src="/images/socks 3.jpg" alt="snk 1">
+                <div class="card-title">
+                    <button type="button" class="btn btn-block p-4"></button>
+                  </div>
+                <div class="card-footer px-5 "><span><b>2750 Grey Fossil</b> <br>
+                  SUPERGA <br>
+                  
+                  R 899.95</span>
+                </div>
+              </div>
+      
+              <div class="card ">
+                <img class="card-img-top" src="/images/socks 4.jpg" alt="snk 1">
+                <div class="card-title">
+                  <button type="button" class="btn btn-block p-4"></button>
+                </div>
+                <div class="card-footer px-5 "><span><b>2750 Lettering</b> <br>
+                  SUPERGA <br>
+                  
+                  R 1,399.95</span>
+                </div>
+              </div>
+      
+              <div class="card ">
+                <img class="card-img-top" src="/images/socks 5.jpg" alt="snk 1">
+                <div class="card-title">
+                  <button type="button" class="btn btn-block p-4"></button>
+                </div>
+                <div class="card-footer px-5 "><span><b>2790 Platform 3d Lettering</b> <br>
+                  SUPERGA <br>
+                  
+                  R 1,499.95</span>
+                </div>
+      
+              </div>
+      
+              <div class="card ">
+                <img class="card-img-top" src="/images/socks 6.jpg" alt="snk 1">
+                <div class="card-title">
+                  <button type="button" class="btn btn-block p-4"></button>
+                </div>
+                <div class="card-footer px-5 "><span><b>279 Platform 3d Lettering</b> <br>
+                  SUPERGA <br>
+                  
+                  R 1,499.95</span>
+                </div>
+              </div>
+              </div>
+
+
+              <div class="card-group gap-3" style="width: 60rem;">
+                <div class="card">
+                  <img class="card-img-top" src="/images/socks 7.jpg" alt="snk 1">
+                  <div class="card-title">
+                      <button type="button" class="btn btn-block p-4"></button>
+                    </div>
+                  <div class="card-footer px-5 "><span><b>2750 Grey Fossil</b> <br>
+                    SUPERGA <br>
+                    
+                    R 899.95</span>
+                  </div>
+                </div>
+        
+                <div class="card ">
+                  <img class="card-img-top" src="/images/timber 1.jpg" alt="snk 1">
+                  <div class="card-title">
+                    <button type="button" class="btn btn-block p-4"></button>
+                  </div>
+                  <div class="card-footer px-5 "><span><b>2750 Lettering</b> <br>
+                    SUPERGA <br>
+                    
+                    R 1,399.95</span>
+                  </div>
+                </div>
+        
+                <div class="card ">
+                  <img class="card-img-top" src="/images/bag 1.jpg" alt="snk 1">
+                  <div class="card-title">
+                    <button type="button" class="btn btn-block p-4"></button>
+                  </div>
+                  <div class="card-footer px-5 "><span><b>2790 Platform 3d Lettering</b> <br>
+                    SUPERGA <br>
+                    
+                    R 1,499.95</span>
+                  </div>
+        
+                </div>
+        
+                <div class="card ">
+                  <img class="card-img-top" src="/images/bag 2.jpg" alt="snk 1">
+                  <div class="card-title">
+                    <button type="button" class="btn btn-block p-4"></button>
+                  </div>
+                  <div class="card-footer px-5 "><span><b>279 Platform 3d Lettering</b> <br>
+                    SUPERGA <br>
+                    
+                    R 1,499.95</span>
+                  </div>
+                </div>
+                </div>
+
+
+                <div class="card-group gap-3" style="width: 60rem;">
+                  <div class="card">
+                    <img class="card-img-top" src="/images/bag 3.jpg" alt="snk 1">
+                    <div class="card-title">
+                        <button type="button" class="btn btn-block p-4"></button>
+                      </div>
+                    <div class="card-footer px-5 "><span><b>2750 Grey Fossil</b> <br>
+                      SUPERGA <br>
+                      
+                      R 899.95</span>
+                    </div>
+                  </div>
+          
+                  <div class="card ">
+                    <img class="card-img-top" src="/images/polo 1.jpg" alt="snk 1">
+                    <div class="card-title">
+                      <button type="button" class="btn btn-block p-4"></button>
+                    </div>
+                    <div class="card-footer px-5 "><span><b>2750 Lettering</b> <br>
+                      SUPERGA <br>
+                      
+                      R 1,399.95</span>
+                    </div>
+                  </div>
+          
+                  <div class="card ">
+                    <img class="card-img-top" src="/images/polo 2.jpg" alt="snk 1">
+                    <div class="card-title">
+                      <button type="button" class="btn btn-block p-4"></button>
+                    </div>
+                    <div class="card-footer px-5 "><span><b>2790 Platform 3d Lettering</b> <br>
+                      SUPERGA <br>
+                      
+                      R 1,499.95</span>
+                    </div>
+          
+                  </div>
+          
+                  <div class="card ">
+                    <img class="card-img-top" src="/images/polo 3.jpg" alt="snk 1">
+                    <div class="card-title">
+                      <button type="button" class="btn btn-block p-4"></button>
+                    </div>
+                    <div class="card-footer px-5 "><span><b>279 Platform 3d Lettering</b> <br>
+                      SUPERGA <br>
+                      
+                      R 1,499.95</span>
+                    </div>
+                  </div>
+                  </div>
+
+
+                  <div class="card-group gap-3" style="width: 60rem;">
+                    <div class="card">
+                      <img class="card-img-top" src="/images/polo 4.jpg" alt="snk 1">
+                      <div class="card-title">
+                          <button type="button" class="btn btn-block p-4"></button>
+                        </div>
+                      <div class="card-footer px-5 "><span><b>2750 Grey Fossil</b> <br>
+                        SUPERGA <br>
+                        
+                        R 899.95</span>
+                      </div>
+                    </div>
+            
+                    <div class="card ">
+                      <img class="card-img-top" src="/images/polo 5.jpg" alt="snk 1">
+                      <div class="card-title">
+                        <button type="button" class="btn btn-block p-4"></button>
+                      </div>
+                      <div class="card-footer px-5 "><span><b>2750 Lettering</b> <br>
+                        SUPERGA <br>
+                        
+                        R 1,399.95</span>
+                      </div>
+                    </div>
+            
+                    <div class="card ">
+                      <img class="card-img-top" src="/images/sand 1.jpg" alt="snk 1">
+                      <div class="card-title">
+                        <button type="button" class="btn btn-block p-4"></button>
+                      </div>
+                      <div class="card-footer px-5 "><span><b>2790 Platform 3d Lettering</b> <br>
+                        SUPERGA <br>
+                        
+                        R 1,499.95</span>
+                      </div>
+            
+                    </div>
+            
+                    <div class="card ">
+                      <img class="card-img-top" src="/images/short 1.jpg" alt="snk 1">
+                      <div class="card-title">
+                        <button type="button" class="btn btn-block p-4"></button>
+                      </div>
+                      <div class="card-footer px-5 "><span><b>279 Platform 3d Lettering</b> <br>
+                        SUPERGA <br>
+                        
+                        R 1,499.95</span>
+                      </div>
+                    </div>
+                    </div>
+
+                    <div class="card-group gap-3" style="width: 60rem;">
+                      <div class="card">
+                        <img class="card-img-top" src="/images/short 2.jpg" alt="snk 1">
+                        <div class="card-title">
+                            <button type="button" class="btn btn-block p-4"></button>
+                          </div>
+                        <div class="card-footer px-5 "><span><b>2750 Grey Fossil</b> <br>
+                          SUPERGA <br>
+                          
+                          R 899.95</span>
+                        </div>
+                      </div>
+              
+                      <div class="card ">
+                        <img class="card-img-top" src="/images/short 3.jpg" alt="snk 1">
+                        <div class="card-title">
+                          <button type="button" class="btn btn-block p-4"></button>
+                        </div>
+                        <div class="card-footer px-5 "><span><b>2750 Lettering</b> <br>
+                          SUPERGA <br>
+                          
+                          R 1,399.95</span>
+                        </div>
+                      </div>
+              
+                      <div class="card ">
+                        <img class="card-img-top" src="/images/slip 1.jpg" alt="snk 1">
+                        <div class="card-title">
+                          <button type="button" class="btn btn-block p-4"></button>
+                        </div>
+                        <div class="card-footer px-5 "><span><b>2790 Platform 3d Lettering</b> <br>
+                          SUPERGA <br>
+                          
+                          R 1,499.95</span>
+                        </div>
+              
+                      </div>
+              
+                      <div class="card ">
+                        <img class="card-img-top" src="/images/slip 2.jpg" alt="snk 1">
+                        <div class="card-title">
+                          <button type="button" class="btn btn-block p-4"></button>
+                        </div>
+                        <div class="card-footer px-5 "><span><b>279 Platform 3d Lettering</b> <br>
+                          SUPERGA <br>
+                          
+                          R 1,499.95</span>
+                        </div>
+                      </div>
+                      </div>
+
+
+                      <div class="card-group gap-3" style="width: 60rem;">
+                        <div class="card">
+                          <img class="card-img-top" src="/images/slip 3.jpg" alt="snk 1">
+                          <div class="card-title">
+                              <button type="button" class="btn btn-block p-4"></button>
+                            </div>
+                          <div class="card-footer px-5 "><span><b>2750 Grey Fossil</b> <br>
+                            SUPERGA <br>
+                            
+                            R 899.95</span>
+                          </div>
+                        </div>
+                
+                        <div class="card ">
+                          <img class="card-img-top" src="/images/snk 10.jpg" alt="snk 1">
+                          <div class="card-title">
+                            <button type="button" class="btn btn-block p-4"></button>
+                          </div>
+                          <div class="card-footer px-5 "><span><b>2750 Lettering</b> <br>
+                            SUPERGA <br>
+                            
+                            R 1,399.95</span>
+                          </div>
+                        </div>
+                
+                        <div class="card ">
+                          <img class="card-img-top" src="/images/snk 11.jpg" alt="snk 1">
+                          <div class="card-title">
+                            <button type="button" class="btn btn-block p-4"></button>
+                          </div>
+                          <div class="card-footer px-5 "><span><b>2790 Platform 3d Lettering</b> <br>
+                            SUPERGA <br>
+                            
+                            R 1,499.95</span>
+                          </div>
+                
+                        </div>
+                
+                        <div class="card ">
+                          <img class="card-img-top" src="/images/snk 12.jpg" alt="snk 1">
+                          <div class="card-title">
+                            <button type="button" class="btn btn-block p-4"></button>
+                          </div>
+                          <div class="card-footer px-5 "><span><b>279 Platform 3d Lettering</b> <br>
+                            SUPERGA <br>
+                            
+                            R 1,499.95</span>
+                          </div>
+                        </div>
+                        </div>
+
+                        <div class="card-group gap-3" style="width: 60rem;">
+                          <div class="card">
+                            <img class="card-img-top" src="/images/snk 13.jpg" alt="snk 1">
+                            <div class="card-title">
+                                <button type="button" class="btn btn-block p-4"></button>
+                              </div>
+                            <div class="card-footer px-5 "><span><b>2750 Grey Fossil</b> <br>
+                              SUPERGA <br>
+                              
+                              R 899.95</span>
+                            </div>
+                          </div>
+                  
+                          <div class="card ">
+                            <img class="card-img-top" src="/images/snk 14.jpg" alt="snk 1">
+                            <div class="card-title">
+                              <button type="button" class="btn btn-block p-4"></button>
+                            </div>
+                            <div class="card-footer px-5 "><span><b>2750 Lettering</b> <br>
+                              SUPERGA <br>
+                              
+                              R 1,399.95</span>
+                            </div>
+                          </div>
+                  
+                          <div class="card ">
+                            <img class="card-img-top" src="/images/snk 15.jpg" alt="snk 1">
+                            <div class="card-title">
+                              <button type="button" class="btn btn-block p-4"></button>
+                            </div>
+                            <div class="card-footer px-5 "><span><b>2790 Platform 3d Lettering</b> <br>
+                              SUPERGA <br>
+                              
+                              R 1,499.95</span>
+                            </div>
+                  
+                          </div>
+                  
+                          <div class="card ">
+                            <img class="card-img-top" src="/images/snk 16.jpg" alt="snk 1">
+                            <div class="card-title">
+                              <button type="button" class="btn btn-block p-4"></button>
+                            </div>
+                            <div class="card-footer px-5 "><span><b>279 Platform 3d Lettering</b> <br>
+                              SUPERGA <br>
+                              
+                              R 1,499.95</span>
+                            </div>
+                          </div>
+                          </div>
+
+                          <div class="card-group gap-3" style="width: 60rem;">
+                            <div class="card">
+                              <img class="card-img-top" src="/images/snk 17.jpg" alt="snk 1">
+                              <div class="card-title">
+                                  <button type="button" class="btn btn-block p-4"></button>
+                                </div>
+                              <div class="card-footer px-5 "><span><b>2750 Grey Fossil</b> <br>
+                                SUPERGA <br>
+                                
+                                R 899.95</span>
+                              </div>
+                            </div>
+                    
+                            <div class="card ">
+                              <img class="card-img-top" src="/images/snk 18.jpg" alt="snk 1">
+                              <div class="card-title">
+                                <button type="button" class="btn btn-block p-4"></button>
+                              </div>
+                              <div class="card-footer px-5 "><span><b>2750 Lettering</b> <br>
+                                SUPERGA <br>
+                                
+                                R 1,399.95</span>
+                              </div>
+                            </div>
+                    
+                            <div class="card ">
+                              <img class="card-img-top" src="/images/snk 19.jpg" alt="snk 1">
+                              <div class="card-title">
+                                <button type="button" class="btn btn-block p-4"></button>
+                              </div>
+                              <div class="card-footer px-5 "><span><b>2790 Platform 3d Lettering</b> <br>
+                                SUPERGA <br>
+                                
+                                R 1,499.95</span>
+                              </div>
+                    
+                            </div>
+                    
+                            <div class="card ">
+                              <img class="card-img-top" src="/images/snk 20.jpg" alt="snk 1">
+                              <div class="card-title">
+                                <button type="button" class="btn btn-block p-4"></button>
+                              </div>
+                              <div class="card-footer px-5 "><span><b>279 Platform 3d Lettering</b> <br>
+                                SUPERGA <br>
+                                
+                                R 1,499.95</span>
+                              </div>
+                            </div>
+                            </div>
+
+                            <div class="card-group gap-3" style="width: 60rem;">
+                              <div class="card">
+                                <img class="card-img-top" src="/images/snk 21.jpg" alt="snk 1">
+                                <div class="card-title">
+                                    <button type="button" class="btn btn-block p-4"></button>
+                                  </div>
+                                <div class="card-footer px-5 "><span><b>2750 Grey Fossil</b> <br>
+                                  SUPERGA <br>
+                                  
+                                  R 899.95</span>
+                                </div>
+                              </div>
+                      
+                              <div class="card ">
+                                <img class="card-img-top" src="/images/snk 22.jpg" alt="snk 1">
+                                <div class="card-title">
+                                  <button type="button" class="btn btn-block p-4"></button>
+                                </div>
+                                <div class="card-footer px-5 "><span><b>2750 Lettering</b> <br>
+                                  SUPERGA <br>
+                                  
+                                  R 1,399.95</span>
+                                </div>
+                              </div>
+                      
+                              <div class="card ">
+                                <img class="card-img-top" src="/images/snk 23.jpg" alt="snk 1">
+                                <div class="card-title">
+                                  <button type="button" class="btn btn-block p-4"></button>
+                                </div>
+                                <div class="card-footer px-5 "><span><b>2790 Platform 3d Lettering</b> <br>
+                                  SUPERGA <br>
+                                  
+                                  R 1,499.95</span>
+                                </div>
+                      
+                              </div>
+                      
+                              <div class="card ">
+                                <img class="card-img-top" src="/images/snk 24.jpg" alt="snk 1">
+                                <div class="card-title">
+                                  <button type="button" class="btn btn-block p-4"></button>
+                                </div>
+                                <div class="card-footer px-5 "><span><b>279 Platform 3d Lettering</b> <br>
+                                  SUPERGA <br>
+                                  
+                                  R 1,499.95</span>
+                                </div>
+                              </div>
+                              </div>
+ 
+                            <div class="card-group gap-3" style="width: 60rem;">
+                              <div class="card">
+                                <img class="card-img-top" src="/images/snk 21.jpg" alt="snk 1">
+                                <div class="card-title">
+                                    <button type="button" class="btn btn-block p-4"></button>
+                                  </div>
+                                <div class="card-footer px-5 "><span><b>2750 Grey Fossil</b> <br>
+                                  SUPERGA <br>
+                                  
+                                  R 899.95</span>
+                                </div>
+                              </div>
+                      
+                              <div class="card ">
+                                <img class="card-img-top" src="/images/snk 22.jpg" alt="snk 1">
+                                <div class="card-title">
+                                  <button type="button" class="btn btn-block p-4"></button>
+                                </div>
+                                <div class="card-footer px-5 "><span><b>2750 Lettering</b> <br>
+                                  SUPERGA <br>
+                                  
+                                  R 1,399.95</span>
+                                </div>
+                              </div>
+                      
+                              <div class="card ">
+                                <img class="card-img-top" src="/images/snk 23.jpg" alt="snk 1">
+                                <div class="card-title">
+                                  <button type="button" class="btn btn-block p-4"></button>
+                                </div>
+                                <div class="card-footer px-5 "><span><b>2790 Platform 3d Lettering</b> <br>
+                                  SUPERGA <br>
+                                  
+                                  R 1,499.95</span>
+                                </div>
+                      
+                              </div>
+                      
+                              <div class="card ">
+                                <img class="card-img-top" src="/images/snk 24.jpg" alt="snk 1">
+                                <div class="card-title">
+                                  <button type="button" class="btn btn-block p-4"></button>
+                                </div>
+                                <div class="card-footer px-5 "><span><b>279 Platform 3d Lettering</b> <br>
+                                  SUPERGA <br>
+                                  
+                                  R 1,499.95</span>
+                                </div>
+                              </div>
+
+                              </div>
+
+                              <div class="card-group gap-3" style="width: 60rem;">
+                                <div class="card">
+                                  <img class="card-img-top" src="/images/snk 21.jpg" alt="snk 1">
+                                  <div class="card-title">
+                                      <button type="button" class="btn btn-block p-4"></button>
+                                    </div>
+                                  <div class="card-footer px-5 "><span><b>2750 Grey Fossil</b> <br>
+                                    SUPERGA <br>
+                                    
+                                    R 899.95</span>
+                                  </div>
+                                </div>
+                        
+                                <div class="card ">
+                                  <img class="card-img-top" src="/images/snk 22.jpg" alt="snk 1">
+                                  <div class="card-title">
+                                    <button type="button" class="btn btn-block p-4"></button>
+                                  </div>
+                                  <div class="card-footer px-5 "><span><b>2750 Lettering</b> <br>
+                                    SUPERGA <br>
+                                    
+                                    R 1,399.95</span>
+                                  </div>
+                                </div>
+                        
+                                <div class="card ">
+                                  <img class="card-img-top" src="/images/snk 28.jpg" alt="snk 1">
+                                  <div class="card-title">
+                                    <button type="button" class="btn btn-block p-4"></button>
+                                  </div>
+                                  <div class="card-footer px-5 "><span><b>2790 Platform 3d Lettering</b> <br>
+                                    SUPERGA <br>
+                                    
+                                    R 1,499.95</span>
+                                  </div>
+                        
+                                </div>
+                        
+                                <div class="card ">
+                                  <img class="card-img-top" src="/images/snk 26.jpg" alt="snk 1">
+                                  <div class="card-title">
+                                    <button type="button" class="btn btn-block p-4"></button>
+                                  </div>
+                                  <div class="card-footer px-5 "><span><b>279 Platform 3d Lettering</b> <br>
+                                    SUPERGA <br>
+                                    
+                                    R 1,499.95</span>
+                                  </div>
+                                </div>
+  
+                                </div>
+
+                                <div class="card-group gap-3" style="width: 60rem;">
+                                  <div class="card">
+                                    <img class="card-img-top" src="/images/snk 27.jpg" alt="snk 1">
+                                    <div class="card-title">
+                                        <button type="button" class="btn btn-block p-4"></button>
+                                      </div>
+                                    <div class="card-footer px-5 "><span><b>2750 Grey Fossil</b> <br>
+                                      SUPERGA <br>
+                                      
+                                      R 899.95</span>
+                                    </div>
+                                  </div>
+                          
+                                  <div class="card ">
+                                    <img class="card-img-top" src="/images/snk 29.jpg" alt="snk 1">
+                                    <div class="card-title">
+                                      <button type="button" class="btn btn-block p-4"></button>
+                                    </div>
+                                    <div class="card-footer px-5 "><span><b>2750 Lettering</b> <br>
+                                      SUPERGA <br>
+                                      
+                                      R 1,399.95</span>
+                                    </div>
+                                  </div>
+                          
+                                  <div class="card ">
+                                    <img class="card-img-top" src="/images/snk 35.jpg" alt="snk 1">
+                                    <div class="card-title">
+                                      <button type="button" class="btn btn-block p-4"></button>
+                                    </div>
+                                    <div class="card-footer px-5 "><span><b>2790 Platform 3d Lettering</b> <br>
+                                      SUPERGA <br>
+                                      
+                                      R 1,499.95</span>
+                                    </div>
+                          
+                                  </div>
+                          
+                                  <div class="card ">
+                                    <img class="card-img-top" src="/images/snk 34.jpg" alt="snk 1">
+                                    <div class="card-title">
+                                      <button type="button" class="btn btn-block p-4"></button>
+                                    </div>
+                                    <div class="card-footer px-5 "><span><b>279 Platform 3d Lettering</b> <br>
+                                      SUPERGA <br>
+                                      
+                                      R 1,499.95</span>
+                                    </div>
+                                  </div>
+    
+                                  </div>
+
+                                  <div class="card-group gap-3" style="width: 60rem;">
+                                    <div class="card">
+                                      <img class="card-img-top" src="/images/snk 31.jpg" alt="snk 1">
+                                      <div class="card-title">
+                                          <button type="button" class="btn btn-block p-4"></button>
+                                        </div>
+                                      <div class="card-footer px-5 "><span><b>2750 Grey Fossil</b> <br>
+                                        SUPERGA <br>
+                                        
+                                        R 899.95</span>
+                                      </div>
+                                    </div>
+                            
+                                    <div class="card ">
+                                      <img class="card-img-top" src="/images/snk 32.jpg" alt="snk 1">
+                                      <div class="card-title">
+                                        <button type="button" class="btn btn-block p-4"></button>
+                                      </div>
+                                      <div class="card-footer px-5 "><span><b>2750 Lettering</b> <br>
+                                        SUPERGA <br>
+                                        
+                                        R 1,399.95</span>
+                                      </div>
+                                    </div>
+                            
+                                    <div class="card ">
+                                      <img class="card-img-top" src="/images/snk 33.jpg" alt="snk 1">
+                                      <div class="card-title">
+                                        <button type="button" class="btn btn-block p-4"></button>
+                                      </div>
+                                      <div class="card-footer px-5 "><span><b>2790 Platform 3d Lettering</b> <br>
+                                        SUPERGA <br>
+                                        
+                                        R 1,499.95</span>
+                                      </div>
+                            
+                                    </div>
+                            
+                                    <div class="card ">
+                                      <img class="card-img-top" src="/images/snk 24.jpg" alt="snk 1">
+                                      <div class="card-title">
+                                        <button type="button" class="btn btn-block p-4"></button>
+                                      </div>
+                                      <div class="card-footer px-5 "><span><b>279 Platform 3d Lettering</b> <br>
+                                        SUPERGA <br>
+                                        
+                                        R 1,499.95</span>
+                                      </div>
+                                    </div>
+      
+                                    </div>
+
+                                    <div class="card-group gap-3" style="width: 60rem;">
+                                      <div class="card">
+                                        <img class="card-img-top" src="/images/snk 21.jpg" alt="snk 1">
+                                        <div class="card-title">
+                                            <button type="button" class="btn btn-block p-4"></button>
+                                          </div>
+                                        <div class="card-footer px-5 "><span><b>2750 Grey Fossil</b> <br>
+                                          SUPERGA <br>
+                                          
+                                          R 899.95</span>
+                                        </div>
+                                      </div>
+                              
+                                      <div class="card ">
+                                        <img class="card-img-top" src="/images/snk 22.jpg" alt="snk 1">
+                                        <div class="card-title">
+                                          <button type="button" class="btn btn-block p-4"></button>
+                                        </div>
+                                        <div class="card-footer px-5 "><span><b>2750 Lettering</b> <br>
+                                          SUPERGA <br>
+                                          
+                                          R 1,399.95</span>
+                                        </div>
+                                      </div>
+                              
+                                      <div class="card ">
+                                        <img class="card-img-top" src="/images/snk 20.jpg" alt="snk 1">
+                                        <div class="card-title">
+                                          <button type="button" class="btn btn-block p-4"></button>
+                                        </div>
+                                        <div class="card-footer px-5 "><span><b>2790 Platform 3d Lettering</b> <br>
+                                          SUPERGA <br>
+                                          
+                                          R 1,499.95</span>
+                                        </div>
+                              
+                                      </div>
+                              
+                                      <div class="card ">
+                                        <img class="card-img-top" src="/images/snk 19.jpg" alt="snk 1">
+                                        <div class="card-title">
+                                          <button type="button" class="btn btn-block p-4"></button>
+                                        </div>
+                                        <div class="card-footer px-5 "><span><b>279 Platform 3d Lettering</b> <br>
+                                          SUPERGA <br>
+                                          
+                                          R 1,499.95</span>
+                                        </div>
+                                      </div>
+        
+                                      </div>
+
+                                      <div class="card-group gap-3" style="width: 60rem;">
+                                        <div class="card">
+                                          <img class="card-img-top" src="/images/snk 18.jpg" alt="snk 1">
+                                          <div class="card-title">
+                                              <button type="button" class="btn btn-block p-4"></button>
+                                            </div>
+                                          <div class="card-footer px-5 "><span><b>2750 Grey Fossil</b> <br>
+                                            SUPERGA <br>
+                                            
+                                            R 899.95</span>
+                                          </div>
+                                        </div>
+                                
+                                        <div class="card ">
+                                          <img class="card-img-top" src="/images/snk 16.jpg" alt="snk 1">
+                                          <div class="card-title">
+                                            <button type="button" class="btn btn-block p-4"></button>
+                                          </div>
+                                          <div class="card-footer px-5 "><span><b>2750 Lettering</b> <br>
+                                            SUPERGA <br>
+                                            
+                                            R 1,399.95</span>
+                                          </div>
+                                        </div>
+                                
+                                        <div class="card ">
+                                          <img class="card-img-top" src="/images/snk 27.jpg" alt="snk 1">
+                                          <div class="card-title">
+                                            <button type="button" class="btn btn-block p-4"></button>
+                                          </div>
+                                          <div class="card-footer px-5 "><span><b>2790 Platform 3d Lettering</b> <br>
+                                            SUPERGA <br>
+                                            
+                                            R 1,499.95</span>
+                                          </div>
+                                
+                                        </div>
+                                
+                                        <div class="card ">
+                                          <img class="card-img-top" src="/images/snk 30.jpg" alt="snk 1">
+                                          <div class="card-title">
+                                            <button type="button" class="btn btn-block p-4"></button>
+                                          </div>
+                                          <div class="card-footer px-5 "><span><b>279 Platform 3d Lettering</b> <br>
+                                            SUPERGA <br>
+                                            
+                                            R 1,499.95</span>
+                                          </div>
+                                        </div>
+          
+                                        </div>
+
+                                        <div class="card-group gap-3" style="width: 60rem;">
+                                          <div class="card">
+                                            <img class="card-img-top" src="/images/snk 31.jpg" alt="snk 1">
+                                            <div class="card-title">
+                                                <button type="button" class="btn btn-block p-4"></button>
+                                              </div>
+                                            <div class="card-footer px-5 "><span><b>2750 Grey Fossil</b> <br>
+                                              SUPERGA <br>
+                                              
+                                              R 899.95</span>
+                                            </div>
+                                          </div>
+                                  
+                                          <div class="card ">
+                                            <img class="card-img-top" src="/images/snk 26.jpg" alt="snk 1">
+                                            <div class="card-title">
+                                              <button type="button" class="btn btn-block p-4"></button>
+                                            </div>
+                                            <div class="card-footer px-5 "><span><b>2750 Lettering</b> <br>
+                                              SUPERGA <br>
+                                              
+                                              R 1,399.95</span>
+                                            </div>
+                                          </div>
+                                  
+                                          <div class="card ">
+                                            <img class="card-img-top" src="/images/snk 33.jpg" alt="snk 1">
+                                            <div class="card-title">
+                                              <button type="button" class="btn btn-block p-4"></button>
+                                            </div>
+                                            <div class="card-footer px-5 "><span><b>2790 Platform 3d Lettering</b> <br>
+                                              SUPERGA <br>
+                                              
+                                              R 1,499.95</span>
+                                            </div>
+                                  
+                                          </div>
+                                  
+                                          <div class="card ">
+                                            <img class="card-img-top" src="/images/snk 28.jpg" alt="snk 1">
+                                            <div class="card-title">
+                                              <button type="button" class="btn btn-block p-4"></button>
+                                            </div>
+                                            <div class="card-footer px-5 "><span><b>279 Platform 3d Lettering</b> <br>
+                                              SUPERGA <br>
+                                              
+                                              R 1,499.95</span>
+                                            </div>
+                                          </div>
+            
+                                          </div>
+
+                                          <div class="card-group gap-3" style="width: 60rem;">
+                                            <div class="card">
+                                              <img class="card-img-top" src="/images/snk 21.jpg" alt="snk 1">
+                                              <div class="card-title">
+                                                  <button type="button" class="btn btn-block p-4"></button>
+                                                </div>
+                                              <div class="card-footer px-5 "><span><b>2750 Grey Fossil</b> <br>
+                                                SUPERGA <br>
+                                                
+                                                R 899.95</span>
+                                              </div>
+                                            </div>
+                                    
+                                            <div class="card ">
+                                              <img class="card-img-top" src="/images/snk 22.jpg" alt="snk 1">
+                                              <div class="card-title">
+                                                <button type="button" class="btn btn-block p-4"></button>
+                                              </div>
+                                              <div class="card-footer px-5 "><span><b>2750 Lettering</b> <br>
+                                                SUPERGA <br>
+                                                
+                                                R 1,399.95</span>
+                                              </div>
+                                            </div>
+                                    
+                                            <div class="card ">
+                                              <img class="card-img-top" src="/images/snk 23.jpg" alt="snk 1">
+                                              <div class="card-title">
+                                                <button type="button" class="btn btn-block p-4"></button>
+                                              </div>
+                                              <div class="card-footer px-5 "><span><b>2790 Platform 3d Lettering</b> <br>
+                                                SUPERGA <br>
+                                                
+                                                R 1,499.95</span>
+                                              </div>
+                                    
+                                            </div>
+                                    
+                                            <div class="card ">
+                                              <img class="card-img-top" src="/images/snk 24.jpg" alt="snk 1">
+                                              <div class="card-title">
+                                                <button type="button" class="btn btn-block p-4"></button>
+                                              </div>
+                                              <div class="card-footer px-5 "><span><b>279 Platform 3d Lettering</b> <br>
+                                                SUPERGA <br>
+                                                
+                                                R 1,499.95</span>
+                                              </div>
+                                            </div>
+              
+                                            </div>
+
+                                            <div class="card-group gap-3" style="width: 60rem;">
+                                              <div class="card">
+                                                <img class="card-img-top" src="/images/snk 25.jpg" alt="snk 1">
+                                                <div class="card-title">
+                                                    <button type="button" class="btn btn-block p-4"></button>
+                                                  </div>
+                                                <div class="card-footer px-5 "><span><b>2750 Grey Fossil</b> <br>
+                                                  SUPERGA <br>
+                                                  
+                                                  R 899.95</span>
+                                                </div>
+                                              </div>
+                                      
+                                              <div class="card ">
+                                                <img class="card-img-top" src="/images/snk 26.jpg" alt="snk 1">
+                                                <div class="card-title">
+                                                  <button type="button" class="btn btn-block p-4"></button>
+                                                </div>
+                                                <div class="card-footer px-5 "><span><b>2750 Lettering</b> <br>
+                                                  SUPERGA <br>
+                                                  
+                                                  R 1,399.95</span>
+                                                </div>
+                                              </div>
+                                      
+                                              <div class="card ">
+                                                <img class="card-img-top" src="/images/snk 27.jpg" alt="snk 1">
+                                                <div class="card-title">
+                                                  <button type="button" class="btn btn-block p-4"></button>
+                                                </div>
+                                                <div class="card-footer px-5 "><span><b>2790 Platform 3d Lettering</b> <br>
+                                                  SUPERGA <br>
+                                                  
+                                                  R 1,499.95</span>
+                                                </div>
+                                      
+                                              </div>
+                                      
+                                              <div class="card ">
+                                                <img class="card-img-top" src="/images/snk 28.jpg" alt="snk 1">
+                                                <div class="card-title">
+                                                  <button type="button" class="btn btn-block p-4"></button>
+                                                </div>
+                                                <div class="card-footer px-5 "><span><b>279 Platform 3d Lettering</b> <br>
+                                                  SUPERGA <br>
+                                                  
+                                                  R 1,499.95</span>
+                                                </div>
+                                              </div>
+                
+                                              </div>
+
+                                              <div class="card-group gap-3" style="width: 60rem;">
+                                                <div class="card">
+                                                  <img class="card-img-top" src="/images/snk 29.jpg" alt="snk 1">
+                                                  <div class="card-title">
+                                                      <button type="button" class="btn btn-block p-4"></button>
+                                                    </div>
+                                                  <div class="card-footer px-5 "><span><b>2750 Grey Fossil</b> <br>
+                                                    SUPERGA <br>
+                                                    
+                                                    R 899.95</span>
+                                                  </div>
+                                                </div>
+                                        
+                                                <div class="card ">
+                                                  <img class="card-img-top" src="/images/snk 30.jpg" alt="snk 1">
+                                                  <div class="card-title">
+                                                    <button type="button" class="btn btn-block p-4"></button>
+                                                  </div>
+                                                  <div class="card-footer px-5 "><span><b>2750 Lettering</b> <br>
+                                                    SUPERGA <br>
+                                                    
+                                                    R 1,399.95</span>
+                                                  </div>
+                                                </div>
+                                        
+                                                <div class="card ">
+                                                  <img class="card-img-top" src="/images/snk 31.jpg" alt="snk 1">
+                                                  <div class="card-title">
+                                                    <button type="button" class="btn btn-block p-4"></button>
+                                                  </div>
+                                                  <div class="card-footer px-5 "><span><b>2790 Platform 3d Lettering</b> <br>
+                                                    SUPERGA <br>
+                                                    
+                                                    R 1,499.95</span>
+                                                  </div>
+                                        
+                                                </div>
+                                        
+                                                <div class="card ">
+                                                  <img class="card-img-top" src="/images/snk 32.jpg" alt="snk 1">
+                                                  <div class="card-title">
+                                                    <button type="button" class="btn btn-block p-4"></button>
+                                                  </div>
+                                                  <div class="card-footer px-5 "><span><b>279 Platform 3d Lettering</b> <br>
+                                                    SUPERGA <br>
+                                                    
+                                                    R 1,499.95</span>
+                                                  </div>
+                                                </div>
+                  
+                                                </div>
+
+                                                <div class="card-group gap-3" style="width: 60rem;">
+                                                  <div class="card">
+                                                    <img class="card-img-top" src="/images/snk 33.jpg" alt="snk 1">
+                                                    <div class="card-title">
+                                                        <button type="button" class="btn btn-block p-4"></button>
+                                                      </div>
+                                                    <div class="card-footer px-5 "><span><b>2750 Grey Fossil</b> <br>
+                                                      SUPERGA <br>
+                                                      
+                                                      R 899.95</span>
+                                                    </div>
+                                                  </div>
+                                          
+                                                  <div class="card ">
+                                                    <img class="card-img-top" src="/images/snk 34.jpg" alt="snk 1">
+                                                    <div class="card-title">
+                                                      <button type="button" class="btn btn-block p-4"></button>
+                                                    </div>
+                                                    <div class="card-footer px-5 "><span><b>2750 Lettering</b> <br>
+                                                      SUPERGA <br>
+                                                      
+                                                      R 1,399.95</span>
+                                                    </div>
+                                                  </div>
+                                          
+                                                  <div class="card ">
+                                                    <img class="card-img-top" src="/images/snk 35.jpg" alt="snk 1">
+                                                    <div class="card-title">
+                                                      <button type="button" class="btn btn-block p-4"></button>
+                                                    </div>
+                                                    <div class="card-footer px-5 "><span><b>2790 Platform 3d Lettering</b> <br>
+                                                      SUPERGA <br>
+                                                      
+                                                      R 1,499.95</span>
+                                                    </div>
+                                          
+                                                  </div>
+                                          
+                                                  <div class="card ">
+                                                    <img class="card-img-top" src="/images/snk 15.jpg" alt="snk 1">
+                                                    <div class="card-title">
+                                                      <button type="button" class="btn btn-block p-4"></button>
+                                                    </div>
+                                                    <div class="card-footer px-5 "><span><b>279 Platform 3d Lettering</b> <br>
+                                                      SUPERGA <br>
+                                                      
+                                                      R 1,499.95</span>
+                                                    </div>
+                                                  </div>
+                    
+                                                  </div>
+
+                              
+
+      </div>
+    
+    
+
+    
+
+    </div>
+  
+  </div>
+    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+  <script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

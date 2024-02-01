@@ -1,0 +1,1503 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* ======================================== */
+/* Outside Page Navigation Styling Start    */
+/* ======================================== */
+.top-nav {
+  background-color: #1a1b1b;
+  display: flex;
+  padding-left: 40px;
+}
+
+.top-nav a {
+  color: rgba(255, 255, 255, 0.9);
+  padding: 5px 15px;
+  font-size: 15px;
+}
+
+.top-nav a:nth-child(1) {
+  color: white;
+  border-bottom: 7px solid #fff;
+}
+
+.top-nav a:nth-child(1) span {
+  font-weight: bold;
+}
+
+.top-nav a:hover {
+  color: black;
+  background-color: white;
+}
+
+/* ============================= */
+/* Outside Page Navigation End   */
+/* ============================= */
+
+/* ======================= */
+/* Page Nav Styling Start  */
+/* ======================= */
+.nav-container {
+  height: 50px;
+  padding-top: 20px !important;
+}
+
+.explore-dropdown {
+  display: none;
+  margin-top: 50px !important;
+}
+
+.explore-label {
+  padding: 7px 14px !important;
+  background-color: #0056d2 !important;
+  font-size: 12px !important;
+  font-weight: bold !important;
+}
+
+#explore-checked:checked ~ .explore-dropdown {
+  display: block;
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+#explore-checked:checked ~ .explore-dropdown .explore-dropdown-content {
+  background-color: #fff !important;
+  width: 25%;
+  margin-left: 80px;
+}
+
+#explore-checked:checked ~ label {
+  background-color: #fff !important;
+  color: #0056d2;
+  border: 3px solid black;
+}
+
+.explore-dropdown-content {
+  padding: 10px 30px 200px;
+  height: 90vh;
+  overflow-y: scroll !important;
+}
+
+.explore-dropdown-content p {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.explore-dropdown-content ul {
+  list-style-type: none;
+  margin-left: -31px;
+}
+
+.explore-dropdown-content ul li label {
+  font-size: 20px;
+  padding: 5px 0;
+}
+
+.explore-dropdown-content ul li label:hover {
+  color: #0056d2 !important;
+  cursor: pointer;
+}
+
+.explore-dropdown-content ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding: 5px 0;
+}
+
+.explore-dropdown-content ul li a:hover {
+  color: #0056d2;
+}
+
+.explore-dropdown-content button {
+  display: block;
+  margin: 30px 0 50px !important;
+  padding: 10px 20px;
+  border: 3px solid #0056d2;
+  font-weight: 700;
+}
+
+.explore-dropdown-content button a {
+  text-decoration: none;
+  color: #0056d2 !important;
+}
+
+[type="search"] {
+  color: gray !important;
+  font-size: 13px !important;
+  padding: 7px 0 7px 10px !important;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.search-bar span {
+  padding-top: 8px !important;
+  border-radius: 0 5px 5px 0 !important;
+  background-color: #0056d2 !important;
+}
+
+.nav-right {
+  width: 35% !important;
+}
+
+.nav-right .nav-online-degree span:first-child {
+  width: 100% !important;
+}
+
+.online-degree-dropdown {
+  display: none;
+  width: 370px;
+  padding: 30px 0px 10px 10px;
+  background-color: white;
+}
+
+.online-degree-dropdown a {
+  text-decoration: none;
+  color: inherit;
+  width: 100% !important;
+}
+
+.online-degree-dropdown a:hover {
+  color: black;
+}
+
+.online-degree-dropdown div {
+  padding: 20px 0px 10px 20px;
+  width: 150% !important;
+  margin-top: -20px !important;
+}
+
+.online-degree-dropdown div a p {
+  font-size: 13px !important;
+}
+
+.online-degree-dropdown div:hover {
+  background-color: rgba(173, 216, 230, 0.4);
+  width: 100% !important;
+}
+
+.online-degree-dropdown div p:nth-child(2) {
+  margin-top: -18px !important;
+  font-size: 13px !important;
+}
+
+#online-degree-checked:checked ~ .online-degree-dropdown {
+  display: block;
+  position: absolute;
+  top: 100%;
+}
+
+#online-degree-checked:checked ~ label span svg {
+  transform: rotateY(180deg) !important;
+}
+
+.nav-online-degree {
+  width: 100% !important;
+}
+
+.nav-online-degree > label {
+  display: flex !important;
+  align-items: center;
+  gap: 0px;
+  font-size: 13px !important;
+  cursor: pointer;
+}
+
+.nav-right > p > a {
+  text-decoration: none;
+  padding-top: 10px !important;
+  font-size: 13px !important;
+}
+
+.nav-right-find > a {
+  width: 100% !important;
+}
+
+.nav-right-login {
+  color: #0056d2 !important;
+  margin-right: -50px !important;
+}
+
+.nav-right-btn {
+  padding: 10px 0px !important;
+  background-color: #0056d2 !important;
+  font-size: 12px !important;
+  width: 75% !important;
+}
+/* ===================== */
+/* Page Nav Styling End  */
+/* ===================== */
+
+/* ========================= */
+/* Discover AI Styling Start */
+/* ========================= */
+.discover-ai {
+  padding: 0 70px !important;
+  margin-top: -70px !important;
+}
+
+.discover-ai div {
+  text-align: left !important;
+}
+
+.discover-ai div h1 {
+  font-size: 32px !important;
+  font-weight: bold !important;
+  margin-bottom: 20px !important;
+}
+
+.discover-ai p {
+  font-size: 15px !important;
+  padding-right: 0px !important;
+  margin: 30px 0 !important;
+  color: #7b7575 !important;
+}
+
+.discover-ai-btns button {
+  padding: 5px 10px !important;
+}
+
+.discover-ai button:nth-child(1) {
+  background-color: #0056d2 !important;
+  padding: 5px 10px;
+  width: 25%;
+}
+
+.discover-ai button:nth-child(1) a {
+  background-color: #0056d2 !important;
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.discover-ai button:nth-child(1) a:hover {
+  text-decoration: underline !important;
+}
+
+.discover-ai button:nth-child(2) a {
+  text-decoration: none;
+  font-weight: 500 !important;
+  color: #000 !important;
+}
+
+.discover-ai button:nth-child(2) a:hover {
+  text-decoration: underline !important;
+  color: #0056d2 !important;
+}
+
+.discover-ai button:nth-child(2) {
+  border-color: gray !important;
+  border: 2px solid rgb(210, 210, 210) !important;
+  width: 30%;
+}
+
+.discover-ai button:nth-child(2):hover {
+  border-color: #0056d2 !important;
+  background-color: rgba(173, 216, 230, 0.4);
+}
+
+.discover-ai-img > img {
+  margin-top: 50px !important;
+  width: 40vw;
+  object-fit: cover;
+}
+/* ================================ */
+/* Discover AI Section Styling Ends */
+/* ================================ */
+
+/* =========================== */
+/* Collaborate Styling Starts  */
+/* =========================== */
+.collaborate {
+  background-color: #f5f5f5;
+  padding: 0 64px !important;
+  height: 300px;
+}
+
+.collaborate p {
+  padding: 50px 0 30px !important;
+  font-weight: 600 !important;
+  font-size: 20px !important;
+}
+
+.collaborate p a {
+  text-decoration: none;
+}
+
+.collaborate p span {
+  color: #0056d2 !important;
+}
+
+.collaborate p span:hover {
+  text-decoration: underline;
+}
+/* ========================= */
+/* Collaborate Styling Ends  */
+/* ========================= */
+
+/* ========================================= */
+/* Launch New Career Section Styling Starts  */
+/* ========================================= */
+.launch-new-career .nav-link:focus {
+  border-bottom: 3px solid red !important;
+}
+
+.tabs {
+  position: relative;
+  min-height: 203vh;
+  clear: both;
+  margin: 25px 0;
+}
+
+.tab {
+  float: left;
+}
+
+.tab label {
+  color: #373a3c !important;
+  font-size: 15px;
+  font-weight: 400 !important;
+  padding: 10px;
+  margin-left: -1px;
+  position: relative;
+  left: 1px;
+  margin-left: 5px !important;
+  cursor: pointer;
+}
+
+.tab [type="radio"] {
+  opacity: 0;
+}
+
+.content {
+  position: absolute;
+  top: 90px;
+  left: 0;
+  background: white;
+  right: 0;
+  bottom: 0;
+  padding: 60px 0px 60px 40px !important;
+  border: 3px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.tab label:hover {
+  background-color: rgba(192, 239, 255, 0.731);
+}
+
+.content > * {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all 0.6s ease;
+}
+
+[type="radio"]:focus ~ label {
+}
+
+[type="radio"]:checked ~ label {
+  border-bottom: 7px solid #0056d2;
+  color: #0056d2 !important;
+  z-index: 2;
+}
+[type="radio"]:checked ~ label ~ .content {
+  z-index: 1;
+}
+
+[type="radio"]:checked ~ label ~ .content > * {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.tab-hr {
+  height: 5px;
+  background-color: #c0bfbf !important;
+  border: none;
+  visibility: hidden;
+}
+
+.content1 .project-manager-bar1 > div {
+  height: 32px !important;
+  background-color: #e0e0e0 !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  padding: 5px 10px 0;
+}
+
+.content1 .project-manager-bar1 > p {
+  font-size: 14px !important;
+  font-weight: 500 !important;
+}
+
+.content1 .project-manager-bar2 > div {
+  height: 32px !important;
+  background-color: #0056d2 !important;
+  font-size: 14px !important;
+  font-weight: 500;
+  color: #fff;
+  padding: 5px 10px 0;
+  width: 380% !important;
+}
+
+.content1 .project-manager-bar2 > p {
+  font-size: 14px !important;
+  font-weight: 500 !important;
+}
+
+.card-row {
+  display: flex;
+  gap: 70px;
+}
+
+.card-row .card {
+  width: 470px;
+}
+
+.card-img-top {
+  object-fit: cover !important;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 80%);
+}
+
+.card-body {
+  margin-top: -80px !important;
+}
+
+.card-row .card-body div {
+  margin-top: 17px !important;
+}
+
+.card-row .card-text {
+  font-size: 13px !important;
+}
+
+.card-row h5 {
+  font-size: 15px !important;
+  color: #000 !important;
+  font-weight: bold;
+}
+
+.card-row p {
+  width: 100% !important;
+}
+
+.card-body :not(h5) {
+  color: #7b7575 !important;
+  font-size: 13px !important;
+}
+
+.card-horizontal .card-body {
+  margin-top: 0 !important;
+}
+
+.hor-card {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  border: 2px solid red !important;
+  width: 150% !important;
+}
+
+.hor-card-img {
+  width: 100px !important;
+  height: 100px !important;
+  border-radius: 50% !important;
+}
+
+.hor-card-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.hor-card-body {
+  font-size: 14px !important;
+  color: #505050;
+  padding-top: 25px;
+  width: 100% !important;
+}
+
+.hor-card-hr {
+  border-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.below-hor-card {
+  color: #505050 !important;
+  font-size: 14px;
+  width: 180% !important;
+}
+
+.below-hor-card p {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+/* ====================================== */
+/* Launch New Career Section Styling End  */
+/* ====================================== */
+
+/* ===================================== */
+/* Degree Program Section Styling Start  */
+/* ===================================== */
+.degree-programs {
+  margin-top: 80px !important;
+}
+
+.degree-programs-img {
+  border-radius: 10px !important;
+}
+
+.degree-programs > h5 {
+  color: #2b08a9 !important;
+}
+
+.degree-programs .card {
+  border: 3px solid rgba(0, 0, 0, 0.1) !important;
+  padding: 0px !important;
+}
+
+.degree-programs-img > img {
+  border-radius: 10px 10px 0 0 !important;
+  object-fit: cover !important;
+  width: 100%;
+  height: 95%;
+}
+
+.degree-programs .card-body {
+  margin-top: -65px !important;
+  padding: 10px !important;
+}
+
+.degree-programs .card-body img {
+  height: 25px !important;
+  width: 25px !important;
+}
+
+.degree-programs .card-body div div {
+  border: 1px solid rgb(211, 211, 211) !important;
+  border-radius: 7px !important;
+}
+
+.degree-programs .card-body p {
+  font-size: 13px !important;
+}
+
+.degree-programs .card-body p span {
+  color: #0056d2 !important;
+}
+
+.degree {
+  color: #373a3c !important;
+}
+
+.show-more .navbar-toggler:active {
+  content: "";
+}
+/* =================================== */
+/* Degree Program Section Styling End  */
+/* =================================== */
+
+/* ======================================= */
+/* Explore Coursera Section Styling Start  */
+/* ======================================= */
+.explore-coursera .card {
+  height: 80px !important;
+  border: none !important;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2) !important;
+}
+
+.explore-coursera .card-body {
+  margin-top: 5px !important;
+  margin-left: -100px !important;
+}
+
+.explore-coursera img {
+  height: 80px !important;
+  width: 80px !important;
+  object-fit: cover !important;
+}
+
+.explore-coursera .card-body h5 {
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  margin-left: -70px !important;
+}
+
+.explore-coursera .card-body p {
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  margin-top: -5px !important;
+  margin-left: -70px !important;
+}
+/* ===================================== */
+/* Explore Coursera Section Styling End  */
+/* ===================================== */
+
+/* ====================================== */
+/* Learner Outcome Section Styling Start  */
+/* ====================================== */
+.learner-outcomes {
+  background-color: #d9e8ff;
+  margin-top: 20px;
+  margin-bottom: 70px !important;
+  clip-path: polygon(
+    0 6%,
+    26% 6%,
+    26% 0%,
+    52% 0%,
+    52% 6%,
+    100% 6%,
+    100% 100%,
+    0% 100%
+  );
+  padding-bottom: 70px !important;
+}
+
+.learner-outcomes div:nth-child(2) {
+  margin-left: 27vw;
+}
+
+.learner-outcomes-img {
+  margin: 170px auto 0;
+  text-align: center;
+}
+
+.learner-outcomes-img img {
+  width: 50vw;
+}
+
+.learner-outcomes button {
+  background-color: #0056d2 !important;
+  padding: 10px 30px !important;
+  display: block;
+  margin-top: 40px !important;
+}
+/* ==================================== */
+/* Learner Outcome Section Styling End  */
+/* ==================================== */
+
+/* ==================================== */
+/* From Coursera Section Styling Start  */
+/* ==================================== */
+.from-coursera {
+  margin-top: 50px !important;
+  text-align: center !important;
+}
+
+.from-cc-cards .vert-card {
+  width: 33% !important;
+}
+
+.from-cc-cards .vert-card img {
+  width: 270px !important;
+}
+
+.from-cc-cards .vert-card h3 {
+  color: #2b08a9 !important;
+  margin: 20px 0 !important;
+}
+
+.from-cc-fst-p {
+  font-size: 15px !important;
+  font-weight: 500;
+  color: #7b7575 !important;
+}
+
+.vert-card hr {
+  width: 80px !important;
+  height: 2px !important;
+  border: none !important;
+  opacity: 1 !important;
+  margin: 0 auto 40px !important;
+}
+
+.from-coursera-dec-p {
+  padding: 0 10px !important;
+  color: #7b7575 !important;
+  font-size: 19px !important;
+}
+
+.from-coursera-small-scr {
+  display: none;
+}
+/* ================================== */
+/* From Coursera Section Styling End  */
+/* ================================== */
+
+/* ===================================== */
+/* Ideal Solution Section Styling Start  */
+/* ===================================== */
+.ideal-solution {
+  padding: 50px 80px !important;
+  background-color: #f9fcfd;
+}
+
+.ideal-solution .ideal-solution-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 100%;
+}
+
+.ideal-solution .ideal-solution-grid div:nth-child(1) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.ideal-solution .ideal-solution-grid div:nth-child(2) {
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.ideal-solution .ideal-solution-grid div:nth-child(3) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.ideal-solution .ideal-solution-grid div:nth-child(4) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.ideal-solution .ideal-solution-grid div:nth-child(5) {
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.ideal-solution .ideal-solution-grid div:nth-child(6) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.ideal-solution .ideal-solution-grid div:nth-child(8) {
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.ideal-solution button {
+  background-color: #0056d2 !important;
+  font-size: 15px !important;
+  padding: 10px 30px !important;
+}
+/* =================================== */
+/* Ideal Solution Section Styling End  */
+/* =================================== */
+
+/* ===================================== */
+/* Take Next Step Section Styling Start  */
+/* ===================================== */
+.take-next-step-img img {
+  object-fit: cover;
+  width: 68%;
+}
+
+.take-next-step-text h1,
+p {
+  width: 64% !important;
+  font-weight: 500 !important;
+}
+
+.take-next-step button {
+  background-color: #0056d2 !important;
+  padding: 10px 30px !important;
+}
+/* =================================== */
+/* Take Next Step Section Styling End  */
+/* =================================== */
+
+/* Card Hover Effect Styling Start */
+.card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.col .card > img {
+  border-radius: 10px !important;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 3px 3px 10px 10px rgba(0, 0, 0, 0.05);
+}
+/* Card Hover Effect End  */
+
+/* =============================== */
+/* Small Screen Nav Styling Start  */
+/* =============================== */
+.menu-icon {
+  opacity: 0;
+}
+
+.menu-icon button span svg {
+  display: none !important;
+}
+
+.menu-icon-content ul {
+  list-style-type: none;
+}
+
+.menu-icon-content div p {
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  margin-left: 10px !important;
+}
+
+.menu-icon-content ul li {
+  margin: 30px 0 10px -20px !important;
+}
+
+.menu-icon-content ul li a {
+  text-decoration: none;
+  font-size: 15px !important;
+  color: black !important;
+}
+
+.menu-icon-content ul hr {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+.navbar .navbar-toggler {
+  border: none !important;
+  background-color: #0056d2 !important;
+  color: #fff !important;
+}
+
+.most-popular-flex div p:nth-child(1) {
+  margin-bottom: 2px !important;
+  margin-top: 15px !important;
+  font-size: 18px !important;
+}
+
+.most-popular-flex div p:nth-child(2) {
+  color: #505050 !important;
+}
+
+.small-scr-search {
+  display: none !important;
+}
+
+.small-scr-logo {
+  display: none !important;
+}
+/* ============================= */
+/* Small Screen Nav Styling End  */
+/* ============================= */
+
+/* Responsiveness Design Start  */
+@media only screen and (max-width: 1061px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .top-nav {
+    transform: translateY(-200%) !important;
+  }
+
+  .nav-container {
+    transform: translateY(-300px);
+  }
+
+  .small-scr-nav-bg {
+    background-color: #fff;
+    height: 60px !important;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid gray;
+    z-index: 2;
+  }
+
+  .menu-icon button span svg {
+    display: block !important;
+    position: fixed;
+    top: 10px;
+    z-index: 3;
+  }
+
+  .small-scr-search button span svg {
+    display: block !important;
+    position: fixed;
+    top: 10px;
+    right: 15px !important;
+    z-index: 3;
+  }
+
+  .small-scr-logo {
+    display: block !important;
+    position: fixed !important;
+    background-color: #fff !important;
+    top: 0px !important;
+    left: 42% !important;
+    z-index: 3;
+  }
+
+  .menu-icon {
+    z-index: 3;
+    opacity: 1;
+  }
+
+  .small-scr-search {
+    display: block !important;
+    position: absolute !important;
+    top: 10px !important;
+    right: 15px !important;
+    /* z-index: 2; */
+  }
+
+  .discover-ai-hr {
+    margin-top: -40px !important;
+    display: none !important;
+  }
+
+  .discover-ai div h1 {
+    font-size: 30px !important;
+    font-weight: bold !important;
+    margin-bottom: 20px !important;
+  }
+
+  .discover-ai p {
+    font-size: 12px !important;
+    padding-right: 0px !important;
+    margin: 30px 0 !important;
+    color: #7b7575 !important;
+  }
+
+  .discover-ai {
+    padding: 0 10px !important;
+    margin-top: -70px !important;
+  }
+
+  .discover-ai div {
+    text-align: center !important;
+  }
+
+  .discover-ai-btns {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 5px !important;
+    margin-bottom: 40px !important;
+  }
+
+  .discover-ai-btns button {
+    padding: 17px 40px !important;
+    font-size: 12px !important;
+  }
+
+  .discover-ai-btns button:nth-child(1) {
+    width: 50%;
+  }
+
+  .discover-ai-btns button:nth-child(2) {
+    border: 4px solid #0056d2 !important;
+  }
+
+  .discover-ai-img {
+    display: none !important;
+  }
+
+  .collaborate {
+    height: 400px !important;
+    padding: 0px !important;
+  }
+
+  .collaborate p a {
+    display: block !important;
+    width: 150% !important;
+  }
+
+  .collaborate-img {
+    flex-wrap: wrap !important;
+    gap: 5px !important;
+  }
+
+  .collaborate-img a {
+    padding-top: 20px !important;
+  }
+
+  /* Launch New Career Mobile Styling Start  */
+
+  .launch-new-career {
+    margin-left: 0 !important;
+    padding: 0 !important;
+  }
+
+  .launch-new-career h3,
+  h2,
+  h5 {
+    font-size: 20px !important;
+  }
+
+  .launch-new-career h3 a {
+    color: #505050 !important;
+  }
+
+  .tabs {
+    height: 240vh !important;
+    width: 100% !important;
+  }
+
+  .tab {
+    margin-left: 0 !important ;
+    margin-right: 0 !important ;
+  }
+
+  .tab label {
+    margin-left: 0px !important;
+    font-size: 12px;
+    margin-left: 0px !important;
+    padding: 10px;
+  }
+
+  .content {
+    position: absolute;
+    top: 90px;
+    left: -60px;
+    background: white;
+    right: -10px;
+    bottom: 0;
+    padding: 30px 20px 0 !important;
+    border: 1px solid #ccc !important;
+    overflow: hidden;
+  }
+
+  .content > p {
+    padding: 0 !important;
+    font-size: 12px !important;
+    font-weight: 100;
+    margin: 0 !important;
+    width: 100% !important;
+  }
+
+  .content1 .project-manager-bar1 > div {
+    height: 22px !important;
+    background-color: #e0e0e0 !important;
+    font-size: 11px !important;
+    font-weight: 500 !important;
+    padding: 4px 10px 0;
+    border-radius: 3px !important;
+  }
+
+  .content1 .project-manager-bar1 > p {
+    font-size: 11px !important;
+    padding: 5px !important;
+    font-weight: 500 !important;
+  }
+
+  .content1 .project-manager-bar2 > div {
+    height: 22px !important;
+    background-color: #0056d2 !important;
+    font-size: 11px !important;
+    font-weight: 500;
+    color: #fff;
+    padding: 4px 10px 0;
+    width: 380% !important;
+    border-radius: 3px !important;
+  }
+
+  .content1 .project-manager-bar2 > p {
+    font-size: 11px !important;
+    padding: 5px !important;
+    font-weight: 500 !important;
+  }
+
+  .content1-bottom p {
+    font-size: 11px !important;
+    margin-left: 0px !important;
+    margin-top: 5px !important;
+  }
+
+  .content1-bottom p span {
+    font-size: 11px !important;
+    font-weight: 700 !important;
+  }
+
+  .content1-bottom > h5 {
+    margin-top: 20px;
+    font-size: 14px !important;
+    color: #000;
+  }
+
+  .card-row {
+    /* display: flex; */
+    gap: 40px !important;
+  }
+
+  .card-row .card-body {
+    margin-top: -65px !important;
+  }
+
+  .card-row .card-body div {
+    align-items: center !important;
+    gap: 7px !important;
+  }
+
+  .card-row .card-body div > p {
+    padding-top: 0 !important;
+    font-size: 9px !important;
+  }
+
+  .card-row .card-body img {
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+  .card-row .card-body div {
+    margin-top: 30px !important;
+  }
+
+  .card-row .card-title {
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    margin-top: 10px !important;
+  }
+
+  .card-row .card-text {
+    font-size: 10px !important;
+  }
+
+  .card-row p {
+    width: 100% !important;
+  }
+
+  .card-row .card-body p:not(.card-text) {
+    font-size: 10px !important;
+  }
+
+  .card-row .card-body p .icon-tabler-star-filled {
+    width: 10px !important;
+    height: 10px !important;
+  }
+
+  .card-row .card-body .icon-tabler-point-filled {
+    width: 5px !important;
+    height: 5px !important;
+  }
+
+  .card-row .col-3 p a {
+    font-size: 12px !important;
+    width: 100% !important;
+  }
+
+  .card-horizontal .card-body {
+    margin-top: 0 !important;
+  }
+
+  .hor-card-img img {
+    display: block !important;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+  }
+
+  .hor-card-body {
+    font-size: 11px !important;
+    color: #505050;
+    text-align: left !important;
+    width: 100% !important;
+    padding-top: 0;
+  }
+
+  .hor-card-hr {
+    border-color: rgba(0, 0, 0, 0.1) !important;
+    margin-top: -20px !important;
+  }
+
+  .below-hor-card {
+    color: #505050 !important;
+    font-size: 9px;
+    width: 180% !important;
+  }
+
+  .below-hor-card p:nth-child(1) {
+    margin-top: -25px !important;
+    margin-left: 0px !important;
+    padding-right: 200px !important;
+  }
+
+  .below-hor-card p:nth-child(2) {
+    margin-top: 1px !important;
+    margin-left: 0px !important;
+    padding-right: 200px !important;
+  }
+
+  .below-hor-card p:nth-child(3) {
+    margin-top: 3px !important;
+    margin-left: 0px !important;
+    padding-right: 200px !important;
+  }
+
+  .card-row {
+    flex-direction: column;
+    gap: 80px;
+  }
+
+  .card-row .card {
+    width: 210px !important;
+  }
+
+  .hor-card {
+    margin-top: 20px;
+    width: 100% !important;
+    align-items: start;
+    gap: 0px !important;
+  }
+
+  .hor-card-body p:nth-child(1) {
+    width: 100% !important;
+    text-align: left !important;
+    color: #7b7575 !important;
+    font-weight: 200;
+  }
+
+  .hor-card-body p:nth-child(2) {
+    text-align: left !important;
+    color: #7b7575 !important;
+    margin-left: 0px !important;
+    margin-top: 10px !important;
+  }
+
+  .degree-programs > h1 {
+    font-size: 22px !important;
+    font-weight: 500 !important;
+  }
+
+  .degree-programs > p {
+    font-size: 15px !important;
+    /* text-align: left !important; */
+    margin-left: 0px !important;
+  }
+
+  /* Explore Coursera Mobile Styling Start  */
+
+  .learner-outcomes {
+    background-color: #d9e8ff;
+    margin-top: 20px;
+    margin-bottom: 70px !important;
+    clip-path: polygon(
+      0 6%,
+      5% 6%,
+      5% 0%,
+      54% 0%,
+      54% 6%,
+      100% 6%,
+      100% 100%,
+      0% 100%
+    );
+    padding-bottom: 70px !important;
+  }
+
+  .learner-outcomes-img img {
+    width: 92vw;
+  }
+
+  .learner-outcomes h1 {
+    font-size: 22px !important;
+    margin: 20px;
+    font-weight: 500 !important;
+  }
+
+  .learner-outcomes p {
+    font-size: 14px !important;
+    margin-left: 20px !important;
+  }
+
+  .learner-outcomes div:nth-child(2) {
+    margin-left: 0px !important;
+    padding: 30px 30px !important;
+  }
+
+  .learner-outcomes button {
+    font-size: 12px !important;
+    background-color: #0056d2 !important;
+    padding: 10px 20px !important;
+    display: block;
+    margin-top: 40px !important;
+    margin-left: 20px !important;
+  }
+
+  /* From Coursera Mobile Styling Start  */
+  .from-coursera-big-scr {
+    display: none;
+  }
+
+  .from-coursera-small-scr > h1 {
+    font-size: 25px !important;
+    font-weight: 700 !important;
+  }
+
+  .from-coursera-small-scr > p {
+    font-size: 20px !important;
+    font-weight: 400 !important;
+  }
+
+  .vert-card {
+    width: 70% !important;
+    text-align: center !important;
+    margin: 30px auto !important;
+  }
+
+  .from-coursera-small-scr {
+    display: block;
+  }
+
+  .vert-card img {
+    width: 180px !important;
+  }
+
+  .vert-card h1 {
+    color: #2b08a9 !important;
+    margin: 20px 0 !important;
+    font-size: 19px !important;
+  }
+
+  .from-cc-fst-p {
+    font-size: 12px !important;
+    font-weight: 500;
+    color: #7b7575 !important;
+  }
+
+  .vert-card hr {
+    width: 80px !important;
+    height: 2px !important;
+    border: none !important;
+    opacity: 1 !important;
+    margin: 0 auto 40px !important;
+  }
+
+  .from-coursera-dec-p {
+    padding: 0 10px !important;
+    color: #7b7575 !important;
+    font-size: 12px !important;
+  }
+
+  /* Ideal Solution Mobile Styling  */
+  .ideal-solution {
+    padding-right: 0px !important;
+    padding: 20px 0px 20px 10px !important;
+    background-color: #f9fcfd;
+  }
+
+  .ideal-solution .ideal-solution-grid {
+    width: 100% !important;
+    margin-top: 20px !important;
+  }
+
+  .ideal-solution .ideal-solution-grid div {
+    padding: 20px !important;
+  }
+
+  .ideal-solution .ideal-solution-grid img:nth-child(2),
+  img:nth-child(3),
+  img:nth-child(6),
+  img:nth-child(9) {
+    width: 20px !important;
+  }
+
+  .ideal-solution .ideal-solution-grid img:nth-child(1),
+  img:nth-child(4),
+  img:nth-child(5),
+  img:nth-child(7),
+  img:nth-child(8) {
+    width: 80px !important;
+  }
+
+  .ideal-solution div:nth-child(1) {
+    width: 100% !important;
+  }
+
+  .ideal-solution button {
+    font-size: 12px !important;
+  }
+
+  /* Take Next Step Mobile Styling  */
+  .take-next-step div {
+    width: 100% !important;
+  }
+
+  .take-next-step-text h1,
+  p {
+    width: 80% !important;
+    margin: 0 auto !important;
+    font-weight: 500 !important;
+  }
+
+  .take-next-step button {
+    margin-left: 11% !important;
+    font-size: 12px !important;
+  }
+
+  .ideal-solution p {
+    margin-left: 0px !important;
+    font-size: 12px !important;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .discover-ai div {
+    text-align: center;
+  }
+
+  .discover-ai-btns button {
+    padding: 5px 10px !important;
+  }
+
+  .discover-ai button:nth-child(1) {
+    background-color: #0056d2 !important;
+    padding: 5px 10px;
+    width: 25%;
+  }
+
+  .discover-ai button:nth-child(1) a {
+    background-color: #0056d2 !important;
+    color: #fff !important;
+    text-decoration: none;
+  }
+
+  .discover-ai button:nth-child(1) a:hover {
+    text-decoration: underline !important;
+  }
+
+  .discover-ai button:nth-child(2) a {
+    text-decoration: none;
+    font-weight: 500 !important;
+    color: #000 !important;
+  }
+
+  .discover-ai button:nth-child(2) a:hover {
+    text-decoration: underline !important;
+    color: #0056d2 !important;
+  }
+
+  .discover-ai button:nth-child(2) {
+    border-color: gray !important;
+    border: 2px solid rgb(210, 210, 210) !important;
+    width: 30%;
+  }
+
+  .discover-ai button:nth-child(2):hover {
+    border-color: #0056d2 !important;
+    background-color: rgba(173, 216, 230, 0.4);
+  }
+
+  .tabs {
+    margin: 0 5px !important;
+    height: 240vh !important;
+  }
+
+  .explore-coursera .card-body {
+    margin-left: 10px !important;
+  }
+
+  .card-row .card {
+    width: 330px;
+  }
+}

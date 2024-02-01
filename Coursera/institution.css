@@ -1,0 +1,746 @@
+*{
+  padding: 0;
+}
+
+/* Navigation starts here */
+.cookie-regular {
+
+  font-weight: 400;
+  font-style: normal;
+}
+.navbar{
+  border-bottom: 1px solid lightgray;
+}
+
+.navbar-brand {
+  color: rgb(9, 9, 231);
+  font-size: 35px;
+  font-weight: bolder;
+  font-style: italic;
+
+}
+
+.navbar-brand span{
+  font-weight: 100;
+  margin-left: 10px;
+}
+
+.navbar-brand:hover{
+  color: rgb(15, 15, 163);
+
+}
+
+.backgr-img{
+  background-size: cover;
+  background-position: center;
+  width: 700px;
+  height: 600px;
+  z-index: -1;
+}
+
+.text-employ{
+  padding-left: 5rem;
+  font-size: large; 
+}
+.text-employ h1{
+  font-size: 4rem;
+}
+
+
+/* Survey board */
+
+.score-panel{
+  width: 90%;
+  border-radius: 10px;
+  height: 11rem;
+  margin-bottom: 20px;
+  position: relative;
+  height: 32vh;  
+}
+
+.score-report1 p{
+  color: aliceblue;
+}
+#vert-line {
+  padding: 60px 0px;
+  background-color: rgb(197, 194, 194);
+  font-size: 6px;
+  margin-left: 13rem;
+  top: 2rem;
+  position: absolute;
+ 
+}
+.score1{
+  display: flex;
+  padding: 3rem 2rem;
+  position: absolute;
+  
+}
+.score1-report{
+  margin-left: 2rem;
+}
+.score2{
+  display: flex;
+  padding: 3rem 2rem ;
+  position: absolute;
+  left: 24rem;
+  top: 0.2rem;
+}
+.score2-report{
+  margin-left: 2rem;
+}
+
+.score3{
+  display: flex;
+  padding: 3rem 2rem ;
+  position: absolute;
+  right: 1.8rem;
+  top: 0.4rem;
+}
+.score3-report{
+  margin-left: 2rem;
+}
+
+
+
+
+/* University college */
+
+.uni-college{
+  padding-top: 6rem;
+}
+
+.offer-courses{
+  padding-left: 4rem;
+
+}
+
+.uc-colle{
+  padding-left: 10rem;
+}
+
+/* Student offer */
+.prepare-std{
+  background-color: rgb(243, 243, 243);
+  padding-top: 3rem;
+  margin-top: 3rem;
+  padding-bottom: 6rem;
+}
+.student-offer{
+  padding-left: 7rem;
+}
+
+.offerring{
+  padding-left: 4rem;
+}
+
+.prepare-std span{
+  color: blue;
+  margin-right: 5px;
+  font-size: 1.5rem;
+}
+
+/* Certificates offerred */
+.prof-cert{
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.learn_ing{
+  padding-left: 6rem;
+}
+.cert_video{
+  padding-left: 6rem;
+}
+.learn_ing h3{
+  font-weight: normal;
+  padding-bottom: 2rem;
+  font-size: 24px;
+}
+.learn_ing p{
+  font-size:20px;
+}
+
+/* Curriculum Expand */
+.curriculum_exp{
+  padding: 6rem;
+}
+.first h1{
+  font-size: 2.5rem;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+.first p{
+  font-size: 20px;
+}
+
+.world-class h1{
+  font-size: 3.5rem;
+}
+
+.guid_project h1{
+  font-size: 3.5rem;
+  
+}
+
+/* Join Colleges and universiities worldwide */
+.rill-1 img{
+  width: 10rem;
+  height: 6rem;
+  border: 1px solid rgb(235, 235, 235);
+  padding: 5px 12px;
+}
+.rill-2 img{
+  width: 10rem;
+  height: 6rem;
+  border: 1px solid rgb(235, 235, 235);
+  padding: 5px 12px;
+}
+
+.join_coll{
+  padding: 6rem;
+}
+.text_col h2{
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+/* <!-- Here is innovation --> */
+ 
+/* .inn-ovation{
+  background-color: rgb(243, 243, 243);
+  width: 100%;
+  padding: 0 !important;
+  margin: 0 !important; */
+
+.confi h1{
+  padding-top: 6rem;
+  padding-left: 10rem;
+}
+
+.confi h5{
+  padding-top: 2rem;
+  padding-left: 10rem;
+  font-size: 22px;
+  font-weight: normal;
+}
+
+.yev-genia{
+  padding-top: 3rem;
+  padding-left: 10rem;
+}
+
+/* Get in touch with sales team */
+.touch h1{
+  padding-bottom: 2rem;
+  padding-left: 4rem;
+}
+.touch p{
+  padding-left: 4rem;
+ 
+}
+
+.touch span{
+  color: blue;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.touch h3{
+  padding-left: 4rem;
+  padding-top: 2rem;
+}
+.unis{
+  padding-left: 4rem;
+  padding-top: 3rem;
+}
+.touch h4{
+  padding-left: 4rem;
+  padding-top: 3rem;
+}
+
+.img-ivey img{
+  width: 8rem;
+  padding-top: 3rem;
+}
+.lameck{
+  padding-left: 4rem;
+}
+/* Form starts here */
+.form-control{
+
+  font-size: 20px;
+  width: 90%;
+  margin: 10px 0px;
+  outline: 1px solid black;  
+  border-radius: 2px;
+  
+  
+}
+
+.form-sales{
+  border: 1px solid lightgray;
+  padding: 10px 15px;
+  padding-right: 5px;
+  padding-bottom: 2rem;
+}
+.form-select{
+ font-size: 20px;
+  width: 90%;
+  margin: 10px 0px;
+  outline: 1px solid black;
+  border-radius: 2px; 
+ 
+
+}
+
+.country{
+  width: 42rem;
+  
+}
+.needs{
+  width: 42rem;
+}
+
+.form-sales p{
+  font-size: 14px;
+  padding-left: 5rem;
+  padding-top: 15px;
+}
+.sub-mit button{
+  padding: 0.8rem 17rem;
+  margin-left: 10px;
+  color: aliceblue;
+  margin-top: 10px;
+  border-radius: 3px;
+}
+/* Help Prepartions */
+.help_prep{
+  background-color: rgb(31, 29, 29);
+  color: rgb(216, 206, 206);
+  width: 95%;
+  height: 80vh;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 4rem;
+  margin-top: 6rem;
+}
+.help_prep h1{
+  font-size: 4rem;
+  font-weight: normal;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.help_prep p{
+  font-size: 1.5rem;
+  text-align: center;
+}
+.btn_2{
+  padding-top: 6rem;
+  width: 30%;
+  margin: auto;
+}
+.contact {
+  background-color: blue;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 3px;
+  margin-right: 20px;
+  font-size: 20px;
+  text-decoration: none;
+}
+.contact:hover{
+  background-color: rgb(33, 33, 177);
+  color: aliceblue;
+  text-decoration: underline;
+}
+.plans{
+  background-color:rgb(31, 29, 29);
+  color: white;
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 3px;
+  font-size: 18px;
+  text-decoration: none;
+}
+.plans:hover{
+  background-color: white;
+  color: rgb(27, 27, 179);
+  text-decoration: underline;
+}
+
+/* Getting Report on job skills */
+.skill_rep{
+  margin-top: 4rem;
+  background-color: rgb(243, 243, 243);
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.card img{
+ height: 320px;
+  width: 400px;
+}
+.card{
+ color: aliceblue;
+ 
+}
+.blk{
+  color: black;
+}
+.blk h6{
+  color: blue;
+  
+}
+.card-group{
+ padding-left: 2rem;
+ padding-right: 2rem;
+}
+.card-img-overlay{
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+.card-img-overlay h6{
+  padding-top: 4rem;
+}
+.card-img-overlay h6:hover{
+  text-decoration: underline;
+}
+.card-img-overlay span{
+  font-size: 20px;
+  margin-left: 5px;
+ 
+}
+
+/* Footer design starts here */
+
+.footer_coursera a{
+  display: block;
+  text-decoration: none;
+  color: rgb(14, 13, 13);
+  font-weight: normal;
+  font-size: 14px;
+ 
+}
+.footer_coursera{
+  display: flex;
+  padding: 20px 0px;
+  padding-left: 3rem;
+  padding-top: 3rem;
+  border-top: 1px solid lightgray;
+}
+.footer_coursera h5{
+  padding-bottom: 15px;
+ 
+}
+.footer_coursera a:hover{
+  text-decoration: underline;
+}
+.mobile_app img{
+  width: 10rem;
+  height: 3rem;
+  margin-top: 12px;
+  
+}
+.b_cert img{
+  width: 5rem;
+  height: 8rem;
+  margin-left: 3rem;
+}
+
+/* Copyright and socials */
+
+.soci-ials{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+  border-top: 1px solid lightgray;
+  position: relative;
+}
+.copy_right span{
+  padding-left: 3rem;
+}
+.copy_right{
+  position: absolute;
+}
+.social_media a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.6rem;
+  padding: 0px 10px; 
+}
+
+.so-cia {
+ position: absolute;
+ right: 3rem;
+}
+.link-foot{
+  font-size: 12px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 3rem;
+
+}
+.link-foot h6{
+  font-size: 12px;
+  font-weight: 400;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+}
+.link-foot p{
+  margin-top: -1rem; 
+}
+
+.link-foot a{
+  padding-left: 10px;
+  color: black;
+}
+
+@media (max-width:600px){
+
+  .navbar-brand {
+    
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  }
+
+  .uc-colle{
+    padding-left: 4rem;
+    margin-top: 3rem; 
+  }
+  .uni-college{
+    padding-top: 10rem;
+  }
+
+  .prepare-std{
+    width: max-content;
+    padding-top: 3rem;
+    margin-top: 3rem;
+    padding-bottom: 6rem;
+  }
+  .student-offer{
+    margin-left: 4rem;
+    padding-top: 3rem;
+  }
+  .offerring img{
+    margin-left: 6rem;
+  }
+/* Procertified video */
+ 
+  .learn_ing{
+    margin-left: 6rem;
+  }
+  .cert_video{
+    margin-left: 6rem;
+    padding-top: 2rem;
+  }
+  /* Strengthen */
+  .backgr-img{
+    width: 700px;
+    height: 500px;
+    margin-top: 1rem;
+  }
+  
+  .text-employ{
+    padding-left: 3rem; 
+  }
+  .text-employ h1{
+    font-size: 3rem;
+  }
+  
+  /* University college */
+
+.uni-college{
+  padding-top: 6rem;
+}
+
+.offer-courses{
+  padding-left: 3rem;
+
+}
+
+.uc-colle{
+  padding-left: 3rem;
+}
+.uc-colle img{
+  width: 98%;
+}
+/* Student offer */
+
+.student-offer{
+  margin-left:  -5.5rem;
+
+}
+.offerring img{
+  width: 50%;
+  margin-left: -2.5rem;
+}
+ 
+/* Certificates offerred */
+.prof-cert{
+  padding-top: 4rem;
+}
+.learn_ing{
+  margin-left: -5.5rem;
+}
+.cert_video{
+  margin-left: -5rem;
+}
+.cert_video video{
+  width: 98%;
+}
+.learn_ing h3{
+  font-size: 18px;
+}
+.learn_ing p{
+  font-size:16px;
+}
+/* Curriculum Expand */
+.curriculum_exp{
+  /* padding: 6rem; */
+}
+.first h1{
+  font-size: 2rem;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+.first p{
+  font-size: 20px;
+}
+
+.world-class h1{
+  font-size: 3.5rem;
+  margin-left: 2rem;
+  
+}
+.world-class{
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.guid_project h1{
+  font-size: 3.5rem; 
+}
+/* Join Colleges and universiities worldwide */
+
+.join_coll{
+ 
+  margin-left: -6rem;
+}
+
+.join_coll{
+  width: 96%;
+  padding: 6rem;
+}
+.text_col h2{
+  font-size: 2rem;
+  font-weight: 600;
+  padding-left: 6rem;
+  padding-top: 2rem; 
+}
+.unis{
+  width: 96%;
+  padding-left: 0.1rem; 
+}
+
+/* Form starts here */
+.form-control{
+
+  font-size: 14px;
+  width: 100%;
+  margin: 10px 0px;
+  outline: 1px solid black;  
+  border-radius: 2px;
+}
+
+
+.form-sales{
+  border: 1px solid lightgray;
+  padding: 10px 15px;
+  padding-right: 5px;
+  padding-bottom: 2rem;
+}
+.form-select{
+ font-size: 18px;
+  width: 65.5%;
+}
+
+.form-sales p{
+  font-size: 14px;
+  padding-left: 0.8rem;
+ 
+}
+.sub-mit button{
+  padding: 0.8rem 12rem;
+  margin-left: 10px;
+  color: aliceblue;
+  margin-top: 10px;
+  border-radius: 3px;
+}
+/* Help Prepartions */
+.help_prep{
+  
+  width: 100%;
+  height: 120vh;
+  
+}
+.help_prep h1{
+  font-size: 3.5rem;
+  
+}
+.help_prep p{
+  font-size: 1.3rem;
+  text-align: center;
+}
+.btn_2 a{
+  width: 100%;
+  display: block;
+  
+}
+.contact { 
+  margin-bottom: 2rem;
+  font-size: 16px;
+  
+}
+
+.plans{
+  font-size: 13px;  
+}
+/* Getting Report on job skills */ 
+ 
+
+.blk{
+  color: black;
+  margin-top: 1rem;
+}
+
+.score-panel{
+  
+  display: flex;
+  width: 80%;
+  margin-top: 2rem;
+  height: 88vh;  
+}
+.score2{
+  padding-top: 12rem;
+  margin-left: -24rem;
+}
+.score3{
+  padding-top: 22rem;
+}
+
+#vert-line {
+  display: none; 
+}
+
+/* Footer here */
+
+.so-cia{
+  margin-top: 1.5rem;
+
+}
+.link-foot{
+  margin-left: -2rem;
+}
+}

@@ -1,0 +1,381 @@
+
+
+.head{
+    font-size: 24px;
+    margin-bottom: -20px;
+    margin-top: 20px;
+}
+/* The first slide statrts here */
+.lrg1{
+    background-image: url(images/courosel/data_science.jpeg) !important;
+    background-size: cover;
+    height: 42vh !important;
+    filter: brightness(0.8);
+   
+    
+    
+}
+.lrg1 p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 25px; 
+}
+
+.lrg1:hover{
+    cursor: pointer;
+    filter: brightness(0.6);
+}
+
+
+.ft1{
+    background-image: url(images/courosel/business.jpeg) !important;
+    background-size: cover;
+    height: 20vh !important;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    filter: brightness(0.8);
+}
+.ft1:hover{
+    cursor: pointer;
+    filter: brightness(0.6);
+}
+
+
+.ft2{
+    background-image: url(images/courosel/computer_science.jpeg) !important;
+    background-size: cover;
+    height: 20vh !important;
+    margin-top: 30px !important;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    filter: brightness(0.8);
+}
+.ft2:hover{
+    cursor: pointer;
+    filter: brightness(0.6);
+}
+
+.ft3{
+    background-image: url(images/courosel/personal_development.jpeg) !important;
+    background-size: cover;
+    height: 20vh !important;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    filter: brightness(0.8);
+}
+.ft3:hover{
+    cursor: pointer;
+    filter: brightness(0.6);
+}
+
+.ft4{
+    background-image: url(images/courosel/information_technology.jpeg) !important;
+    background-size: cover;
+    height: 20vh !important;
+    margin-top: 30px !important;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    filter: brightness(0.8);
+}
+.ft4:hover{
+    cursor: pointer;
+    filter: brightness(0.6);
+}
+/* End of the first slide */
+
+
+.col-4{
+    height: 20vh;
+    border: 10px;
+   
+}
+
+.CM{
+    gap: 20px;
+}
+
+
+  /* Slide CSS code start here */
+.one{
+    background-image: url(images/courosel/personal_development.jpeg);
+    filter: brightness(0.8);
+    background-size: cover;
+}
+.one p{
+    text-decoration: none !important;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 25px;
+    
+    
+}
+.one:hover{
+    cursor: pointer;
+    filter: brightness(0.6); /* Darker effect on hover (adjust the value to control darkness) */
+
+}
+
+
+.two{
+    background-image: url(images/courosel/language_learning.jpeg);
+    background-size: cover;
+    filter: brightness(0.8);
+}
+.two p{
+    text-decoration: none !important;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 25px;
+    
+}
+.two:hover{
+    cursor: pointer;
+    filter: brightness(0.6); /* Darker effect on hover (adjust the value to control darkness) */
+
+}
+
+
+.three{
+    background-image: url(images/courosel/math_and_logic.jpeg);
+    background-size: cover;
+    filter: brightness(0.8);
+}
+.three p{
+    text-decoration: none !important;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 25px;
+    
+}
+.three:hover{
+    cursor: pointer;
+    filter: brightness(0.6); /* Darker effect on hover (adjust the value to control darkness) */
+
+}
+
+
+.four{
+    background-image: url(images/courosel/information_technology.jpeg);
+    background-size: cover;
+    filter: brightness(0.8);
+}
+.four p{
+    text-decoration: none !important;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 25px;
+    
+}
+.four:hover{
+    cursor: pointer;
+    filter: brightness(0.6); /* Darker effect on hover (adjust the value to control darkness) */
+
+}
+
+
+.five{
+    background-image: url(images/courosel/health.jpeg);
+    background-size: cover;
+}
+.five p{
+    text-decoration: none !important;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 25px;
+    
+}
+.five:hover{
+    cursor: pointer;
+    filter: brightness(0.8); /* Darker effect on hover (adjust the value to control darkness) */
+
+}
+
+
+.six{
+    background-image: url(images/courosel/social_sciences.jpeg);
+    background-size: cover;
+}
+.six p{
+    text-decoration: none !important;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 25px;
+    
+}
+.six:hover{
+    cursor: pointer;
+    filter: brightness(0.8); /* Darker effect on hover (adjust the value to control darkness) */
+
+}
+/* Slide CSS code end here */
+
+
+.card:hover{
+    transform: scale(1.05); /* Adjust the scale factor based on your preference */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a subtle shadow effect */
+    cursor: pointer;
+
+}
+
+.main{
+    background-color: aliceblue;
+}
+
+.cMain{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+/* Here is the beginning of the ads */
+
+.Ads{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 60px;
+}
+
+.ads{
+    font-weight: bold;
+}
+
+.adx{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.but{
+    background-color: #fff;
+    border: 1px solid blue;
+    color: rgb(63, 63, 214);
+    font-size: 13px;
+    font-weight: bold;
+    /* padding: 15px; */
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    align-items: center;
+   
+}
+/* The end of the ads css codes */
+
+.card-img-top{
+    border-radius: 10px !important;
+    object-fit: cover !important;
+}
+
+
+.cadMain .card{
+    border: 10px solid white;
+    /* padding-left: 10px !important; */
+    border-radius: 15px !important;
+    margin-top: 18px;
+    
+   
+}
+
+.col-md-6 h2{
+    font-size: 25px;
+}
+
+.custom-button{
+    background-color: #fff;
+    border: 1px solid blue;
+    color: rgb(63, 63, 214);
+    font-size: 13px;
+    font-weight: bold;
+    /* padding: 15px; */
+    border-radius: 5px;
+    margin-top: -10px;
+    width: 120px;
+    height: 40px;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+
+
+
+
+.descrip{
+    margin-top: 50px;
+}
+
+.descrip h4{
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+
+.flx-main{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+
+.cdBody h5{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.cdBody p{
+    font-size: 13px;
+    
+}
+
+
+
+/* Here is css for the decription section */
+.des{
+    margin-bottom: 50px;
+}
+
+.des h4{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.left{
+    
+    /* text-align: center; */
+    align-self: center;
+}
+
+.right{
+  
+    align-self: center;
+}
+
+span{
+   align-items: center;
+}
+
+.Lef{
+    padding: 5px;
+    background-color: rgb(228, 228, 228) ;
+    width: 120px;
+    text-align: center !important;
+}
+/* Description section css ends here */

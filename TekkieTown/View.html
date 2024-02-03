@@ -1,0 +1,1428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View As</title>
+
+    <link rel="stylesheet" href="css/viewAll.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container mt-5 r">
+         <!-- Navigation Bar Starts -->
+        <nav class="navbar navbar-expand-md nav">
+        <div class="container-fluid nav-container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img
+              src="./images/Site-logo.svg"
+              alt="Tekkie Town"
+              width="170"
+              height="170"
+            />
+          </a>
+  
+          <div class="collapse navbar-collapse ms-2" id="navbarTogglerDemo03">
+            <ul class="navbar-nav">
+              <li class="nav-item mx-2">
+                <a href="#" class="nav-link active text-white small-nav-text"
+                  >HOME</a
+                >
+              </li>
+              <li class="nav-item dropdown mx-2">
+                <a
+                  class="nav-link dropdown-toggle text-white small-nav-text"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >MEN</a
+                >
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown mx-2">
+                <a
+                  class="nav-link dropdown-toggle text-white small-nav-text"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >WOMEN</a
+                >
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown mx-2">
+                <a
+                  class="nav-link dropdown-toggle text-white small-nav-text"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >YOUTH</a
+                >
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown mx-2">
+                <a
+                  class="nav-link dropdown-toggle text-white small-nav-text"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >JUNIORS</a
+                >
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown mx-2">
+                <a
+                  class="nav-link dropdown-toggle text-white small-nav-text"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >SPORT</a
+                >
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item mx-2">
+                <a href="#" class="nav-link disabled text-white small-nav-text"
+                  >OFFERS</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#"
+                  class="nav-link disabled text-white small-nav-text mx-2"
+                  >STORE CREDIT</a
+                >
+              </li>
+              <li class="nav-item dropdown mx-2">
+                <a
+                  class="nav-link dropdown-toggle text-white small-nav-text"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >WE ARE YOU</a
+                >
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="d-flex justify-content-center gap-4 icons me-4">
+            <a
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-search"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="#ffffff"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+                <path d="M21 21l-6 -6" /></svg
+            ></a>
+            <a
+              ><svg
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    d="M15 7C15 8.65685 13.6569 10 12 10C10.3431 10 9 8.65685 9 7C9 5.34315 10.3431 4 12 4C13.6569 4 15 5.34315 15 7Z"
+                    stroke=""
+                    stroke-width="2"
+                  ></path>
+                  <path
+                    d="M5 19.5C5 15.9101 7.91015 13 11.5 13H12.5C16.0899 13 19 15.9101 19 19.5V20C19 20.5523 18.5523 21 18 21H6C5.44772 21 5 20.5523 5 20V19.5Z"
+                    stroke=""
+                    stroke-width="2"
+                  ></path>
+                </g></svg
+            ></a>
+            <a
+              ><svg
+                viewBox="0 -1 32 32"
+                version="1.1"
+                width="24"
+                height="24"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+                fill="#ffffff"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <title>cart</title>
+                  <desc>Created with Sketch Beta.</desc>
+                  <defs></defs>
+                  <g
+                    id="Page-1"
+                    stroke="none"
+                    stroke-width="1"
+                    fill="none"
+                    fill-rule="evenodd"
+                    sketch:type="MSPage"
+                  >
+                    <g
+                      id="Icon-Set"
+                      sketch:type="MSLayerGroup"
+                      transform="translate(-464.000000, -724.000000)"
+                      fill="#ffffff"
+                    >
+                      <path
+                        d="M488,750 C486.896,750 486,750.896 486,752 C486,753.104 486.896,754 488,754 C489.104,754 490,753.104 490,752 C490,750.896 489.104,750 488,750 L488,750 Z M478,750 C476.896,750 476,750.896 476,752 C476,753.104 476.896,754 478,754 C479.104,754 480,753.104 480,752 C480,750.896 479.104,750 478,750 L478,750 Z M491,744 C491,745.104 490.104,746 489,746 L478,746 C476.896,746 476,745.104 476,744 L474.333,734 L493.5,734 L491,744 L491,744 Z M473.97,732 L471.475,724 L465,724 C464.447,724 464,724.448 464,725 C464,725.553 464.447,726 465,726 L470,726 L472.011,732 L472,732 L474,744 C474,746.209 475.791,748 478,748 L489,748 C491.209,748 493,746.209 493,744 L496,732 L473.97,732 L473.97,732 Z"
+                        id="cart"
+                        sketch:type="MSShapeGroup"
+                      ></path>
+                    </g>
+                  </g>
+                </g></svg
+            ></a>
+          </div>
+        </div>
+        </nav>
+  
+      <!-- Navigation Bar Ends -->
+
+
+
+            <div class="row  hTop">
+
+                <div class="col col-2">
+                    
+                    <div class="lTop">
+                        <p>view as</p>
+                        <div class="icons">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-grid-3x3-gap-fill" viewBox="0 0 16 16">
+                                <path d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1z"/>
+                            </svg>
+        
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list-columns-reverse" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M0 .5A.5.5 0 0 1 .5 0h2a.5.5 0 0 1 0 1h-2A.5.5 0 0 1 0 .5m4 0a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10A.5.5 0 0 1 4 .5m-4 2A.5.5 0 0 1 .5 2h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m-4 2A.5.5 0 0 1 .5 4h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m-4 2A.5.5 0 0 1 .5 6h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1h-8a.5.5 0 0 1-.5-.5m-4 2A.5.5 0 0 1 .5 8h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1h-8a.5.5 0 0 1-.5-.5m-4 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5m-4 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5m-4 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5"/>
+                            </svg>
+                        </div>
+
+                    </div>
+    
+                </div>
+
+                <div class="col col-7 text-center">
+                    <div class="mTop">
+                        <p>222 Product</p>
+                    </div>
+                </div>
+
+                <div class="col col-3">
+                    <div class="lTop">
+                        <p>SORT BY: </p>
+                    
+                    <li class="nav-item dropdown ">
+                        <a class="dropdown-toggle pro" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Created Descending</a>
+
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Best selling</a></li>
+                          <li><a class="dropdown-item" href="#">Manual</a></li>
+                          <li><a class="dropdown-item" href="#">Title ascending</a></li>
+                          <li><a class="dropdown-item" href="#">Title descending</a></li>
+                          <li><a class="dropdown-item" href="#">Price descending</a></li>
+                          <li><a class="dropdown-item" href="#">Created ascending</a></li>
+                          <li><a class="dropdown-item" href="#">Created descending</a></li>
+                        </ul>
+                    </li>
+                    </div>
+
+                </div>
+            </div>
+        
+
+        <div class="row main">
+
+            <div class="col col-3  righBar">
+                
+                <div class="sideProd ">
+                    <p>  
+                        <a class="sideItems pro" href="#" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample ">
+                          FOOTWEAR
+                        </a>
+                    </p>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body sides">
+                            <a class="pro"  href="#">Sneakers (44)</a>
+                            <a class="pro"  href="#">Running (27)</a>
+                            <a class="pro"  href="#">Outdoor (25)</a>
+                            <a class="pro"  href="#">Active (53)</a>
+                            <a class="pro"  href="#">Hi Tops (7)</a>
+                            <a class="pro"  href="#">Lo Tops (37)</a>
+                            <a class="pro"  href="#">Sandals (71)</a>
+                            <a class="pro"  href="#">Sport (40)</a>
+                        
+                        </div>
+                    </div>
+
+                    <p>  
+                        <a class="sideItems pro" href="#" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample ">
+                          PRODUCT TYPE
+                        </a>
+                    </p>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body sides">
+                            <a class="pro"  href="#">Skate (2)</a>
+                            <a class="pro"  href="#">Short-Run (7)</a>
+                            <a class="pro"  href="#">Long-Run (1)</a>
+                            <a class="pro"  href="#">Performance (25)</a>
+                            <a class="pro"  href="#">Gym (11)</a>
+                            <a class="pro"  href="#">Canvas (38)</a>
+                            <a class="pro"  href="#">Urban (2)</a>
+                            <a class="pro"  href="#">Outdoor (25)</a>
+                            <a class="pro"  href="#">Walking (5)</a>
+                            <a class="pro"  href="#">Accessories (1)</a>
+                            <a class="pro"  href="#">Lifestyle-Sneakers (39)</a>
+                            <a class="pro"  href="#">Trail-Outdoor (3)</a>
+                            <a class="pro"  href="#">Trail-Running (9)</a>
+                            <a class="pro"  href="#">Slide_Sandals (1)</a>
+                            <a class="pro"  href="#">Thong-Sandals (24)</a>
+                            <a class="pro"  href="#">Outdoor-Sandals (5)</a>
+                        
+                        </div>
+                    </div>
+
+                    <p>  
+                        <a class="sideItems mt-3 pro" href="#" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample ">
+                          SIZE
+                        </a>
+                    </p>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body ">
+                            <div class="col ">
+
+                                <div class="no1 ">
+                                    <button><a class="si" href="#">1</a></button>
+                                    <button><a class="si" href="#">1.5</a></button>
+                                    <button><a class="si" href="#">2</a></button>
+                                  
+                                </div>
+                            
+                                <div class="no1">
+                                    <button><a class="si" href="#">2.5</a></button>
+                                    <button><a class="si" href="#">3</a></button>
+                                    <button><a class="si" href="#">3.5</a></button>
+                                    
+                                </div>
+                            
+                                <div class="no1">
+                                    <button><a class="si" href="#">4</a></button>
+                                    <button><a class="si" href="#">4.5</a></button>
+                                    <button><a class="si" href="#">5</a></button>
+                                    
+                                </div>
+                            
+                                <div class="no1">
+                                    <button><a class="si" href="#">5.5</a></button>
+                                    <button><a class="si" href="#">6</a></button>
+                                    <button><a class="si" href="#">6.5</a></button>
+                                    
+                                </div>
+                            
+                                <div class="no2">
+                                    <button><a class="si" href="#">7</a></button>
+                                    <button><a class="si" href="#">7.5</a></button>
+                                    <button><a class="si" href="#">8</a></button>
+                                    
+                                </div>
+                            
+                                <div class="no1">
+                                    <button><a class="si" href="#">8.5</a></button>
+                                    <button><a class="si" href="#">9</a></button>
+                                    <button><a class="si" href="#">9.5</a></button>
+                                    
+                                </div>
+                            
+                                <div class="no1">
+                                    <button><a class="si" href="#">10</a></button>
+                                    <button><a class="si" href="#">10.5</a></button>
+                                    <button><a class="si" href="#">11</a></button>
+                                    
+                                </div>
+                            
+                                <div class="no1">
+                                    <button><a class="si" href="#">11.5</a></button>
+                                    <button><a class="si" href="#">12</a></button>
+                                    <button><a class="si" href="#">12.5</a></button>
+                                    
+                                </div>
+                            
+                                <div class="no1">
+                                    <button><a class="si" href="#">13</a></button>
+                                    <button><a class="si" href="#">13.5</a></button>
+                                    <button><a class="si" href="#">14</a></button>
+                                    
+                                </div>
+                            
+                                <div class="no1">
+                                    <button><a class="si" href="#">ALL</a></button>
+                                    <button><a class="si" href="#">L</a></button>
+                                    <button><a class="si" href="#">M</a></button>
+                                    
+                                </div>
+                            
+                                <div class="no1">
+                                    <button><a class="si" href="#">OSFA</a></button>
+                                    <button><a class="si" href="#">S</a></button>
+                                    <button><a class="si" href="#">XL</a></button>
+                                    
+                                </div>
+                            
+                                <div class="no1">
+                                    <button><a class="si" href="#">XS</a></button>
+                                    <button><a class="si" href="#">XXL</a></button> 
+                                </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+
+                    <p>  
+                        <a class="sideItems pro" href="#" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample ">
+                          BRANDS
+                        </a>
+                    </p>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body ">
+                            <div class="form-check"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> <a class="pro" href="">Adidas  (20)</a></div>
+                            <div><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> <a class="pro" href="">Asics   (11)</a></div>
+                            <div><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> <a class="pro" href="">Books  (5)</a></div>
+                            <div><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> <a class="pro" href="">CAT   (1)</a></div>
+                            <div><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> <a class="pro" href="">Converse  (9)</a></div>
+                            <div><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> <a class="pro" href="">Havanainas   (24)</a> </div>
+                            <div><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> <a class="pro" href="">Hi-Tec  (8)</a> </div>
+                            
+                            
+                        </div>
+                    </div>
+
+                    <p>  
+                        <a class="sideItems pro" href="#" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample ">
+                          COLOUR
+                        </a>
+                    </p>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body colors">
+                          <div class="colors">
+                            <ul class="ul-colors1">
+                                <li class=" black"><a href="#">b</a></li>
+                                <li class=" blue"><a href="#">b</a></li>
+                                <li class=" white"><a href="#">b</a></li>
+                                <li class=" orange"><a href="#">b</a></li>
+                                <li class=" yellow"><a href="#">b</a></li>
+                                <li class=" green"><a href="#">b</a></li>
+                                <li class=" grey"><a href="#">b</a></li>
+                            </ul>
+                          </div>
+
+                            <br>
+                            <br>
+                            <div class="colors">
+                                <ul class="colors2">
+                                    <li class="purple"><a href="#">b</a></li>
+                                    <li class="pink"><a href="#">b</a></li>
+                                    <li class="brown"><a href="#">b</a></li>
+                                    <li class="beige"><a href="#">b</a></li>
+                                    <li class="silver"><a href="#">b</a></li>
+                                    <li class="gold"><a href="#">b</a></li>
+                                    </ul>
+                                   
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+           
+            
+            <div class="col-9 col-sm-3 col-md-9 leftMain">
+
+                <div class="col mb-4 ">
+
+                    <div class="card-group gap-3 mt-2 mb-4" style="width: 60rem;">
+
+                        
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/132336-BRAZILBLACKUNISX_3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                   
+    
+                    
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/132344-BRAZILGREYUNISEX_3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+    
+                   
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/148868---THE-ORIGINAL-UNISEX-_1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+    
+                    
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/163486---ULA-UNISEX-_1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+                    
+                    </div>
+
+                    <div class="card-group gap-3 mt-2 mb-4" style="width: 60rem;">
+
+                        
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/167873-ADILETTEAQUAUNISEX_3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                   
+    
+                    
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/168352---2750-COTU-WHITE-MEN_S-_1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+    
+                   
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/168353---2750-COTU-BLACK-MEN_S-_1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+    
+                    
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/168354---2750-COTU-SAGE-GREY-MEN_S-_1_1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+                    
+                    </div>
+
+                    <div class="card-group gap-3 mt-2 mb-4" style="width: 60rem;">
+
+                        
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/171079_01.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                   
+    
+                    
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/171347_PLATFORMLETTERING_WHITE_SUPERGA_LADIES_1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+    
+                   
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/172553_05_20.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+    
+                    
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/172577_Superga_AlpinaBoot_Beige_Youth_02-01.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+                    
+                    </div>
+
+                    <div class="card-group gap-3 mt-2 mb-4" style="width: 60rem;">
+
+                        
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/172598_Vans_WMRangeExp_Purple_Womens_2_-01.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                   
+    
+                    
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/172916_Merrell_FlyStrike_Grey_Mens-01.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+    
+                   
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/173192_Salomon_Supercross4_BlkViol_Womens_1-01.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+    
+                    
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/173639_Puma_RedeemProfoam_BlkPink_Womens_2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+                    
+                    </div>
+                    
+                    <div class="card-group gap-3 mt-2 mb-4" style="width: 60rem;">
+
+                        
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/173687_UNDERARMOR_UAWCHARGEDBANDITTR2_GREYGREY_WOMENS_1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                   
+    
+                    
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/173688_UnderArmour_Charged_BlueWht_Womens_2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+    
+                   
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/173690_Adidas_Beige_Unisex_2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Adidas</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+    
+                    
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/173693_Adidas_Blk_Unisex_2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Adidas</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+                    
+                    </div>
+
+                    <div class="card-group gap-3 mt-2 mb-4" style="width: 60rem;">
+
+                        
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/173819_Puma_Gold_Womens_2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Puma</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                   
+    
+                    
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/173687_UNDERARMOR_UAWCHARGEDBANDITTR2_GREYGREY_WOMENS_1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Puma</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+    
+                   
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/173688_UnderArmour_Charged_BlueWht_Womens_2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+    
+                    
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/173690_Adidas_Beige_Unisex_2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Adidas</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+                    
+                    </div>
+
+                    <div class="card-group gap-3 mt-2 mb-4" style="width: 60rem;">
+
+                        
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/173693_Adidas_Blk_Unisex_2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Adidas</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                   
+    
+                    
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/173819_Puma_Gold_Womens_2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Puma</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+    
+                   
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/173826_Adidas_Breaknet_BlueWht_Womens_1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+    
+                    
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/173944_Puma_BlkWht_Womens_4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Puma</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+                    
+                    </div>
+
+                    <div class="card-group gap-3 mt-2 mb-4" style="width: 60rem;">
+
+                        
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/173978_Puma_CassiaRose_Wht_Womens_1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                   
+    
+                    
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/173976_Puma_CarinaStreetMid_Wht_Womens_1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+    
+                   
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/180402_01.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+    
+                    
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/173826_Adidas_Breaknet_BlueWht_Womens_1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+                    
+                    </div>
+
+                    <div class="card-group gap-3 mt-2 mb-4" style="width: 60rem;">
+
+                        
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/180068_05_80.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                   
+    
+                    
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/181750_NewBalance_PinkMlti_Womens.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+    
+                   
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/181749_NewBalance_PinkMlti_Womens_1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+    
+                    
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/181748_NewBalance_GreyBlue_Womens_1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+                    
+                    </div>
+
+                    <div class="card-group gap-3 mt-2 mb-4" style="width: 60rem;">
+
+                        
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/173865_Nike_VictoriOne_BlkPink_Womens_1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                   
+    
+                    
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/173935_Merrell_OrnMlti_Womens.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+    
+                   
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/173690_Adidas_Beige_Unisex_2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+    
+                    
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/173819_Puma_Gold_Womens_2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+                    
+                    </div>
+
+                    <div class="card-group gap-3 mt-2 mb-4" style="width: 60rem;">
+
+                        
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/173944_Puma_BlkWht_Womens_4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                   
+    
+                    
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/173978_Puma_CassiaRose_Wht_Womens_1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+    
+                   
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/174139_Hi-Tec_Bluegrey_Womens_1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+    
+                    
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/173979_Puma_cassiaRose_WhtMlti_Womens_2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+                    
+                    </div>
+
+                    <div class="card-group gap-3 mt-2 mb-4" style="width: 60rem;">
+
+                        
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/173865_Nike_VictoriOne_BlkPink_Womens_1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                   
+    
+                    
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/173944_Puma_BlkWht_Womens_4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+    
+                   
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/173975_Puma_Carina2.0Mid_Beige_Womens_1_3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+    
+                    
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/173944_Puma_BlkWht_Womens_4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+                    
+                    </div>
+                    
+                    <div class="card-group gap-3 mt-2 mb-4" style="width: 60rem;">
+
+                        
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/173976_Puma_CarinaStreetMid_Wht_Womens_1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                   
+    
+                    
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/173978_Puma_CassiaRose_Wht_Womens_1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+    
+                   
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/173979_Puma_cassiaRose_WhtMlti_Womens_2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+    
+                    
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/174139_Hi-Tec_Bluegrey_Womens_1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+                    
+                    </div>
+
+                    <div class="card-group gap-3 mt-2 mb-4" style="width: 60rem;">
+
+                        
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/180104_2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                   
+    
+                    
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/180123_Superga_2740_Black__BlackWhite_Womens.jpg" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+    
+                   
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/180116_Superga_2750_Black__BlackWhite_Womens.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+    
+                    
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/180263_Nike_Winflo10_BlkWht_Womens_1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+                    
+                    </div>
+
+                    <div class="card-group gap-3 mt-2 mb-4" style="width: 60rem;">
+
+                        
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/180280_Salomon_Alphacross4_RedMlti_Womens_1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                   
+    
+                    
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/180402_01.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+    
+                   
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/180856_2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+    
+                    
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/181261_Puma_Pink_Womens_2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+                    
+                    </div>
+
+                    <div class="card-group gap-3 mt-2 mb-4" style="width: 60rem;">
+
+                        
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/181748_NewBalance_GreyBlue_Womens_1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                   
+    
+                    
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/181749_NewBalance_PinkMlti_Womens_1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+    
+                   
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/181750_NewBalance_PinkMlti_Womens.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+    
+                    
+                        <div class="card" style="width: 13rem;">
+                            <img src="./images/5972_ALLSTAR_BLUEWHITE_MENS_CONVERSE_1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brazil Black Kunisk</h5>
+                                <p class="card-text">HAVAIANAS</p>
+                                <p>R 379.95</p>
+                            </div>
+                        </div>
+                    
+                    
+                    </div>
+                    
+                </div>
+
+                
+            </div>
+
+
+            
+        </div>
+
+        <div class="row footer">
+            <div class="col col-12">
+
+                <div class="footer">
+      
+
+                    <div class="footr pt-5">
+                        <div class="footer-flex justify-content-between">
+                            <div class="help">
+                                
+                                <ul class="">
+                                    <h6 class="">HELP</h6>
+        
+                                    <li>
+                                        <a href="">Help | FAQ</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Returns</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Contact Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="">How to Shop</a>
+                                    </li>
+                                </ul>
+                            </div>
+        
+                            <div class="help">
+                                
+                                <ul>
+                                    <h6>QUICK LINKS</h6>
+                                    <li>
+                                        <a href="#">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Search</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Store locator</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Refund policy</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Careers</a>
+                                    </li>
+                                </ul>
+                            </div>
+        
+                            <div class="help">
+                                
+                                <ul>
+        
+                                    <h6>POLICIES</h6>
+                                    <li>
+                                        <a href="">Delivery & Returns Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Terms & Conditions</a>
+                                    </li>
+                                    <li>
+                                        <a href="/footer-elements/privacy-policy.html">Privacy Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href="/footer-elements/security-policy.html">Security Policy</a>
+                                    </li>
+                                </ul>
+                            </div>
+        
+                            <div class="help">
+                                <ul>
+                                    <h6>NEWSLETTER SIGNUP</h6>
+                                    <p>Sign up to our newsletter for the latest news & offers.</p>
+                                     <a href="/footer-elements/Newsletter.html" class="">
+                                        <button class="btn rounded-0">SIGN UP</button>
+                                     </a>
+                                 
+                                </ul>
+                            </div>
+        
+                        </div>
+        
+                        <div class="end fs-6 mb-5">
+                            <a href="https://twitter.com/TekkieTown"> <i class="bi bi-twitter-x px-3"></i></a>
+                            <a href="https://www.facebook.com/TekkieTown"> <i class="bi bi-facebook px-3"></i></a>
+                            <a href="https://www.instagram.com/tekkie_town"> <i class="bi bi-instagram px-3"></i></a>
+                            <a href="https://www.tiktok.com/@tekkie_town"> <i class="bi bi-tiktok px-3"></i></a>
+                            <a href="https://www.youtube.com/@tekkietown439"> <i class="bi bi-youtube px-3"></i></a>
+                            
+                        </div>
+        
+                       
+                        <div class="copyright-section">
+                            <div class="copy-flex">
+                                <div class="firstdiv d-flex gap-2">
+                                   <div>
+                                    <img src="./images/footer/images/footer-logo_400x_43a46162-c9d5-4778-ad35-efdf5ddffcd3.avif" style="width: 2.5em;" alt="">
+                                   </div>
+            
+                                   <div class="">
+                                    <p> &copy; 2024 Tekkie Town | All Rights Reserved.</p>
+            
+                                   </div>
+                                </div>
+                                <div class="second-div">
+                                    <img src="./images/footer/images/payments-electron.jpg" class="bg-light p-1" style="width: 3em;" alt="">
+                                    <img src="./images/footer/images/payments-mastercard.jpg" class="bg-light p-1" style="width: 3em;" alt="">
+                                    <img src="./images/footer/images/payments-maestro.jpg" class="bg-light p-1" style="width: 3em;"  alt="">
+                                    <img src="./images/footer/images/payments-a1.jpg" class="bg-light p-1" style="width: 2.5em;">
+                                    <img src="./images/footer/images/1-voucher.jpg" class="bg-light px-2 py-1" style="width: 2.3em;">
+                                </div>
+                            </div>
+                        </div>
+        
+                    </div>
+                   
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+
+</body>
+</html>

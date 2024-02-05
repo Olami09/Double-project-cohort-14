@@ -1,0 +1,554 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Mulish:wght@300&display=swap');
+
+*{
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+/* Black nav starts here  */
+
+.nav{
+    background-color: black;
+}
+
+.nav a{
+    color: white;
+}
+
+.nav a:hover {
+    color: black;
+    background-color: white;
+    
+}
+
+
+@media screen and (max-width: 780px) {
+
+  .nav-cont{
+    display: none;
+  }
+   
+    
+}
+
+/* Navigation starts here */
+
+.nav-item{
+    font-size: 15px;
+}
+
+.nav-item a:hover{
+    color: #0055d2 !important;
+    text-decoration: underline;
+}
+
+.btn{
+    background-color: blue !important;
+    
+}
+
+.why{
+    margin-left: 3rem !important;
+}
+
+@media screen and (max-width: 780px) {
+
+    .btn{
+        margin-bottom: 2rem;
+        
+    }
+
+    .why{
+        margin-left: 0rem !important;
+    }
+
+    
+}
+
+/* first acticle style starts here */
+
+.acticle1{
+   background-color: #f6f7f9 ;  
+}
+
+.Equip{
+  font-style: normal;
+  font-weight: bolder !important;
+  line-height: 100% !important;
+  font-size: 66px !important;
+  margin-top: 40px;
+}
+
+.pg-1 {
+    font-size: 21px !important;
+    line-height: 150% !important;
+    margin-top: 1.5em;
+    letter-spacing: -0.02em !important;
+    max-width: 100%;
+    min-height: 1rem !important;
+}
+
+.up{
+    font-size: 16px;
+    letter-spacing: -0.05em !important;
+   
+   
+}
+
+
+.train, .skill{
+    text-decoration: none;
+    margin-top: 2em;
+    display: block;
+    font-weight: bolder;
+    color: blue;
+}
+
+.skill:hover{
+    text-decoration: underline;
+}
+
+.train:hover{
+    text-decoration: underline;
+}
+
+.sales{
+    background-color: blue;
+    color: white;
+    padding: 8px 10px;
+    font-weight: bold;
+    display: block;
+    max-width: 10em;
+    margin-top: 3em;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* Second content starts here */
+
+.containa{
+    max-width: 90%;
+    margin: auto;
+    /* margin-top: -6rem; */
+}
+
+.num{
+    color: white;
+}
+
+.num1{
+    color: white;
+    border-right: 0.01rem solid white;
+}
+
+.ftnum{
+    color: white;
+
+}
+
+.number{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.flex-by2{
+    display: flex;
+    
+}
+
+.hd2{
+    width: 90%;
+}
+
+.by2-1{
+    width: 70%;
+
+}
+
+.rill-1 img{
+    width: 10rem;
+    height: 5rem;
+    border-left: 1px solid rgb(235, 235, 235);
+    padding: 5px 12px;
+  }
+  .rill-2 img{
+    width: 10rem;
+    height: 5rem;
+    border-left: 1px solid rgb(235, 235, 235);
+    border-top: 1px solid rgb(235, 235, 235);
+    padding: 5px 12px;
+  }
+
+  .grid-item{
+    margin-left: 3rem !important;
+    margin-bottom: 3rem !important;
+  }
+
+  .lin{
+    margin-right: 66px;
+    padding-left: 50px;
+  }
+
+@media screen and (max-width: 780px) {
+
+    .grid-item{
+        margin-left: 0rem !important;
+       
+      }
+
+    .flex-by2{
+        display: block;
+        
+    }
+
+    
+.hd2{
+    width: 100%;
+}
+
+.by2-1{
+    width: 100%;
+
+}
+
+.num1{
+    
+    border-bottom: 0.01rem solid white;
+    border-right: none;
+}
+
+}
+
+/* Third content starts here */
+
+.blue-section{
+    background-color: #0055d2;
+}
+
+.provide{
+    max-width: 80%;
+}
+
+.Browse{
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.link-card{
+    text-decoration: none;
+    color: black;
+}
+
+.card-h{
+    font-size: 15px;
+}
+
+.gray-text{
+    color: gray;
+    font-size: 13px;
+}
+
+.lk-num{
+    color: black;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.review{
+    color: gray;
+    font-size: 12px;
+}
+
+
+
+
+/* Fouth content starts here */
+
+.th1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.this{
+    font-size: 24px;
+}
+
+.logo-img{
+    margin-left: 3rem !important;
+    
+}
+
+
+@media screen and (max-width: 780px) {
+
+    .logo-img{
+        max-width: 90%;
+        margin-left: 0rem !important;
+        
+    }
+
+ 
+} 
+
+
+/* fifth content starts here */
+
+@media screen and (max-width: 780px) {
+
+    .guide-img{
+        max-width: 25rem !important; 
+        margin-left: 0px !important;
+        
+    }
+
+ 
+}
+
+
+.guide-img{
+    max-width: 35rem;
+
+}
+
+/* Sixth content starts here */
+
+.guide-img{
+    max-width: 35rem;
+
+}
+
+.Through{
+    font-size: 21px;
+}
+
+.flex{
+    display: flex;
+}
+
+.img img{
+    width: 100px;
+    margin-top: 50px;
+}
+
+.paola{
+    margin-top: 35px;
+    margin-left: 45px;
+}
+
+.ola{
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    line-height: 150% !important;
+    letter-spacing: -0.03em;
+}
+
+
+
+/* Seventh content starts here */
+
+.sp2{
+    font-size: 18px;
+}
+
+.Skills{
+    font-size: 19px;
+
+}
+
+.DG{
+    font-size: 14px;
+}
+
+/* Eigth content starts here */
+
+.acticle2{
+    background-color: #ebf3fe;
+}
+
+.choose{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.card-text-align{
+    text-align: center;
+}
+
+.dollar{
+    font-size: 40px;
+}
+
+.dollar-text{
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+
+.day{
+    font-size: 14px;
+    font-weight: 100;   
+}
+
+.start{
+    background-color: blue;
+    color: white;
+    padding: 8px 20px;
+    font-weight: bold;
+    max-width: 10em;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 200px !important;
+}
+
+.spn{
+    text-align: left;
+    display: block;
+    font-size: 12px;
+}
+
+.outline{
+    display: flex;
+}
+
+.main{
+    border-top: 8px solid blue;
+    background-color: white;
+    border-radius: 10px;
+   
+}
+
+.main1{
+    border-top: 8px solid rgb(3, 3, 173);
+    background-color: white;
+    border-radius: 10px;
+   
+}
+
+.cdtext1{
+    margin-bottom: 6rem;
+}
+
+.mb{
+    margin-bottom: 7rem;
+}
+
+
+
+/* Nineth content starts here */
+
+.banner-g {
+    background-image: url(/image/banner-bg.png);
+}
+
+.Browse1{
+    font-size: 30px;
+}
+
+.lrn{
+    max-width: 50%;
+}
+
+
+/* Footer design starts here */
+
+.footer_coursera a{
+    display: block;
+    text-decoration: none;
+    color: rgb(14, 13, 13);
+    font-weight: normal;
+    font-size: 14px;
+   
+  }
+  .footer_coursera{
+    display: flex;
+    padding: 20px 0px;
+    padding-left: 3rem;
+    padding-top: 3rem;
+    border-top: 1px solid lightgray;
+  }
+  .footer_coursera h5{
+    padding-bottom: 15px;
+   
+  }
+  .footer_coursera a:hover{
+    text-decoration: underline;
+  }
+  .mobile_app img{
+    width: 10rem;
+    height: 3rem;
+    margin-top: 12px;
+    
+  }
+  .b_cert img{
+    width: 5rem;
+    height: 8rem;
+    margin-left: 3rem;
+  }
+  
+  /* Copyright and socials */
+  
+  .soci-ials{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+    border-top: 1px solid lightgray;
+    position: relative;
+  }
+  .copy_right span{
+    padding-left: 3rem;
+  }
+  .copy_right{
+    position: absolute;
+  }
+  .social_media a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.6rem;
+    padding: 0px 10px; 
+  }
+  
+  .so-cia {
+   position: absolute;
+   right: 3rem;
+  }
+  .link-foot{
+    font-size: 12px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+  
+  }
+  .link-foot h6{
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+  }
+  .link-foot p{
+    margin-top: -1rem; 
+  }
+  
+  .link-foot a{
+    padding-left: 10px;
+    color: black;
+  }
+
+  @media screen and (max-width: 780px) {
+
+    .so-cia{
+     margin-top: 1.5rem;
+   
+   }
+   .link-foot{
+     margin-left: -2rem;
+   }
+ 
+ 
+   }
+
+
+

@@ -1,0 +1,618 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Mulish:wght@300&display=swap');
+
+*{
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+/* Black nav starts here  */
+
+.nav{
+    background-color: black;
+}
+
+.nav a{
+    color: white;
+}
+
+.nav a:hover {
+    color: black;
+    background-color: white;
+    
+}
+
+
+@media screen and (max-width: 780px) {
+
+  .nav-cont{
+    display: none;
+  }
+   
+    
+}
+
+/* Navigation starts here */
+
+.nav-item{
+    font-size: 15px;
+}
+
+.nav-item a:hover{
+    color: #0055d2 !important;
+    text-decoration: underline;
+}
+
+.btn{
+    background-color: blue !important;
+    
+}
+
+.why{
+    margin-left: 3rem !important;
+}
+
+@media screen and (max-width: 780px) {
+
+    .btn{
+        margin-bottom: 2rem;
+        
+    }
+
+    .why{
+        margin-left: 0rem !important;
+    }
+
+    
+}
+
+/* first acticle style starts here */
+
+.acticle1{
+   background-color: #f6f7f9 ;  
+}
+
+.Equip{
+  font-style: normal;
+  font-weight: 600 !important;
+  line-height: 100% !important;
+  letter-spacing: -0.03em;
+  font-size: 64px !important;
+}
+
+.pg-1 {
+    font-size: 24px !important;
+    line-height: 150% !important;
+    margin-top: 1.5em;
+    letter-spacing: -0.02em !important;
+    max-width: 100%;
+    min-height: 1rem !important;
+}
+
+.train, .skill{
+    text-decoration: none;
+    margin-top: 2em;
+    display: block;
+    font-weight: bolder;
+    color: blue;
+}
+
+.skill:hover{
+    text-decoration: underline;
+}
+
+.train:hover{
+    text-decoration: underline;
+}
+
+.sales{
+    background-color: blue;
+    color: white;
+    padding: 8px 10px;
+    font-weight: bold;
+    display: block;
+    max-width: 10em;
+    margin-top: 2em;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+/* Second content starts here */
+
+.containa{
+    max-width: 90%;
+    margin: auto;
+    /* margin-top: -6rem; */
+}
+
+.num{
+    color: white;
+}
+
+.num1{
+    
+    border-right: 0.01rem solid white;
+    
+}
+
+.ftnum{
+    color: white;
+ 
+}
+
+.number{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.choose{
+  font-size: 3rem !important;
+  letter-spacing: -0.03rem;
+  line-height: 100% !important;
+  font-weight: 600;
+  margin-bottom: 3rem; 
+}
+
+.card-body{
+    background-color: #f6f7f9;
+}
+
+.cdtext{
+    font-size: 14px !important;
+    line-height: 150% !important;
+    letter-spacing: -0.01rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.learn{
+    text-decoration: none;
+    margin-top: 2em;
+    display: block;
+    font-weight: bolder;
+    color: blue;
+}
+
+.learn:hover{
+    text-decoration: underline;
+}
+
+.mgtop{
+    margin-top: 60px;
+}
+
+.acticle3{
+    margin-top: 5rem;
+}
+
+.black-div{
+    margin-bottom: 6rem;
+} 
+
+
+@media screen and (max-width: 780px) {
+
+    .flex-by2{
+        display: block;
+        
+    }
+
+    
+.hd2{
+    width: 100%;
+}
+
+.by2-1{
+    width: 100%;
+
+}
+
+.num1{
+    
+    border-bottom: 0.01rem solid white;
+    border-right: none;
+}
+
+
+
+}
+
+/* Third content starts here */
+
+
+.content{
+    max-width: 90%;
+    margin: auto;
+}
+
+.icon{
+   
+    margin-bottom: 2rem;
+}
+
+.glow{
+    margin-top: 1.6em;
+    margin-bottom: 1em;
+    line-height: 100% !important;
+    font-weight: 700;
+    letter-spacing: 0.03rem;
+    font-size: 3em;
+    
+}
+
+.deploy{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    line-height: 150% !important;
+    letter-spacing: 0.03rem;
+    font-size: 1.25rem !important;  
+}
+
+.blue-section{
+    background-color: #0055d2;
+}
+
+
+/* Fouth content starts here */
+
+.heading{
+    font-size: 48px !important;
+    font-style: normal;
+    font-weight: 600 !important;
+    line-height: 100% !important;
+    letter-spacing: -0.03em;
+}
+
+.quote{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.flex{
+    display: flex;
+}
+
+/* .grid{
+    display: grid;
+    list-style-type: none;
+    position: relative;
+    padding-inline-start: 0;
+    grid-template-columns: repeat(3, 1fr);
+    color: #373a3c;
+} */
+
+.rill-1 img{
+    width: 8rem;
+    height: 5rem;
+    border-left: 1px solid rgb(235, 235, 235);
+    padding: 5px 12px;
+  }
+  .rill-2 img{
+    width: 8rem;
+    height: 5rem;
+    border-left: 1px solid rgb(235, 235, 235);
+    border-top: 1px solid rgb(235, 235, 235);
+    padding: 5px 12px;
+  }
+
+  .grid-item{
+    margin-left: 3rem !important;
+    margin-bottom: 3rem !important;
+  }
+
+.spn{
+    text-align: left;
+    display: block;
+}
+
+.outline{
+    display: flex;
+}
+
+/* .grid li img{
+    max-width: 100px;
+    object-fit: cover;
+    max-height: 100%;
+
+} */
+
+.img img{
+    width: 100px;
+    margin-top: 50px;
+}
+
+.paola{
+    margin-top: 35px;
+    margin-left: 45px;
+}
+
+.ola{
+    font-size: 20px !important;
+  font-weight: 600 !important;
+  line-height: 150% !important;
+  letter-spacing: -0.03em;
+}
+
+
+.form{
+    border: 2px solid lightgray;
+}
+
+.form-p{
+    font-size: 14px;
+    text-align: left;
+}
+
+::placeholder{
+    color: black;
+    font-size: 18px;
+}
+
+.name1, .name2{
+    padding: 10px;
+    margin-bottom: 1.5rem;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 780px) {
+
+    .name1, .name2{
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    .heading-small, .grid, .quote, .flex{
+        display: none;
+    }
+
+    .outline{
+       align-items: center;
+     
+    }
+
+    .spn{
+        margin-left: 10px;
+    }
+
+    .grid-item{
+       display: none;
+      }
+
+}
+
+/* fiveth content starts here */
+
+
+
+.black-bg{
+    text-align: center;
+    height: 70vh;
+    
+}
+
+.trans{
+    margin-top: 1.6em;
+    margin-bottom: 2.5rem;
+    line-height: 100% !important;
+    font-weight: 700;
+    letter-spacing: 0.25rem;
+    font-size: 3.5em; 
+}
+
+.trans-p{
+   
+    margin-bottom: 5rem;
+    line-height: 150% !important;
+    letter-spacing: 0.03rem;
+    font-size: 1.25rem;  
+}
+
+
+.more{
+    background-color: blue;
+    padding: 15px 30px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px; 
+}
+
+.up{
+    font-size: 0.9rem;
+   
+}
+
+@media screen and (max-width: 780px) {
+
+    .black-bg{
+        text-align: left;  
+    }
+
+    .get{
+        display: block;
+        margin-top: 1rem;
+    }
+
+    .trans{
+        font-size: 2.5em; 
+        margin-bottom: 2rem;
+    }
+
+    .trans-p{
+        font-size: small; 
+        margin-bottom: 2rem;
+        
+    }
+
+    .more{
+       
+        padding: 10px 15px;
+        text-decoration: none;
+        border-radius: 5px; 
+    }
+
+}
+
+
+/* sixth content starts here */
+
+.rap{
+    background-image: url(./image/Untitled.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.job{
+    margin-top: 20px;
+}
+
+.report{
+    padding-bottom: 30px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.report1{
+    padding-bottom: 30px;
+    color: blue;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.report1:hover{
+    text-decoration: underline;
+   
+}
+
+.report:hover{
+    text-decoration: underline;
+   
+}
+
+.rap1{
+    background-image: url(./image/banner-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+/* Footer design starts here */
+
+.footer_coursera a{
+    display: block;
+    text-decoration: none;
+    color: rgb(14, 13, 13);
+    font-weight: normal;
+    font-size: 14px;
+   
+  }
+  .footer_coursera{
+    display: flex;
+    padding: 20px 0px;
+    padding-left: 3rem;
+    padding-top: 3rem;
+    border-top: 1px solid lightgray;
+  }
+  .footer_coursera h5{
+    padding-bottom: 15px;
+   
+  }
+  .footer_coursera a:hover{
+    text-decoration: underline;
+  }
+  .mobile_app img{
+    width: 10rem;
+    height: 3rem;
+    margin-top: 12px;
+    
+  }
+  .b_cert img{
+    width: 5rem;
+    height: 8rem;
+    margin-left: 3rem;
+  }
+  
+  /* Copyright and socials */
+  
+  .soci-ials{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+    border-top: 1px solid lightgray;
+    position: relative;
+  }
+  .copy_right span{
+    padding-left: 3rem;
+  }
+  .copy_right{
+    position: absolute;
+  }
+  .social_media a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.6rem;
+    padding: 0px 10px; 
+  }
+  
+  .so-cia {
+   position: absolute;
+   right: 3rem;
+  }
+  .link-foot{
+    font-size: 12px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+  
+  }
+  .link-foot h6{
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+  }
+  .link-foot p{
+    margin-top: -1rem; 
+  }
+  
+  .link-foot a{
+    padding-left: 10px;
+    color: black;
+  }
+
+  @media screen and (max-width: 780px) {
+
+    .so-cia{
+     margin-top: 1.5rem;
+   
+   }
+   .link-foot{
+     margin-left: -2rem;
+   }
+ 
+ 
+   }
+ 
+
+
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+   
+
+
+

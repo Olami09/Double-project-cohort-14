@@ -1,0 +1,2110 @@
+.label ul {
+  list-style-type: none;
+}
+
+/* Navigation bar styling starts here */
+
+/* navbar-brand styling starts here */
+
+.navbar-brand {
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(77, 123, 249);
+  padding: 5px 37px;
+}
+
+strong {
+  color: rgb(0, 72, 255);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/* navbar-brand styling ends here */
+
+/* label open menu styling starts here */
+
+.fa-bars {
+  margin-left: 450px;
+  width: 10%;
+  font-size: 15px;
+  cursor: pointer;
+  padding-right: 50px;
+}
+
+/* label open menu styling ends here */
+
+/* Nav dropdown menu styling starts here */
+
+.label ul li a {
+  color: rgb(69, 66, 66);
+  font-size: 23px;
+  width: 100%;
+  text-decoration: none !important;
+}
+
+.navbar ul {
+  /* background-color: rgb(123, 194, 255); */
+  background-color: aliceblue;
+  width: 100%;
+  border-radius: 10px;
+  left: 0%;
+  height: 80vh;
+  position: absolute;
+  top: 100%;
+}
+
+.navbar ul li {
+  padding: 15px 5px;
+  font-size: 17px;
+  border-radius: 5px;
+}
+
+.navbar ul li:hover {
+  text-decoration: underline blue !important;
+  /* font-weight: bolder; */
+}
+
+#open-menu:checked ~ ul {
+  display: none;
+  left: 0.2%;
+}
+.label input {
+  display: none;
+  margin-right: 250px;
+  width: 20%;
+}
+
+.fa-greater-than {
+  margin-left: 900px;
+  color: rgb(188, 195, 195);
+}
+
+.arrow {
+  margin-left: 950px;
+}
+
+.arr {
+  margin-left: 940px;
+}
+
+.contact-sales {
+  padding: 15px 5px;
+  font-size: 15px;
+  background-color: rgb(36, 63, 197);
+  border-radius: 5px;
+  width: 11%;
+  padding: 8px 10px;
+  margin-top: 20px;
+}
+
+.contact-sales a {
+  color: white;
+  margin-left: 10px;
+  text-decoration: none !important;
+}
+
+.contact-sales:hover {
+  text-decoration: underline white !important;
+}
+/* Nav dropdown menu styling ends here */
+
+/* Navigation bar styling ends here */
+
+/* container body content styling starts here */
+
+/* First body content starts here */
+.flex {
+  display: flex;
+}
+
+.head {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.head strong {
+  font-size: 60px;
+  color: black;
+  margin-left: 55px;
+  line-height: 60px;
+  font-family: "Times New Roman", Times, serif;
+
+  .break {
+    margin-left: 55px;
+  }
+
+  .break1 {
+    margin-left: 55px;
+  }
+}
+
+.content ul li {
+  list-style-type: none;
+  margin-top: 10px;
+
+  .fa-check {
+    color: rgb(79, 79, 226);
+    margin-left: 25px;
+    padding-right: 12px;
+  }
+}
+
+.content {
+  width: 60%;
+  /* padding: 80px; */
+
+  .contact-us {
+    width: 25%;
+    padding: 15px;
+    margin: 60px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: rgb(36, 63, 197);
+  }
+
+  .contact-us a {
+    margin-left: 23px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .teams {
+    margin-left: 60px;
+    margin-top: -35px;
+
+    .fa-arrow-up-right-from-square {
+      padding-left: 10px;
+    }
+  }
+}
+
+.image img {
+  width: 98%;
+  margin-top: -50px;
+  height: 110vh;
+  /* position: relative; */
+}
+
+.percentage {
+  display: flex;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  width: 85%;
+  /* margin: auto; */
+  padding: 16px;
+  justify-content: center;
+  margin-top: -20px;
+  position: absolute;
+  left: 80px;
+
+  .vl {
+    height: 5em;
+    margin: auto;
+    border-left: 1px solid rgb(110, 114, 110);
+  }
+
+  .costs {
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 15px;
+
+    .number {
+      font-weight: bold;
+      font-size: 40px;
+      /* margin-top: 80px; */
+      margin-right: 150px;
+    }
+
+    .red {
+      margin-left: 90px;
+      margin-top: -50px;
+      font-weight: 400;
+    }
+
+    .lin {
+      margin-left: 250px;
+      margin-top: 10px;
+    }
+    .lin a {
+      color: gray;
+      font-weight: 500;
+      margin-right: 6px;
+    }
+  }
+
+  .rates {
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 15px;
+    /* width: 33%; */
+
+    .number {
+      font-weight: bold;
+      font-size: 40px;
+      /* margin-top: 80px; */
+      margin-right: 150px;
+    }
+
+    .red {
+      margin-left: 90px;
+      margin-top: -50px;
+      font-weight: 400;
+    }
+
+    .lin {
+      margin-left: 250px;
+      margin-top: 10px;
+    }
+    .lin a {
+      color: gray;
+      font-weight: 500;
+      margin-right: 7px;
+    }
+  }
+
+  .more {
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 15px;
+
+    .number {
+      font-weight: bold;
+      font-size: 40px;
+      /* margin-top: 80px; */
+      margin-right: 150px;
+    }
+
+    .red {
+      margin-left: 90px;
+      margin-top: -50px;
+      font-weight: 400;
+    }
+
+    .lin {
+      margin-left: 250px;
+      margin-top: 10px;
+    }
+    .lin a {
+      color: gray;
+      font-weight: 500;
+    }
+  }
+}
+
+/* First body content ends here */
+
+/* Logo Icons body content styling starts here */
+
+.logos {
+  display: flex;
+  margin-top: 180px;
+  margin-left: 70px;
+}
+
+.container {
+  margin-top: 280px;
+  width: 70%;
+
+  .col-4 {
+    width: 23%;
+    border: 0.1px solid rgb(241, 234, 234);
+    padding: 30px;
+    text-align: center;
+  }
+
+  .col1 img {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .co1 {
+    width: 100%;
+  }
+
+  .firstheader1 img {
+    margin-left: -10px;
+    margin-top: 20px;
+  }
+
+  .firstheader {
+    font-size: 40px;
+  }
+
+  .col2 img {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .co2 img {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .col3 img {
+    width: 100%;
+  }
+
+  .co3 img {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+.message {
+  width: 70%;
+  margin-top: 180px;
+  margin-left: -50px;
+  margin-right: 45px;
+}
+
+.message h2 {
+  font-size: 40px;
+}
+
+/* Logo Icons body content styling ends here */
+
+/* Upskill styling starts here */
+.upskill {
+  display: flex;
+  margin-top: 50px;
+  background-color: aliceblue;
+  padding: 50px;
+}
+
+.skills {
+  width: 100%;
+
+  .employee {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  h1 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    width: 120%;
+  }
+
+  .increase {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+
+  .explore a {
+    margin-left: 6px;
+    /* color: blue; */
+    text-decoration: none;
+    font-weight: 700;
+  }
+
+  .fa-arrow-right {
+    margin-left: 5px;
+  }
+
+  .learned {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+
+  .flex-pg {
+    display: flex;
+    padding-top: 30px;
+
+    .sabine {
+      padding-left: 30px;
+      margin-top: -10px;
+    }
+
+    .sab {
+      font-weight: 700;
+    }
+
+    .research {
+      margin-top: 10px;
+      font-weight: 400;
+    }
+  }
+}
+
+.skills ul li {
+  list-style: none;
+
+  .fa-check {
+    color: rgb(79, 79, 226);
+    margin-left: -26px;
+    padding-right: 12px;
+  }
+}
+
+.skillscore {
+  margin-left: 200px;
+}
+
+.skillscore img {
+  width: 95%;
+
+  /* margin-top: -50px; */
+  /* height: 60vh; */
+}
+
+/* Upskill styling ends here */
+
+/* university-logo and content starts here */
+
+.world-class {
+  display: flex;
+  margin-top: 45px;
+  padding: 30px;
+}
+
+.university-logos {
+  margin-left: 20px;
+  margin-right: 100px;
+}
+
+.university-logos img {
+  width: 95%;
+  border-radius: 8px;
+  height: 60vh;
+}
+
+.best {
+  width: 46%;
+
+  .clas {
+    font-size: 18px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: bold;
+  }
+
+  .the {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+  }
+
+  .training {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+
+  .explore a {
+    margin-left: 6px;
+    /* color: blue; */
+    text-decoration: none;
+    font-weight: 700;
+  }
+
+  .fa-arrow-right {
+    margin-left: 5px;
+  }
+}
+
+.best ul li {
+  list-style: none;
+
+  .fa-check {
+    color: rgb(79, 79, 226);
+    margin-left: -26px;
+    padding-right: 12px;
+  }
+}
+
+/* .university-logos styling ends here */
+
+/* Search & buttons styling starts here */
+
+.searchcontent {
+  background-color: aliceblue;
+  width: 100%;
+  padding-bottom: 100px;
+
+  .sear {
+    padding-top: 30px;
+    margin-left: 100px;
+
+    .sear h1 {
+      font-size: 50px;
+      font-family: cursive;
+    }
+
+    .searchcontainer {
+      position: relative;
+    }
+
+    .fa-magnifying-glass {
+      position: absolute;
+      top: 75%;
+      right: 840px;
+      width: 40px;
+      height: 40px;
+    }
+
+    ::placeholder {
+      padding-left: 25px;
+    }
+
+    .input {
+      margin-top: 65px;
+      margin-left: 125px;
+      padding: 10px 40px;
+      width: 65%;
+      border-radius: 5px;
+    }
+  }
+
+  .buttons {
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 84%;
+    font-weight: 500;
+    display: flex;
+  }
+}
+
+.btn {
+  border-radius: 40px;
+  font-size: 12px;
+  font-weight: 500;
+  border: 1px solid;
+}
+
+.business {
+  width: 30%;
+}
+
+.health,
+.science {
+  width: 30%;
+}
+
+.art {
+  width: 45%;
+}
+
+.info,
+.computer {
+  width: 47%;
+}
+
+/* ACADEMIE content design starts here */
+
+.academie {
+  background-color: rgb(44, 133, 234);
+  padding: 60px;
+
+  .write-ups h3 {
+    font-size: 20px;
+    color: #ffff;
+    margin-bottom: 30px;
+  }
+
+  .write-ups h1 {
+    color: #ffff;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+
+  .write-ups h5 {
+    color: #ffff;
+    font-size: 30px;
+    /* margin-bottom: 10px; */
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  .arrows {
+    margin-left: 20px;
+
+    .fa-arrow-left {
+      margin-left: 520px;
+      font-size: 20px !important;
+      height: 5px !important;
+    }
+
+    .fa-arrow-right {
+      font-size: 20px !important;
+      height: 5px !important;
+    }
+  }
+
+  .offer {
+    color: #ffff;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    width: 90%;
+  }
+
+  .card {
+    width: 5rem;
+    margin: 50px;
+    border-radius: 10px !important;
+    height: 68vh;
+    text-decoration: none;
+
+    .card-title {
+      font-size: 15px;
+    }
+
+    .card-text {
+      font-size: 13px;
+      color: gray;
+    }
+
+    .reviews {
+      font-size: 10px;
+    }
+
+    .fa-star {
+      color: yellow;
+    }
+
+    .card-link {
+      text-decoration: underline;
+      color: blue;
+    }
+  }
+
+  .card img {
+    width: 17.7rem;
+    margin-left: -21px;
+    margin-top: -52px;
+    border-radius: 10px !important;
+  }
+
+  .card a {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.card:hover {
+  transform: translateY(5px);
+  cursor: pointer;
+}
+
+.carousel-indicators button {
+  /* position: relative; */
+  /* visibility: visible; */
+  color: #f4f6f9;
+  height: 10px !important;
+  border-radius: 100px !important;
+  width: 4% !important;
+}
+
+/* Show Roi styling starts here */
+.show-roi {
+  display: flex;
+  margin-top: 3px;
+  background-color: aliceblue;
+  padding: 50px;
+}
+
+.show {
+  width: 46%;
+
+  .roi {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  h1 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+  }
+
+  .increase {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+
+  .explore a {
+    margin-left: 6px;
+    /* color: blue; */
+    text-decoration: none;
+    font-weight: 700;
+  }
+
+  .fa-arrow-right {
+    margin-left: 5px;
+  }
+
+  .learned {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+
+  .flex-pg {
+    display: flex;
+    padding-top: 30px;
+
+    .pg img {
+      width: 17%;
+    }
+
+    .Manpreet {
+      padding-left: 30px;
+      margin-left: -590px;
+      margin-top: 10px;
+      width: 100%;
+    }
+
+    .man {
+      font-weight: 700;
+    }
+
+    .research {
+      margin-top: 10px;
+      font-weight: 400;
+    }
+  }
+}
+
+.show ul li {
+  list-style: none;
+
+  .fa-check {
+    color: rgb(79, 79, 226);
+    margin-left: -26px;
+    padding-right: 12px;
+  }
+}
+
+.skill-score {
+  margin-left: auto;
+}
+
+.skill-score img {
+  width: 95%;
+  /* margin-top: -50px; */
+  height: 60vh;
+}
+
+/* Show Roi styling ends here */
+
+/* retain-talent styling starts here */
+
+.retain-talent {
+  display: flex;
+  margin-top: 45px;
+  padding: 30px;
+}
+
+.retain {
+  margin-left: 20px;
+  margin-right: 100px;
+}
+
+.retain img {
+  width: 100%;
+  border-radius: 8px;
+  height: 80vh;
+}
+
+.talent {
+  width: 46%;
+
+  .clas {
+    font-size: 18px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: bold;
+  }
+
+  .the {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+  }
+
+  .training {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+
+  .explore a {
+    margin-left: 6px;
+    /* color: blue; */
+    text-decoration: none;
+    font-weight: 700;
+  }
+
+  .fa-arrow-right {
+    margin-left: 5px;
+  }
+
+  .adobe-flex {
+    display: flex;
+    padding-top: 30px;
+
+    .adobe img {
+      width: 37%;
+      margin-left: 5px;
+    }
+
+    .Tim {
+      padding-left: 30px;
+      margin-left: -150px;
+      margin-top: -20px;
+      width: 100%;
+    }
+
+    .Ti {
+      font-weight: 700;
+      font-size: 20px;
+    }
+
+    .research {
+      margin-top: 10px;
+      font-weight: 400;
+    }
+  }
+}
+
+.talent ul li {
+  list-style: none;
+
+  .fa-check {
+    color: rgb(79, 79, 226);
+    margin-left: -26px;
+    padding-right: 12px;
+  }
+}
+
+/* retain-talent styling ends here */
+
+/* 'Find out how coursera' styling starts here */
+.findout {
+  display: flex;
+  margin-top: 3px;
+  background-color: aliceblue;
+  padding: 50px;
+  padding-bottom: 90px;
+}
+
+.high-impact {
+  width: 46%;
+
+  .impact {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  h1 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+  }
+
+  .explore a {
+    margin-left: 6px;
+    /* color: blue; */
+    text-decoration: none;
+    font-weight: 700;
+  }
+
+  .fa-arrow-right {
+    margin-left: 5px;
+  }
+
+  .learned {
+    font-size: 20px;
+    padding-top: 10px;
+    margin-top: 60px;
+  }
+
+  .flex-pg {
+    display: flex;
+    padding-top: 30px;
+
+    .pg img {
+      width: 37%;
+    }
+
+    .Laurent {
+      padding-left: 30px;
+      margin-left: -140px;
+      margin-top: -20px;
+      width: 100%;
+    }
+
+    .lau {
+      font-weight: 700;
+      font-size: 20px;
+    }
+
+    .research {
+      margin-top: 10px;
+      font-weight: 400;
+    }
+  }
+}
+
+.high-impact ul li {
+  list-style: none;
+
+  .fa-check {
+    color: rgb(79, 79, 226);
+    margin-left: -26px;
+    padding-right: 12px;
+  }
+}
+
+/* Logo Icons body content styling starts here */
+
+.container {
+  margin-top: 80px;
+  width: 100%;
+  margin-left: 7px;
+
+  .col-4 {
+    width: 28%;
+    border: 0.1px solid rgb(241, 234, 234);
+    padding: 30px;
+    text-align: center;
+  }
+
+  .col1 img {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .co1 {
+    width: 100%;
+  }
+
+  .firstheader1 img {
+    margin-left: -10px;
+    margin-top: 20px;
+  }
+
+  .firstheader {
+    font-size: 40px;
+  }
+
+  .col2 img {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .co2 img {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+.skill-score {
+  width: 43%;
+  margin-left: auto;
+  border: 1px solid black;
+  /* background-color: aqua; */
+  text-align: center;
+
+  /* personal styling starts here */
+
+  .Personal {
+    padding: 20px;
+  }
+  .Personal p {
+    font-size: 14px;
+  }
+
+  .Personal p a {
+    text-decoration: none;
+  }
+
+  .Personal input {
+    width: 95%;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid rgb(39, 37, 34);
+    margin: 10px;
+  }
+
+  ::placeholder {
+    color: black;
+  }
+}
+
+#flexCheckDefault {
+  width: 25px;
+  height: 4vh;
+  margin-left: -10px;
+  margin-top: 0px;
+}
+
+.form-check label {
+  margin-left: -40px;
+}
+
+.btn {
+  width: 95%;
+  padding: 10px;
+}
+
+/* 'Find out how coursera' styling ends here */
+
+/* lets-talk styling starts here */
+
+.lets-talk {
+  background-color: black;
+  width: 90%;
+  margin: auto;
+  border-radius: 10px;
+  height: 110vh;
+  margin-top: 70px;
+  text-align: center;
+  padding: 150px;
+  color: #ffff;
+}
+
+.lets-talk h1 {
+  font-size: 50px;
+  width: 130%;
+  margin-left: -110px;
+  margin-bottom: 30px;
+}
+
+.lets-talk p {
+  font-size: 20px;
+}
+
+.flex-buttons {
+  display: flex;
+  margin-left: 200px;
+  margin-top: 70px;
+
+  .contact {
+    width: 30%;
+  }
+
+  .compare {
+    width: 40%;
+    margin-left: 10px;
+  }
+}
+
+.teams {
+  font-size: 15px !important;
+  margin-top: 40px;
+}
+
+/* lets-talk styling ends here */
+
+/* JOB-SKILLS styling/ starts here */
+
+.card a {
+  text-decoration: none;
+}
+
+.card {
+  width: 9rem;
+  margin: 100px 50px;
+  border-radius: 10px !important;
+  height: 62vh;
+  padding: 50px 20px;
+  background: url(/Coursera_images/promo-bg-drk-blue1.png);
+
+  .card-title {
+    font-size: 30px;
+    color: #ffff;
+  }
+
+  .card-text {
+    font-size: 15px;
+    color: #ffff;
+    margin-top: 20px;
+  }
+
+  .reviews {
+    font-size: 10px;
+  }
+
+  .fa-star {
+    color: yellow;
+  }
+
+  .card-link {
+    color: #ffff;
+  }
+
+  .text {
+    margin-bottom: 80px;
+  }
+
+  .link {
+    margin-bottom: 70px;
+  }
+}
+
+/* JOB-SKILLS styling/ ends here */
+
+/* mobile responsiveness starts here */
+
+@media screen and (max-width: 1040px) {
+  /* Navigation bar styling starts here */
+
+  /* navbar-brand styling starts here */
+
+  .navbar-brand {
+    padding: 5px 7px;
+  }
+  /* navbar-brand styling ends here */
+
+  /* label open menu styling starts here */
+
+  .fa-bars {
+    margin-left: 23px;
+    /* padding-right: 80px; */
+  }
+
+  .label input {
+    display: none;
+    margin-right: 10px;
+    /* width: 20%; */
+  }
+
+  /* label open menu styling ends here */
+
+  /* Nav dropdown menu styling starts here */
+
+  .navbar ul {
+    /* background-color: rgb(123, 194, 255); */
+    width: 100%;
+    border-radius: 5px;
+    left: 0%;
+    height: 75vh;
+    position: absolute;
+    top: 100%;
+  }
+
+  .navbar ul li {
+    padding: 5px 5px;
+    font-size: 7px;
+    border-radius: 5px;
+  }
+
+  #open-menu:checked ~ ul {
+    display: none;
+    left: 0.2%;
+  }
+
+  .fa-greater-than {
+    margin-left: 153px;
+    color: rgb(188, 195, 195);
+  }
+
+  .arrow {
+    margin-left: 202px;
+  }
+
+  .arr {
+    margin-left: 193px;
+  }
+
+  .contact-sales {
+    width: 32%;
+  }
+
+  /* Nav dropdown menu styling ends here */
+
+  /* Navigation bar styling ends here */
+
+  /* First body content starts here */
+  .flex {
+    display: block;
+  }
+
+  .head {
+    margin-top: 50px;
+  }
+
+  .head strong {
+    font-size: 30px;
+    color: black;
+    margin-left: 35px;
+    line-height: 35px;
+    font-family: "Times New Roman", Times, serif;
+
+    .break {
+      margin-left: 35px;
+    }
+
+    .break1 {
+      margin-left: 35px;
+    }
+  }
+
+  .head {
+    margin-bottom: 30px;
+  }
+
+  .content ul {
+    margin-bottom: -25px;
+  }
+
+  .content ul li {
+    list-style-type: none;
+    margin-top: 10px;
+    font-size: 15px;
+
+    .fa-check {
+      color: rgb(79, 79, 226);
+      margin-left: 5px;
+      padding-right: 12px;
+    }
+  }
+
+  .content {
+    width: 100%;
+
+    .contact-us {
+      width: 30%;
+      padding: 13px;
+      margin-left: 34px;
+      border: 1px solid;
+      border-radius: 5px;
+      background-color: rgb(36, 63, 197);
+    }
+
+    .contact-us a {
+      margin-left: 13px;
+      color: white;
+      text-decoration: none;
+    }
+
+    .teams {
+      margin-left: 33px;
+      margin-top: -30px;
+      font-size: 13.5px;
+
+      .fa-arrow-up-right-from-square {
+        padding-left: 3px;
+      }
+    }
+  }
+
+  .image img {
+    width: 100%;
+    margin-top: 50px;
+    /* padding: 130px; */
+    height: 100vh;
+  }
+
+  .percentage {
+    display: block;
+    width: 94%;
+    /* margin: auto; */
+    padding: 3px;
+    justify-content: center;
+    margin-top: -50px;
+    position: absolute;
+    left: 14px;
+
+    /* .vl{
+    margin-left: 180;
+  } */
+
+    .vl {
+      height: 1px;
+      width: 90%;
+      border-left: none;
+      border-top: 1px solid rgb(110, 114, 110);
+      margin-top: 2em;
+    }
+
+    .costs {
+      margin-left: 40px;
+      margin-top: 20px;
+      font-size: 15px;
+
+      .number {
+        font-size: 40px;
+        /* margin-top: 80px; */
+        margin-right: 150px;
+      }
+
+      .red {
+        margin-left: 90px;
+        margin-top: -50px;
+        font-weight: 400;
+      }
+
+      .lin {
+        margin-left: 250px;
+        margin-top: 10px;
+      }
+      .lin a {
+        font-weight: 500;
+        margin-right: 6px;
+      }
+    }
+
+    .rates {
+      margin-left: 50px;
+      margin-top: 20px;
+      font-size: 15px;
+
+      .number {
+        font-size: 40px;
+        margin-right: 150px;
+      }
+
+      .red {
+        margin-left: 90px;
+        margin-top: -50px;
+        font-weight: 400;
+      }
+
+      .lin {
+        margin-left: 250px;
+        margin-top: 10px;
+      }
+      .lin a {
+        font-weight: 500;
+        margin-right: 7px;
+      }
+    }
+
+    .more {
+      margin-left: 50px;
+      margin-top: 20px;
+      font-size: 15px;
+
+      .number {
+        font-size: 40px;
+        margin-right: 150px;
+      }
+
+      .red {
+        margin-left: 90px;
+        margin-top: -50px;
+        font-weight: 400;
+      }
+
+      .lin {
+        margin-left: 250px;
+        margin-top: 10px;
+      }
+      .lin a {
+        font-weight: 500;
+      }
+    }
+  }
+
+  /* First body content ends here */
+
+  /* Logo Icons body content styling starts here */
+
+  .logos {
+    display: block;
+    /* margin-top: 880px; */
+  }
+
+  .container {
+    margin-top: 80px;
+    width: 100%;
+    margin-left: 25px;
+
+    .col-4 {
+      width: 30%;
+      padding: 3px;
+      text-align: center;
+    }
+
+    .col1 img {
+      width: 100%;
+      margin-top: 20px;
+    }
+
+    .co1 {
+      width: 100%;
+    }
+
+    .firstheader1 img {
+      margin-left: -10px;
+      margin-top: 20px;
+    }
+
+    .firstheader {
+      font-size: 40px;
+    }
+
+    .col2 img {
+      width: 100%;
+      margin-top: 20px;
+    }
+
+    .co2 img {
+      width: 100%;
+      margin-top: 20px;
+    }
+
+    .col3 img {
+      width: 100%;
+    }
+
+    .co3 img {
+      width: 100%;
+      margin-top: 20px;
+    }
+  }
+
+  .message {
+    width: 100%;
+    margin-top: 430px;
+    margin-left: -10px;
+  }
+
+  .message h2 {
+    font-size: 25px;
+  }
+
+  /* Logo Icons body content styling ends here */
+
+  /* Upskill styling starts here */
+  .upskill {
+    display: block;
+    margin-top: 350px;
+    background-color: aliceblue;
+    padding: 50px;
+  }
+
+  .skills {
+    width: 100%;
+
+    .employee {
+      font-size: 15px;
+      font-weight: 500;
+    }
+
+    h1 {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 30px;
+    }
+
+    .increase {
+      font-size: 15px;
+      padding-top: 10px;
+    }
+
+    .explore a {
+      margin-left: 6px;
+      /* color: blue; */
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .fa-arrow-right {
+      margin-left: 5px;
+    }
+
+    .learned {
+      font-size: 20px;
+      padding-top: 10px;
+    }
+
+    .flex-pg {
+      display: flex;
+      padding-top: 30px;
+
+      .sabine {
+        padding-left: 30px;
+        margin-top: -10px;
+      }
+
+      .sab {
+        font-weight: 700;
+      }
+
+      .research {
+        margin-top: 10px;
+        font-weight: 400;
+      }
+    }
+  }
+
+  .skills ul li {
+    .fa-check {
+      margin-left: -26px;
+      padding-right: 12px;
+    }
+  }
+
+  .skillscore {
+    margin-left: auto;
+  }
+
+  .skillscore img {
+    width: 100%;
+    height: 60vh;
+  }
+
+  /* UPSKILL STYLING ENDS HERE */
+
+  /* university-logo and content styling starts here */
+
+  .world-class {
+    display: block;
+    margin-top: 45px;
+    padding: 10px;
+  }
+
+  .university-logos {
+    margin-left: 20px;
+    margin-right: 100px;
+  }
+
+  .university-logos img {
+    width: 130%;
+    border-radius: 8px;
+    height: 60vh;
+    margin-bottom: -1300px;
+  }
+
+  .best {
+    width: 100%;
+    margin-bottom: 200px;
+
+    .clas {
+      font-size: 12px;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      font-weight: bold;
+      margin-left: 15px;
+    }
+
+    .the {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 35px;
+      margin-left: 15px;
+    }
+
+    .training {
+      font-size: 18px;
+      padding-top: 10px;
+      margin-left: 15px;
+    }
+
+    .explore a {
+      margin-left: 16px;
+      /* color: blue; */
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .fa-arrow-right {
+      margin-left: 5px;
+    }
+  }
+
+  .best ul li {
+    list-style: none;
+    margin-left: 15px;
+
+    .fa-check {
+      color: rgb(79, 79, 226);
+      margin-left: -26px;
+      padding-right: 12px;
+    }
+  }
+
+  /* .university-logos styling ends here */
+
+  /* Search & buttons styling starts here */
+
+  .searchcontent {
+    width: 100%;
+    padding-bottom: 100px;
+    margin-top: 250px;
+
+    .sear {
+      padding-top: 50px;
+      margin-left: 30px;
+      font-size: 30px;
+      margin-bottom: 30px;
+
+      .sear h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+
+      .searchcontainer {
+        position: relative;
+      }
+
+      .fa-magnifying-glass {
+        position: absolute;
+        top: 60%;
+        right: 340px;
+        width: 40px;
+        height: 40px;
+        font-size: 15px;
+      }
+
+      ::placeholder {
+        padding-left: 20px;
+        font-size: 15px;
+        text-align: left;
+      }
+
+      .input {
+        margin-top: 15px;
+        margin-left: 5px;
+        width: 92%;
+      }
+    }
+
+    .buttons {
+      display: block;
+      margin-top: 30px;
+      margin-left: 50px;
+      width: 80%;
+      font-weight: 500;
+
+      .btn {
+        margin: 1px;
+        border-radius: 40px;
+        font-size: 11px;
+        font-weight: 500;
+        border: 1px solid;
+      }
+    }
+  }
+
+  /* ACADEMIES content design starts here */
+
+  .academies {
+    background-color: rgb(44, 133, 234);
+    padding: 60px;
+    width: 100%;
+
+    .write-ups h4 {
+      font-size: 20px;
+      color: #ffff;
+    }
+
+    .write-ups h1 {
+      color: #ffff;
+      font-weight: 700;
+    }
+
+    .write-ups h5 {
+      color: #ffff;
+      /* margin-bottom: 10px; */
+      font-family: "Times New Roman", Times, serif;
+    }
+
+    .arrows {
+      display: none;
+    }
+
+    .offer {
+      color: #ffff;
+      font-size: 20px;
+      margin-top: 20px;
+      width: 90%;
+    }
+
+    .carousel {
+      width: 120%;
+      margin-left: -75px;
+    }
+
+    .card {
+      /* margin: 15px; */
+      border-radius: 10px !important;
+      height: 35vh;
+      text-decoration: none;
+      width: 100%;
+      /* margin-left: 5px; */
+
+      .card-title {
+        font-size: 15px;
+      }
+
+      .card-text {
+        font-size: 13px;
+        color: gray;
+      }
+
+      .reviews {
+        font-size: 10px;
+      }
+
+      .fa-star {
+        color: yellow;
+      }
+
+      .card-link {
+        text-decoration: underline;
+        color: blue;
+      }
+    }
+
+    .card img {
+      border-radius: 10px !important;
+      display: none;
+    }
+
+    .card a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+
+  .card:hover {
+    transform: translateY(5px);
+    cursor: pointer;
+  }
+
+  .carousel-indicators button {
+    /* position: relative; */
+    /* visibility: visible; */
+    color: #f4f6f9;
+    height: 10px !important;
+    border-radius: 100px !important;
+    width: 4% !important;
+  }
+
+  /* Show Roi styling starts here */
+  .show-roi {
+    display: block;
+    margin-top: 3px;
+    background-color: aliceblue;
+    padding: 50px;
+  }
+
+  .show {
+    width: 100%;
+
+    .roi {
+      font-size: 15px;
+      font-weight: 500;
+    }
+
+    h1 {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 30px;
+    }
+
+    .increase {
+      font-size: 15px;
+      padding-top: 10px;
+    }
+
+    .explore a {
+      margin-left: 6px;
+      /* color: blue; */
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .fa-arrow-right {
+      margin-left: 5px;
+    }
+
+    .learned {
+      font-size: 20px;
+      padding-top: 10px;
+    }
+
+    .flex-pg {
+      display: flex;
+      padding-top: 30px;
+
+      .Manpreet {
+        padding-left: 50px;
+        margin-top: -10px;
+      }
+
+      .man {
+        font-weight: 700;
+      }
+
+      .research {
+        margin-top: 10px;
+        font-weight: 400;
+      }
+    }
+  }
+
+  .skills ul li {
+    .fa-check {
+      margin-left: -26px;
+      padding-right: 12px;
+    }
+  }
+
+  .skill-score {
+    margin-left: auto;
+  }
+
+  .skill-score img {
+    width: 100%;
+    height: 60vh;
+  }
+
+  /* Show Roi styling ends here */
+
+  /* university-logo and content styling starts here */
+
+  .retain-talent {
+    display: block;
+    margin-top: 45px;
+    padding: 10px;
+  }
+
+  .retain {
+    margin-left: 20px;
+    margin-right: 100px;
+  }
+
+  .retain img {
+    width: 130%;
+    border-radius: 8px;
+    height: 60vh;
+    margin-bottom: -1700px;
+  }
+
+  .talent {
+    width: 100%;
+    margin-bottom: 200px;
+
+    .clas {
+      font-size: 12px;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      font-weight: bold;
+      margin-left: 15px;
+    }
+
+    .the {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 35px;
+      margin-left: 15px;
+    }
+
+    .training {
+      font-size: 18px;
+      padding-top: 10px;
+      margin-left: 15px;
+    }
+
+    .explore a {
+      margin-left: 16px;
+      /* color: blue; */
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .fa-arrow-right {
+      margin-left: 5px;
+    }
+
+    .learned {
+      margin-left: 18px;
+      font-size: 20px;
+      padding-top: 10px;
+    }
+
+    .adobe-flex {
+      display: flex;
+      padding-top: 30px;
+
+      .Tim {
+        padding-left: 50px;
+        margin-top: -10px;
+      }
+
+      .Ti {
+        font-weight: 700;
+      }
+
+      .research {
+        margin-top: 10px;
+        font-weight: 400;
+      }
+
+      .adobe img {
+        margin-left: 19px;
+      }
+    }
+  }
+
+  .talent ul li {
+    list-style: none;
+    margin-left: 15px;
+
+    .fa-check {
+      color: rgb(79, 79, 226);
+      margin-left: -26px;
+      padding-right: 12px;
+    }
+  }
+
+  /* .university-logos styling ends here */
+
+  /* 'Find out how coursera' styling starts here */
+  .findout {
+    display: block;
+    margin-top: 200px;
+    background-color: aliceblue;
+    padding: 50px;
+  }
+
+  .high-impact {
+    width: 100%;
+
+    .impact {
+      font-size: 15px;
+      font-weight: 500;
+    }
+
+    h1 {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 30px;
+    }
+
+    .increase {
+      font-size: 15px;
+      padding-top: 10px;
+    }
+
+    .explore a {
+      margin-left: 6px;
+      /* color: blue; */
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .fa-arrow-right {
+      margin-left: 5px;
+    }
+
+    .learned {
+      display: none;
+    }
+
+    .flex-pg {
+      display: none;
+    }
+  }
+
+  .container {
+    display: none;
+  }
+
+  .skill-score {
+    width: 105%;
+    /* background-color: aqua; */
+    text-align: center;
+
+    /* personal styling starts here */
+
+    .Personal {
+      padding: 20px;
+    }
+    .Personal p {
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .Personal input {
+      width: 95%;
+    }
+  }
+
+  #flexCheckDefault {
+    width: 23px;
+    height: 4vh;
+    margin-left: -13px;
+    margin-top: 0px;
+  }
+
+  .form-check label {
+    font-size: 13.5px;
+    margin-left: 0px;
+  }
+
+  .btn {
+    width: 95%;
+    padding: 10px;
+  }
+
+  /* 'Find out how coursera' styling ends here */
+
+  /* lets-talk styling starts here */
+
+  .lets-talk {
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+    height: 80vh;
+    margin-top: 30px;
+    padding: 50px;
+    text-align: left;
+  }
+
+  .lets-talk h1 {
+    font-size: 35px;
+    /* width: 100%; */
+    margin-left: -33px;
+    margin-bottom: 30px;
+  }
+
+  .lets-talk p {
+    font-size: 15px;
+    margin-left: -30px;
+  }
+
+  .flex-buttons {
+    display: flex;
+    margin-left: -28px;
+    margin-top: 70px;
+
+    .contact {
+      width: 35%;
+    }
+
+    .compare {
+      width: 45%;
+      margin-left: 10px;
+    }
+  }
+
+  .teams {
+    font-size: 18px !important;
+    margin-top: 40px;
+  }
+
+  /* lets-talk styling ends here */
+
+  .card {
+    display: block;
+    width: 90%;
+    margin: 40px 20px;
+    border-radius: 10px !important;
+    height: 62vh;
+    padding: 50px 20px;
+    background: url(/Coursera_images/promo-bg-drk-blue1.png);
+
+    .card-title {
+      font-size: 30px;
+      color: #ffff;
+    }
+
+    .card-text {
+      font-size: 15px;
+      color: #ffff;
+      margin-top: 20px;
+    }
+
+    .card-link {
+      color: #ffff;
+    }
+
+    .text {
+      margin-bottom: 80px;
+    }
+
+    .link {
+      margin-bottom: 70px;
+    }
+  }
+
+  /* JOB-SKILLS styling/ ends here */
+}

@@ -1,0 +1,14 @@
+.nav{
+    background-color: black;
+}
+
+.nav a{
+    color: white;
+}
+
+.nav a:hover {
+    color: black;
+    background-color: white;
+    
+}
+

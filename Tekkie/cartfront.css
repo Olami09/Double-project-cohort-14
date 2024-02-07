@@ -1,0 +1,45 @@
+.btn a{
+  text-decoration: none;
+  color: aliceblue; 
+}
+
+
+a:hover{
+  color: aliceblue;
+
+}
+
+.container{
+ /* width: 50%; */
+}
+
+h1{
+ margin-left: 18rem;
+ color: rgb(9, 9, 116);
+}
+
+.btn{
+  margin-left: 25rem;
+  margin-top: 5rem;
+}
+
+h5{
+  margin-left: 26rem;
+  margin-top: 3rem;
+  color: rgb(9, 9, 116);
+}
+
+p{
+  margin-left: 26rem;
+}
+
+span{
+  margin-right: 5px;
+ 
+}
+
+
+.foot{
+  margin-left: 27rem;
+  margin-top: 5rem;
+}

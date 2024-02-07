@@ -1,0 +1,46 @@
+/** Shopify CDN: Minification failed
+
+Line 16:2 Transforming let to the configured target environment ("es5") is not supported yet
+Line 26:2 Transforming let to the configured target environment ("es5") is not supported yet
+Line 34:2 Transforming let to the configured target environment ("es5") is not supported yet
+
+**/
+/*
+ * Javascript to show and hide cookie bar using localstorage
+ */
+
+/**
+ * @description Shows the cookie bar
+ */
+function showCookieBar() {
+  let cookieBar = document.getElementById("cookie-bar");
+  cookieBar.style.display = "block";
+}
+
+/**
+ * @description Hides the Cookie bar and saves the value to localstorage
+ */
+function hideCookieBar() {
+  localStorage.setItem("isCookieAccepteds", "yes");
+
+  let cookieBar = document.getElementById("cookie-bar");
+  cookieBar.style.display = "none";
+}
+
+/**
+ * @description Checks the localstorage and shows Cookie bar based on it.
+ */
+function initializeCookieBar() {
+  let isCookieAccepted = localStorage.getItem("isCookieAccepteds");
+  if (isCookieAccepted === null) {
+    localStorage.setItem("isCookieAccepteds", "no");
+    showCookieBar();
+  }
+  if (isCookieAccepted === "no") {
+    showCookieBar();
+  }
+}
+
+// Assigning values to window object
+document.onload = initializeCookieBar();
+document.cb_hideCookieBar = hideCookieBar;

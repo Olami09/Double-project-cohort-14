@@ -1,0 +1,364 @@
+
+
+
+/* Navigation Styling  Start*/
+.nav {
+  background-color: #00205b;
+  height: 75px;
+  padding: 0 !important;
+}
+
+.small-nav-text {
+  font-size: 12px !important;
+  letter-spacing: 1px !important;
+}
+
+.icons a {
+  cursor: pointer;
+}
+
+.icons a svg:hover {
+  stroke: #ffc107 !important;
+}
+
+.icons a svg {
+  stroke: #fff;
+}
+
+.icons a:nth-child(3) svg {
+  fill: #fff !important;
+}
+
+ul li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+nav ul li a:hover {
+  color: #ffc107 !important;
+}
+/* Navigation Styling End  */
+
+a{
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  font-style: normal;
+  padding: 15px;
+  display: block;
+  min-width: 300px;
+  
+}
+
+.container-fluid{
+  /* display: flex; */
+  position: relative;
+}
+
+.flex-2{
+  /* display: flex; */
+  /* flex-direction: row; */
+}
+
+.col-9{
+  position: absolute;
+  right: 0;
+  top: 190px;
+}
+.col-3{
+  margin-top: 50px;
+  
+}
+
+
+ .card-title:hover{
+  background-color: rgb(12, 12, 104);
+  transition: 1s;
+  padding: 5px 22px;
+}
+
+.card{
+  border: none;
+}
+
+.card img{
+  transition: 2s;
+}
+
+.card-footer{
+  border: none;
+}
+
+ul li{
+  display: inline-block;
+  font-size: 12px;
+  
+}
+
+.top-icons a {
+  display: inline;
+}
+
+.top-icons{
+  position: relative;
+}
+
+.sort-asc{
+  position: absolute;
+  right: 20px;
+  top: 2rem;
+}
+
+.prod-count{
+  position: absolute;
+  right: 38rem;
+  top: 3rem;
+}
+
+.view-as{
+  position: absolute;
+  left: 20px;
+  top: 3rem;
+}
+
+.sort-asc a{
+ font-weight: lighter;
+}
+
+.div a{
+  display: inline ;
+  /* background-color: white; */
+  /* border: 1px solid rgb(175, 173, 173); */
+  /* padding: 5px 20px; */
+  font-size: 14px;
+  
+}
+
+.div button{
+  background-color: white;
+  border: 1px solid black;
+}
+
+.div button:hover{
+  background-color: black;
+  color: aliceblue;
+
+}
+
+
+/* .div2 a{
+  display: inline ;
+  background-color: white;
+  border: 1px solid rgb(175, 173, 173);
+  padding: 4px 20px;
+} */
+
+.div2{
+  margin-top: 20px;
+}
+
+.gender-drop a{
+  display: inline ;
+  background-color: white;
+  border: 1px solid rgb(175, 173, 173);
+  padding: 10px 20px;
+  font-size: 12px;
+
+}
+
+.gender-drop a:hover{
+  background-color: black;
+  color: white;
+}
+
+.div1{
+  margin-top: 20px;
+  
+}
+
+.dropdown-menu{
+  border: none;
+}
+
+
+#check-box{
+  margin-right: 12px;
+
+}
+
+.brands li{
+  font-size: 16px;
+  padding: 0px 10px;
+  margin-bottom: -22px;
+}
+
+.prod-type li{
+  font-size: 16px;
+  padding: 0px 10px;
+  margin-bottom: -24px;
+
+}
+
+.access_ries li{
+  font-size: 16px;
+  padding: 0px 10px;
+  margin-bottom: -24px;
+}
+
+.cloth_drop li{
+  font-size: 16px;
+  padding: 0px 10px;
+  margin-bottom: -28px;
+}
+
+#price_set {
+  padding: px;
+  font-size: 20px;
+}
+
+.price_roll input{
+  width: 20%;
+  border: 1px solid black;
+  font-size: 18px;
+}
+
+.btn_price{
+ position: relative;
+
+}
+hr{
+  width: 45%;
+  margin-left: 27px;
+  position: relative;
+}
+
+.left{
+  position: absolute;
+  top: -16px;
+
+}
+
+.right{
+  position: absolute;
+  left: 270px;
+  bottom: 18px;
+}
+
+.pris{
+  margin-left: 15px;
+}
+/* Colour section */
+
+ .col_grad a {
+  display: inline; 
+}
+.col_grad li{
+  padding: 1px 1px;
+  display: inline;
+  box-sizing: border-box;
+ 
+}
+
+.col_grad li a:hover{
+  border-color: black;
+}
+
+.blk a{
+  background-color: black;
+  width: 50px;
+  color: black;
+  border: 1px solid black;
+}
+
+.blu a{
+  background-color: blue;
+  width: 50px;
+  color: blue;
+  border: 1px solid blue;
+}
+
+.wht a{
+  background-color: aliceblue;
+  width: 50px;
+  color: aliceblue;
+  border: 1px solid lightgray;
+}
+
+.org a{
+  background-color: orangered;
+  width: 50px;
+  color: orangered;
+  border: 1px solid orangered;
+  
+}
+
+.yel a{
+  background-color: yellow;
+  width: 50px;
+  color: yellow;
+  border: 1px solid yellow;
+  
+}
+
+.grn a{
+  background-color: green;
+  width: 50px;
+  color: green;
+  border: 1px solid green;
+  
+}
+
+.gry a{
+  background-color: gray;
+  width: 50px;
+  color: gray;
+  border: 1px solid gray;
+  
+}
+
+.sec_line {
+  margin-top: 20px;
+}
+
+/* Responsiveness design */
+
+@media (max-width:576px){
+ 
+  .card {
+    width: 30%;
+    
+  }
+
+  .col-3 {
+  visibility: hidden;
+  }
+
+  
+.top-icons{
+  position: relative;
+}
+
+.sort-asc{
+  position: absolute;
+  left: 18rem;
+  top: 2.2rem;
+ 
+}
+
+.prod-count{
+  position: absolute;
+  right: 12rem;
+  top: 3rem;
+}
+
+.view-as{
+  position: absolute;
+  left: 5px;
+  top: 3rem;
+  
+}
+
+}
